@@ -5,6 +5,9 @@ SERVER_EN: '§6Server §8| §f'
 SERVER_RESTART_RU: 'Перезагрузка'
 SERVER_RESTART_EN: 'Restarting...'
 
+SERVER_CLOSED_RU: '§6Сервер §8| §cСервер закрыл ваше соединение, причина §a%s'
+SERVER_CLOSED_EN: '§6Server §8| §cСервер закрыл ваше соединение, причина §a%s'
+
 ENABLED_RU: '§aВключено'
 ENABLED_EN: '§aEnabled'
 DISABLED_RU: '§cОтключено'
@@ -15,7 +18,7 @@ DISABLE_RU: '§cОтключить'
 DISABLE_EN: '§cDisable'
 
 YES_RU: 'Да'
-Yes_EN: 'Yes'
+YES_EN: 'Yes'
 NO_RU: 'Нет'
 NO_EN: 'No'
 
@@ -33,7 +36,7 @@ YOUTUBE_RU: '§6YouTube'
 JUNIOR_RU: '§2Мл. Хелпер'
 HELPER_RU: '§2Хелпер'
 MODER_RU: '§9Модератор'
-ADMIN_RU: '§4Администратор'
+ADMIN_RU: '§4Админ'
 DEVELOPER_RU: '§4Разработчик'
 ELITE_RU: '§aЭлита'
 
@@ -48,12 +51,28 @@ ENDERMAN_EN: '§5Enderman'
 TESTER_EN: '§6Tester'
 BUILDER_EN: '§3Builder'
 YOUTUBE_EN: '§6YouTube'
-JUNIOR_EN: '§2Junior helper'
+JUNIOR_EN: '§2Junior'
 HELPER_EN: '§2Helper'
 MODER_EN: '§9Moderator'
-ADMIN_EN: '§4Administrator'
+ADMIN_EN: '§4Admin'
 DEVELOPER_EN: '§4Developer'
 ELITE_EN: '§aElite'
+
+GROUP_FOR_PREMIUM: '§6§lPREMIUM'
+GROUP_FOR_GOLD: '§e§lGOLD'
+GROUP_FOR_LEGEND: '§3§lLEGEND'
+GROUP_FOR_EMERALD: '§a§lEMERALD'
+GROUP_FOR_GOLEM: '§7§lGOLEM'
+GROUP_FOR_DIAMOND: '§b§lDIAMOND'
+GROUP_FOR_ENDERMAN: '§5§lENDERMAN'
+
+GROUP_FOR_PREMIUM_TITLE: '§6§lPREMIUM'
+GROUP_FOR_GOLD_TITLE: '§e§lGOLD'
+GROUP_FOR_LEGEND_TITLE: '§3§lLEGEND'
+GROUP_FOR_EMERALD_TITLE: '§a§lEMERALD'
+GROUP_FOR_GOLEM_TITLE: '§7§lGOLEM'
+GROUP_FOR_DIAMOND_TITLE: '§b§lDIAMOND'
+GROUP_FOR_ENDERMAN_TITLE: '§5§lENDERMAN'
 
 RESTARTING_BROADCAST_RU: '§cДо перезагрузки осталось, §e%s§c %s'
 RESTARTING_BROADCAST_EN: '§cДо перезагрузки осталось, §e%s§c %s'
@@ -175,7 +194,7 @@ GUILD_JOIN_REQUESTS_RU: '§6Гильдии §8| §fУ вас §e%s §fнепри
 MAIL_JOIN_REQUESTS_RU: '§6Mail §8| §fУ вас §e%s §fнепрочитаных писем §7(Нажмите сюда)'
 MAIL_JOIN_HOVER_RU: "§fНажмите сюда,\n§fчтобы открыть список писем"
 
-TAB_HEADER_EN: "§2§lFilk§3§lWorld\n\n§fОнлайн-магазин:\n§ewww.filkworld.cf\n"
+TAB_HEADER_EN: "§2§lFilk§3§lWorld\n\n§fOnline-shop:\n§ewww.filkworld.cf\n"
 TAB_FOOTER_EN: "\n§fВы находитесь на сервере:\n§e%s"
 
 REDIRECT_ERROR_EN: '§cНевозможно найти подходящий сервер('
@@ -1627,7 +1646,7 @@ GUILD_STATS_MOTD_BUY_RU: '§aКуплено'
 GUILD_STATS_MOTD_NO_BUY_RU: '§cНе куплено'
 GUILD_STATS_TAG_BUY_RU: '§aКуплен'
 GUILD_STATS_TAG_NO_BUY_RU: '§cНе куплен'
-GUILD_STATS_LIMITED_RU: '§c• §fОбнуление лимита через: §e%s'
+GUILD_STATS_LIMITED_RU: ' §c• §fОбнуление лимита через: §e%s'
 GUILD_STATS_RU: |-
  §6Гильдии §8| §fСтатистика гильдии §a%s §8| §e%s§f:
   §c• §fБаланс гильдии: §a%s
@@ -1832,7 +1851,7 @@ GUILD_STATS_MOTD_BUY_EN: '§aКуплено'
 GUILD_STATS_MOTD_NO_BUY_EN: '§cНе куплено'
 GUILD_STATS_TAG_BUY_EN: '§aКуплен'
 GUILD_STATS_TAG_NO_BUY_EN: '§cНе куплен'
-GUILD_STATS_LIMITED_EN: '§c• §fОбнуление лимита через: §e%s'
+GUILD_STATS_LIMITED_EN: ' §c• §fОбнуление лимита через: §e%s'
 GUILD_STATS_EN: |-
  §6Гильдии §8| §fСтатистика гильдии §a%s §8| §e%s§f:
   §c• §fБаланс гильдии: §a%s
