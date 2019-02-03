@@ -6,10 +6,10 @@ SERVER_RESTART_RU: 'Перезагрузка'
 SERVER_RESTART_EN: 'Restarting...'
 
 SERVER_CLOSED_RU: '§6Сервер §8| §fСервер §a%s §fзакрыл ваше соединение, Ваш сервер установлен на §a%s'
-SERVER_CLOSED_EN: '§6Сервер §8| §fСервер §a%s §fзакрыл ваше соединение, Ваш сервер установлен на §a%s'
+SERVER_CLOSED_EN: '§6Server §8| §fServer §a%s §fclosed your connection, Your server is set to §a%s'
 
 COMMAND_DOUBLE_RU: '§6Сервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
-COMMAND_DOUBLE_EN: '§6Сервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
+COMMAND_DOUBLE_EN: '§6Server §8| §fPlease use commands §cwithout §fcolon'
 
 ENABLED_RU: '§aВключено'
 ENABLED_EN: '§aEnabled'
@@ -21,13 +21,13 @@ DISABLE_RU: '§cОтключить'
 DISABLE_EN: '§cDisable'
 
 BANINFO_BY_ANOTHER_RU: '§7[по просьбе %s§7]'
-BANINFO_BY_ANOTHER_EN: '§7[по просьбе %s§7]'
+BANINFO_BY_ANOTHER_EN: '§7[by request %s§7]'
 
 BAN_REQUEST_SENT_RU: '§eВаша просьба заблокировать данного игрока отправлена всем онлайн-модераторам'
 BAN_REQUEST_ALREADY_SENT_RU: '§cПросьба заблокировать данного игрока уже отправлялась, ожидайте решения'
 
-BAN_REQUEST_SENT_EN: '§eВаша просьба заблокировать данного игрока отправлена всем онлайн-модераторам'
-BAN_REQUEST_ALREADY_SENT_EN: '§cПросьба заблокировать данного игрока уже отправлялась, ожидайте решения'
+BAN_REQUEST_SENT_EN: '§eYour request to block this player has been sent to all online moderators'
+BAN_REQUEST_ALREADY_SENT_EN: '§cPlease block this player has already been sent, wait for decision'
 
 BAN_REQUEST_BROADCAST_RU: '§cМодерация §8| §7%s §7просит заблокировать %s §7на §7%s §7по причине §e%s'
 BAN_REQUEST_BROADCAST_EN: '§cМодерация §8| §7%s §7просит заблокировать %s §7на §7%s §7по причине §e%s'
@@ -1045,7 +1045,7 @@ PARTY_COMMAND_SETTING_HELP_RU:
  - ' §c• §eприглашения: §f[§aallinvite§f] - позволяет всем участникам приглашать игроков в группу'
  - ' §c• §eпубличность: §f[§apublic§f] - делает группу публичной и разрешает вступать в нее без приглашения'
  - ' §c• §eпубличность: §f[§aautowarp§f] - отключает телепортацию участников группы к владельцу при заходе на сервер'
- - ' §c• §eавто-исключение: §f[§aautokick§f] - отключает автоматическое исключение участников по истечению времени оффлайн'
+ - ' §c• §eавто -исключение: §f[§aautokick§f] - отключает автоматическое исключение участников по истечению времени оффлайн'
 PARTY_SETTING_OWNER_RU: '§cИзменять настройки группы может только её создатель'
 
 PARTY_DISBAND_RU: '§6Party §8| §fВы расформировали группу'
@@ -1378,7 +1378,7 @@ PARTY_COMMAND_SETTING_HELP_EN:
  - ' §c• §eприглашения: §f[§aallinvite§f] - позволяет всем участникам приглашать игроков в группу'
  - ' §c• §eпубличность: §f[§apublic§f] - делает группу публичной и разрешает вступать в нее без приглашения'
  - ' §c• §eпубличность: §f[§aautowarp§f] - отключает телепортацию участников группы к владельцу при заходе на сервер'
- - ' §c• §eавто-исключение: §f[§aautokick§f] - отключает автоматическое исключение участников по истечению времени оффлайн'
+ - ' §c• §eавто -исключение: §f[§aautokick§f] - отключает автоматическое исключение участников по истечению времени оффлайн'
 PARTY_SETTING_OWNER_EN: '§cИзменять настройки группы может только её создатель'
 
 PARTY_DISBAND_EN: '§6Party §8| §fВы расформировали группу'
