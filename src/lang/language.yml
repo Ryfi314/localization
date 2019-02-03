@@ -41,8 +41,8 @@ BAN_REJECT_FORMAT_EN: '/ktembanrequests reject <ник нарушителя>'
 BAN_REQUEST_HOVER_RU: '§fНажмите, чтобы принять запрос'
 BAN_REQUEST_HOVER_EN: '§fНажмите, чтобы принять запрос'
 
-BAN_REQUEST_NOT_FOUND_RU: '§cЗапрос от игрока %s не найден или уже закрыт'
-BAN_REQUEST_NOT_FOUND_EN: '§cЗапрос от игрока %s не найден или уже закрыт'
+BAN_REQUEST_NOT_FOUND_RU: '§cЗапрос на блокировку игрока %s не найден или уже закрыт'
+BAN_REQUEST_NOT_FOUND_EN: '§cЗапрос на блокировку игрока %s не найден или уже закрыт'
 
 BAN_REQUEST_ACCEPT_RU: '%s §aОдобрил ваш запрос на блокировку %s'
 BAN_REQUEST_REJECT_RU: '%s §cОтклонил ваш запрос на блокировку %s'
