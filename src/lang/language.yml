@@ -178,31 +178,31 @@ TIME_25_RU: 'ы'
 TIME_26_RU: 'а'
 
 TIME_1_EN: ' centuries'
-TIME_2_EN: ' века'
+TIME_2_EN: ' centuries'
 TIME_3_EN: ' century'
-TIME_4_EN: ' лет'
+TIME_4_EN: ' years'
 TIME_5_EN: ' years'
 TIME_6_EN: ' year'
 TIME_7_EN: ' months'
-TIME_8_EN: ' месяца'
+TIME_8_EN: " month's"
 TIME_9_EN: ' month'
-TIME_10_EN: ' недель'
+TIME_10_EN: ' weeks'
 TIME_11_EN: ' weeks'
 TIME_12_EN: ' week'
 TIME_13_EN: ' days'
-TIME_14_EN: ' дня'
+TIME_14_EN: " day's"
 TIME_15_EN: ' day'
 TIME_16_EN: ' hours'
 TIME_17_EN: ' hour'
-TIME_18_EN: ' часа'
+TIME_18_EN: " hour's"
 TIME_19_EN: ' minute'
-TIME_20_EN: 'у'
+TIME_20_EN: ''
 TIME_21_EN: ' minutes'
-TIME_22_EN: 'а'
+TIME_22_EN: ''
 TIME_23_EN: ' second'
-TIME_24_EN: 'у'
+TIME_24_EN: ''
 TIME_25_EN: ' seconds'
-TIME_26_EN: 'а'
+TIME_26_EN: ''
 
 TAB_HEADER_RU: "§2§lFilk§3§lWorld\n\n§fОнлайн-магазин:\n§ewww.filkworld.cf\n"
 TAB_FOOTER_RU: "\n§fВы находитесь на сервере:\n§e%s"
@@ -234,13 +234,13 @@ MAIL_JOIN_HOVER_RU: "§fНажмите сюда,\n§fчтобы открыть �
 TAB_HEADER_EN: "§2§lFilk§3§lWorld\n\n§fOnline-store:\n§efilkworld.cf\n"
 TAB_FOOTER_EN: "\n§fYou are on the server:\n§e%s"
 
-REDIRECT_ERROR_EN: '§cНевозможно найти подходящий сервер('
-HUBS_ERROR_EN: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
+REDIRECT_ERROR_EN: '§cUnable to find suitable server('
+HUBS_ERROR_EN: '§cError, lobby unavailable, try again later'
 
-JOIN_WARNING_IP_CHANGE_EN: '§c⚠ Внимание! §fВаш §cip адрес§f прошлой сессии не совпадает, наведите сюда, и проверьте'
-JOIN_WARNING_HOVER_EN: "§fВаш прошлый адрес: §a%s\n§fВаш текущий адрес: §c%s\n§fВаша почта: %s\n\n§fРекомендуем сделать: %s"
-JOIN_NOT_MAIL_EN: '§cНет почты'
-JOIN_RECOMMEND_ADDMAIL_EN: "§bПривязать почту\n\n §e▸ Нажмите сюда, чтобы привязать почту"
+JOIN_WARNING_IP_CHANGE_EN: '§c⚠ Attention! §fYour §cip last session address§f does not match, point here, and check'
+JOIN_WARNING_HOVER_EN: "§fyour last address: §a%s\n§fyour current address: §c%s\n§fyour mail: %s\n\n§frecommended: %s"
+JOIN_NOT_MAIL_EN: '§cNo mail'
+JOIN_RECOMMEND_ADDMAIL_EN: "§bBind mail\n\n §e▸ Click here to link your email"
 JOIN_RECOMMEND_CREATEAPI_EN: "§bСоздать api-ключ\n\n §e▸ Нажмите сюда, чтобы создать api-ключ"
 JOIN_RECOMMEND_CHANGEAPI_EN: "§bСменить api-ключ\n\n §e▸ Нажмите сюда, чтобы сменить api-ключ"
 
@@ -725,7 +725,7 @@ API_HOVER_COPY_MSG_RU: '§fНажмите, чтобы показать в пол
 
 
 API_DELAY_EN: '§6API §8| §fГенерировать новый ключ доступа можно будет через %s'
-API_CREATE_EN:
+API_CREATE_EN: |-
  - ' '
  - ' §fСгенерированный ниже ключ доступа будет виден только сейчас'
  - ' §fВ будущем Вам понадобится генерация нового ключа'
