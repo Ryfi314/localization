@@ -54,7 +54,7 @@ BAN_REQUEST_FOR_PERSONAL_RU:
  - '§cВы не можете отправить запрос блокировки на персонал сервера'
  - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
 BAN_REQUEST_FOR_PERSONAL_EN:
- - '§cYou can't send a lock request to the server staff'
+ - "§cYou can't send a lock request to the server staff"
  - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
 
 CONVERT_FORMAT_RU: '/convert <золото>'
@@ -64,7 +64,7 @@ CONVERT_RU: '§6Магазин §8| §fВы успешно обменяли §e%
 
 CONVERT_FORMAT_EN: '/convert <gold>'
 CONVERT_ERROR_EN: '§cError, you must specify only a positive number!'
-CONVERT_DONT_EN: '§cYou don't have enough gold.'
+CONVERT_DONT_EN: "§cYou don't have enough gold."
 CONVERT_EN: '§6Shop §8| §fYou have successfully exchanged §e%s §fgold on §a%s §fcoins' 
  
 YES_RU: 'Да'
