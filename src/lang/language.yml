@@ -6,10 +6,10 @@ SERVER_RESTART_RU: 'Перезагрузка'
 SERVER_RESTART_EN: 'Restarting...'
 
 SERVER_CLOSED_RU: '§6Сервер §8| §fСервер §a%s §fзакрыл ваше соединение, Ваш сервер установлен на §a%s'
-SERVER_CLOSED_EN: '§6Сервер §8| §fСервер §a%s §fзакрыл ваше соединение, Ваш сервер установлен на §a%s'
+SERVER_CLOSED_EN: '§6Server §8| §fServer §a%s §fshut down your connection, Your server is installed on §a%s'
 
 COMMAND_DOUBLE_RU: '§6Сервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
-COMMAND_DOUBLE_EN: '§6Сервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
+COMMAND_DOUBLE_EN: '§6Server §8| §fPlease use the commands §cwithout the §fcolon'
 
 ENABLED_RU: '§aВключено'
 ENABLED_EN: '§aEnabled'
@@ -21,40 +21,40 @@ DISABLE_RU: '§cОтключить'
 DISABLE_EN: '§cDisable'
 
 BANINFO_BY_ANOTHER_RU: '§7[по просьбе %s§7]'
-BANINFO_BY_ANOTHER_EN: '§7[по просьбе %s§7]'
+BANINFO_BY_ANOTHER_EN: '§7[at the request %s§7]'
 
 BAN_REQUEST_SENT_RU: '§eВаша просьба заблокировать данного игрока отправлена всем онлайн-модераторам'
 BAN_REQUEST_ALREADY_SENT_RU: '§cПросьба заблокировать данного игрока уже отправлялась, ожидайте решения'
 
-BAN_REQUEST_SENT_EN: '§eВаша просьба заблокировать данного игрока отправлена всем онлайн-модераторам'
-BAN_REQUEST_ALREADY_SENT_EN: '§cПросьба заблокировать данного игрока уже отправлялась, ожидайте решения'
+BAN_REQUEST_SENT_EN: '§eYour request to block this player has been sent to all online moderators'
+BAN_REQUEST_ALREADY_SENT_EN: '§cPlease block this player has already been sent, wait for decision'
 
 BAN_REQUEST_BROADCAST_RU: '§cМодерация §8| §7%s §7просит заблокировать %s §7на §7%s §7по причине §e%s'
-BAN_REQUEST_BROADCAST_EN: '§cМодерация §8| §7%s §7просит заблокировать %s §7на §7%s §7по причине §e%s'
+BAN_REQUEST_BROADCAST_EN: '§cModeration §8| §7%s §7lock requests %s §7on §7%s §7because of §e%s'
 
 BAN_ACCEPT_FORMAT_RU: '/ktembanrequests accept <ник нарушителя>'
 BAN_REJECT_FORMAT_RU: '/ktembanrequests reject <ник нарушителя>'
 
-BAN_ACCEPT_FORMAT_EN: '/ktembanrequests accept <ник нарушителя>'
-BAN_REJECT_FORMAT_EN: '/ktembanrequests reject <ник нарушителя>'
+BAN_ACCEPT_FORMAT_EN: '/ktembanrequests accept <the nickname of the offender>'
+BAN_REJECT_FORMAT_EN: '/ktembanrequests reject <the nickname of the offender>'
 
 BAN_REQUEST_HOVER_RU: '§fНажмите, чтобы принять запрос'
-BAN_REQUEST_HOVER_EN: '§fНажмите, чтобы принять запрос'
+BAN_REQUEST_HOVER_EN: '§fClick to accept the request'
 
 BAN_REQUEST_NOT_FOUND_RU: '§cЗапрос на блокировку игрока %s не найден или уже закрыт'
-BAN_REQUEST_NOT_FOUND_EN: '§cЗапрос на блокировку игрока %s не найден или уже закрыт'
+BAN_REQUEST_NOT_FOUND_EN: '§cPlayer lock request %s not found or already closed'
 
 BAN_REQUEST_ACCEPT_RU: '%s §aОдобрил ваш запрос на блокировку %s'
 BAN_REQUEST_REJECT_RU: '%s §cОтклонил ваш запрос на блокировку %s'
  
-BAN_REQUEST_ACCEPT_EN: '%s §aОдобрил ваш запрос на блокировку %s'
-BAN_REQUEST_REJECT_EN: '%s §cОтклонил ваш запрос на блокировку %s'
+BAN_REQUEST_ACCEPT_EN: '%s §aApproved your request to lock %s'
+BAN_REQUEST_REJECT_EN: '%s §cDenied your request for a lock %s'
 
 BAN_REQUEST_FOR_PERSONAL_RU:
  - '§cВы не можете отправить запрос блокировки на персонал сервера'
  - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
 BAN_REQUEST_FOR_PERSONAL_EN:
- - '§cВы не можете отправить запрос блокировки на персонал сервера'
+ - '§cYou can't send a lock request to the server staff'
  - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
 
 CONVERT_FORMAT_RU: '/convert <золото>'
@@ -62,10 +62,10 @@ CONVERT_ERROR_RU: '§cОшибка, нужно указывать только �
 CONVERT_DONT_RU: '§cУ вас недостаточно золота'
 CONVERT_RU: '§6Магазин §8| §fВы успешно обменяли §e%s §fзолота на §a%s §fмонет' 
 
-CONVERT_FORMAT_EN: '/convert <золото>'
-CONVERT_ERROR_EN: '§cОшибка, нужно указывать только положительное число число!'
-CONVERT_DONT_EN: '§cУ вас недостаточно золота'
-CONVERT_EN: '§6Магазин §8| §fВы успешно обменяли §e%s §fзолота на §a%s §fмонет' 
+CONVERT_FORMAT_EN: '/convert <gold>'
+CONVERT_ERROR_EN: '§cError, you must specify only a positive number!'
+CONVERT_DONT_EN: '§cYou don't have enough gold.'
+CONVERT_EN: '§6Shop §8| §fYou have successfully exchanged §e%s §fgold on §a%s §fcoins' 
  
 YES_RU: 'Да'
 YES_EN: 'Yes'
@@ -109,10 +109,10 @@ DEVELOPER_EN: '§4Developer'
 ELITE_EN: '§aElite'
 
 RESTARTING_BROADCAST_RU: '§cДо перезагрузки осталось, §e%s§c %s'
-RESTARTING_BROADCAST_EN: '§cДо перезагрузки осталось, §e%s§c %s'
+RESTARTING_BROADCAST_EN: '§cBefore a restart remained, §e%s§c %s'
 
 NO_CONNECT_REASON_RU: '§cОшибка #13, Синхронизация не выполнена. Пожалуйста сообщите в группу » §a§nvk.com/FilkWorld'
-NO_CONNECT_REASON_EN: '§cОшибка #13, Синхронизация не выполнена. Пожалуйста сообщите в группу » §a§nvk.com/FilkWorld'
+NO_CONNECT_REASON_EN: '§cError#13, Synchronization is not executed. Please will report in a group » §a§nvk.com/FilkWorld'
 
 # (1| <5) (2| >10) (3| >13)
 ONLINE_COLOR_1: '§c'
@@ -135,9 +135,9 @@ FRIEND_2_RU: 'г'
 FRIEND_3_RU: 'а'
 
 
-SECOND_0_EN: 'секунд'
-SECOND_1_EN: 'а'
-SECOND_2_EN: 'ы'
+SECOND_0_EN: 'second'
+SECOND_1_EN: ''
+SECOND_2_EN: 's'
 SECOND_3_EN: ''
 
 PLAYER_0_EN: 'player'
