@@ -241,21 +241,21 @@ JOIN_WARNING_IP_CHANGE_EN: '§c⚠ Attention! §fYour §cip last session address
 JOIN_WARNING_HOVER_EN: "§fyour last address: §a%s\n§fyour current address: §c%s\n§fyour mail: %s\n\n§frecommended: %s"
 JOIN_NOT_MAIL_EN: '§cNo mail'
 JOIN_RECOMMEND_ADDMAIL_EN: "§bBind mail\n\n §e▸ Click here to link your email"
-JOIN_RECOMMEND_CREATEAPI_EN: "§bСоздать api-ключ\n\n §e▸ Нажмите сюда, чтобы создать api-ключ"
-JOIN_RECOMMEND_CHANGEAPI_EN: "§bСменить api-ключ\n\n §e▸ Нажмите сюда, чтобы сменить api-ключ"
+JOIN_RECOMMEND_CREATEAPI_EN: "§bCreate api-key\n\n §e▸ Click here to create an api key"
+JOIN_RECOMMEND_CHANGEAPI_EN: "§bTo change the api-key\n\n §e▸ Click here to change your api key"
 
 GUILD_JOIN_BROADCAST_EN: '§6Guild §8| %s §f%s to server'
-GUILD_JOIN_HOVER_EN: "§fНажмите сюда,\n§fчтобы написать игроку %s"
-GUILD_JOIN_ONLINE_EN: '§6Guild §8| §fВ онлайне: §a%s§f %s'
+GUILD_JOIN_HOVER_EN: "§fClick here,\n§fto write to the player %s"
+GUILD_JOIN_ONLINE_EN: '§6Guild §8| §fOnline: §a%s§f %s'
 
-FRIEND_JOIN_BROADCAST_EN: '§6Friends §8| §f%s %s §f%s to game §7(нажмите сюда)'
+FRIEND_JOIN_BROADCAST_EN: '§6Friends §8| §f%s %s §f%s to game §7(click here)'
 FRIEND_JOIN_HOVER_EN: "§fClick here,\n§fto send message %s %s"
 FRIEND_JOIN_ONLINE_EN: '§6Friends §8| §fOnline §a%s§f %s'
 
-FRIEND_JOIN_REQUESTS_EN: '§6Friends §8| §fУ вас §e%s §fнепринятых заявок в друзья'
-PARTY_JOIN_REQUESTS_EN: '§6Party §8| §fУ вас §e%s §fнепринятых заявок в party'
-GUILD_JOIN_REQUESTS_EN: '§6Guild §8| §fУ вас §e%s §fнепринятых заявок в гильдии'
-MAIL_JOIN_REQUESTS_EN: '§6Mail §8| §fУ вас §e%s §fнепрочитаных писем §7(Нажмите сюда)'
+FRIEND_JOIN_REQUESTS_EN: '§6Friends §8| §fYou have §e%s §frejected friend requests'
+PARTY_JOIN_REQUESTS_EN: '§6Party §8| §fYou have §e%s §frejected applications to the party'
+GUILD_JOIN_REQUESTS_EN: '§6Guild §8| §fYou have §e%s §fmissed filings in the Guild'
+MAIL_JOIN_REQUESTS_EN: '§6Mail §8| §fYou have §e%s §funread emails §7(Click here)'
 MAIL_JOIN_HOVER_EN: "§fClick here,\n§fto open mail list"
 
 NEWS_RU: 'Исправлен /ask'
