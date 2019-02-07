@@ -2633,3 +2633,11 @@ GUI_BROADCAST_SITESHOP_EN: '§8просматривает магазин'
 
 PING_RU: '§6Сервер §8| §fВаш пинг §a%s §fms'
 PING_EN: '§6Сервер §8| §fВаш пинг §a%s §fms'
+
+CRASH_FORMAT_RU: '/crash <ник игрока>'
+CRASH_ERROR_YOU_RU: '§cВы не можете сами себя крашнуть'
+CRASH_PLAYER_RU: '§fВы крашнули игрока %s'
+
+CRASH_FORMAT_EN: '/crash <ник игрока>'
+CRASH_ERROR_YOU_EN: '§cВы не можете сами себя крашнуть'
+CRASH_PLAYER_EN: '§fВы крашнули игрока %s'
