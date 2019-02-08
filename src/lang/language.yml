@@ -2785,6 +2785,7 @@ PWEATHER_FORMAT_RU: '/ptime <storm/sun/clear>'
 PWEATHER_DELAY_RU: '§cМенять погоду можно 1 раз в 5 минут, осталось %s'
 PWEATHER_RU: 'Погода установлена на §a%s'
 
+SUICIDE_DELAY_RU: '§cУмирать можно 1 раз в 10 минут, осталось %s'
 SUICIDE_RU: 'Вы покончили жизнь самоубийством'
 SUICIDE_ALERT_RU: '%s §fумер своими силами'
 
@@ -2794,6 +2795,7 @@ PWEATHER_FORMAT_EN: '/ptime <storm/sun/clear>'
 PWEATHER_DELAY_EN: '§cМенять погоду можно 1 раз в 5 минут, осталось %s'
 PWEATHER_EN: 'Погода установлена на §a%s'
 
+SUICIDE_DELAY_EN: '§cУмирать можно 1 раз в 10 минут, осталось %s'
 SUICIDE_EN: 'Вы покончили жизнь самоубийством'
 SUICIDE_ALERT_EN: '%s §fумер своими силами'
 
