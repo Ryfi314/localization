@@ -2681,7 +2681,7 @@ GOD_ON_RU: '§aвключен'
 GOD_OFF_RU: '§cотключен'
 
 GAMEMODE_FORMAT_RU: '/gamemode <1|2|0>'
-GAMEMODE_RU: '§fУстановлен режим - %s'
+GAMEMODE_RU: '§fУстановлен режим - §c%s'
 GAMEMODE_TO_RU: 'Для игрока %s §fустановлен режим - §c%s'
 CREATIVE_MODE_RU: 'Креатив'
 ADVENTURE_MODE_RU: 'Приключенческий'
@@ -2689,6 +2689,7 @@ SURVIVAL_MODE_RU: 'Выживание'
 
 TP_FORMAT_RU: '/tp <ник>'
 TELEPORT_RU: 'Вы телепортировались к - %s'
+TELEPORT_TO_RU: 'Вы вы телепортировали %s§f к игроку - %s'
 
 WORKBENCH_DELAY_EN: '§cОткрывать верстак можно 1 раз в 5 минут, осталось %s'
 
@@ -2733,7 +2734,7 @@ GOD_ON_EN: '§aвключен'
 GOD_OFF_EN: '§cотключен'
 
 GAMEMODE_FORMAT_EN: '/gamemode <1|2|0>'
-GAMEMODE_EN: '§fУстановлен режим - %s'
+GAMEMODE_EN: '§fУстановлен режим - §c%s'
 GAMEMODE_TO_EN: 'Для игрока %s §fустановлен режим - §c%s'
 CREATIVE_MODE_EN: 'Креатив'
 ADVENTURE_MODE_EN: 'Приключенческий'
@@ -2741,6 +2742,22 @@ SURVIVAL_MODE_EN: 'Выживание'
 
 TP_FORMAT_EN: '/tp <ник>'
 TELEPORT_EN: 'Вы телепортировались к - %s'
+TELEPORT_TO_EN: 'Вы вы телепортировали %s§f к игроку - %s'
+
+HOME_DELAY_RU: '§cТелепортироватся к кровати можно 1 раз в 5 минут, осталось %s'
+HOME_RU: 'Телепортация..'
+HOME_START_RU: 'Телепортация запущена, вы будите телепортированы через §a5 §fсекунд'
+HOME_ALREADY_RU: '§cТелепортация уже запущена'
+HOME_CANCEL_RU: '§cВы сдвинулись, телепортация отменена'
+
+HOME_DELAY_EN: '§cТелепортироватся к кровати можно 1 раз в 5 минут, осталось %s'
+HOME_EN: 'Телепортация..'
+HOME_START_EN: 'Телепортация запущена, вы будите телепортированы через §a5 §fсекунд'
+HOME_ALREADY_EN: '§cТелепортация уже запущена'
+HOME_CANCEL_EN: '§cВы сдвинулись, телепортация отменена'
+
+INVSEE_FORMAT_RU: '/invsee <ник>'
+INVSEE_FORMAT_EN: '/invsee <ник>'
 
 KIT_FORMAT_RU: '/kit <enderman/diamond/golem/emerald/legend/gold/premium>'
 KIT_DELAY_RU: '§cСледующий набор можно будет получить через %s'
@@ -2761,3 +2778,50 @@ KIT_EMERALD_EN: 'Вы получили набор §a§lEMERALD'
 KIT_LEGEND_EN: 'Вы получили набор §3§lLEGEND'
 KIT_GOLD_EN: 'Вы получили набор §e§lGOLD'
 KIT_PREMIUM_EN: 'Вы получили набор §6§lPREMIUM'
+
+PWEATHER_STORM_RU: 'дождливая'
+PWEATHER_CLEAR_RU: 'солнечная'
+PWEATHER_FORMAT_RU: '/ptime <storm/sun/clear>'
+PWEATHER_DELAY_RU: '§cМенять погоду можно 1 раз в 5 минут, осталось %s'
+PWEATHER_RU: 'Погода установлена на §a%s'
+
+SUICIDE_RU: 'Вы покончили жизнь самоубийством'
+SUICIDE_ALERT_RU: '%s §fумер своими силами'
+
+PWEATHER_STORM_EN: 'дождливая'
+PWEATHER_CLEAR_EN: 'солнечная'
+PWEATHER_FORMAT_EN: '/ptime <storm/sun/clear>'
+PWEATHER_DELAY_EN: '§cМенять погоду можно 1 раз в 5 минут, осталось %s'
+PWEATHER_EN: 'Погода установлена на §a%s'
+
+SUICIDE_EN: 'Вы покончили жизнь самоубийством'
+SUICIDE_ALERT_EN: '%s §fумер своими силами'
+
+ONLY_ANARCHY_RU: '§cДанная команда доступна только на режиме Anarchy'
+ONLY_ANARCHY_EN: '§cДанная команда доступна только на режиме Anarchy'
+
+NO_ANARCHY_RU: '§cДанная команда запрещена на Anarchy'
+NO_ANARCHY_EN: '§cДанная команда запрещена на Anarchy'
+
+ANARCHY_RULES_RU: |-
+ 
+ §7Правила для §6Anarchy§7:
+  
+ §f1. §7Соблюдать общение правила поведения в чате
+ §f2. §7Не использовать читы или любой запрещенный софт
+ §f3. §7Не багоюзить, не создавать лаг машины и
+ §7не совершать действия, которые могут навредить серверу!
+  
+ §eНа этом все, больше вы ничем не ограничены
+ §eДелайте что хотите и как захотите!
+ANARCHY_RULES_EN: |-
+ 
+ §7Правила для §6Anarchy§7:
+  
+ §f1. §7Соблюдать общение правила поведения в чате
+ §f2. §7Не использовать читы или любой запрещенный софт
+ §f3. §7Не багоюзить, не создавать лаг машины и
+ §7не совершать действия, которые могут навредить серверу!
+  
+ §eНа этом все, больше вы ничем не ограничены
+ §eДелайте что хотите и как захотите!
