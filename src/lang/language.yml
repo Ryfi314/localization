@@ -726,29 +726,29 @@ API_HOVER_MSG_RU: '§6API §8| §fВаш ключ доступа - §a%s §7(н�
 API_HOVER_COPY_MSG_RU: '§fНажмите, чтобы показать в поле ввода ключ доступа\n§fЗатем скопируйте его (CTRL+A, CTRL+C)'
 
 
-API_DELAY_EN: '§6API §8| §fГенерировать новый ключ доступа можно будет через %s'
+API_DELAY_EN: '§6API §8| §fYou may generate new access key after %s'
 API_CREATE_EN: |-
  - ' '
- - ' §fСгенерированный ниже ключ доступа будет виден только сейчас'
- - ' §fВ будущем Вам понадобится генерация нового ключа'
- - ' §cБудьте осторожны! §fНе передавайте ключ никому'
+ - ' §fGenerated below access key will be shown only now'
+ - ' §fIn future, You should generate new one'
+ - ' §cBe careful! §fDon't show key anyone'
  - ' '
-API_HOVER_MSG_EN: '§6API §8| §fВаш ключ доступа - §a%s §7(наведите)'
-API_HOVER_COPY_MSG_EN: '§fНажмите, чтобы показать в поле ввода ключ доступа\n§fЗатем скопируйте его (CTRL+A, CTRL+C)'
+API_HOVER_MSG_EN: '§6API §8| §fYour access key - §a%s §7(hover)'
+API_HOVER_COPY_MSG_EN: '§fClick, to show the access key in the input field\n§fThen copy it (CTRL+A, CTRL+C)'
 
 
 SPAWN_TELEPORT_RU: '%sТелепортируем на спавн...'
-SPAWN_TELEPORT_EN: '%sТелепортируем на спавн...'
+SPAWN_TELEPORT_EN: '%sTeleporting on spawn...'
 
 SPAWN_DELAY_RU: '§cПодождите %s перед следующей телепортацией'
 SPAWN_START_RU: '%sПроцесс телепортации запущен, вы будите телепортированы через §a3§f секунды'
 SPAWN_ALREADY_RU: '§cПроцесс телепортации уже запущен'
 SPAWN_CANCEL_RU: '§cВы двинулись, телепортация отменена'
 
-SPAWN_DELAY_EN: '§cПодождите %s перед следующей телепортацией'
-SPAWN_START_EN: '%sПроцесс телепортации запущен, вы будите телепортированы через §a3§f секунды'
-SPAWN_ALREADY_EN: '§cПроцесс телепортации уже запущен'
-SPAWN_CANCEL_EN: '§cВы двинулись, телепортация отменена'
+SPAWN_DELAY_EN: '§cWait %s before next teleportation'
+SPAWN_START_EN: '%sProcess of teleportation is running, you will be teleported in §a3§f seconds'
+SPAWN_ALREADY_EN: '§cProcess of teleportation is already running'
+SPAWN_CANCEL_EN: '§cYou moved, teleportation canceled'
 
 KTEM_DELAY_RU: "§cОтправлять сообщения Ktemу, можно только раз в час"
 KTEM_CREATE_RU: |-
@@ -759,14 +759,14 @@ KTEM_CREATE_RU: |-
 KTEM_INFORMATION_RU: '%s %s'
 KTEM_ERROR_RU: §6Ktem §8| §fВаше сообщение должено содержать не менее §e3§f и не более §c100§f символов
 
-KTEM_DELAY_EN: "§cОтправлять сообщения Ktemу, можно только раз в час"
+KTEM_DELAY_EN: "§cSend message to Ktem, can only once an hour"
 KTEM_CREATE_EN: |-
- §6Ktem §8| §fВаше сообщение отправлено в сообщения ktemа
- §f Если Ktem не ответил на ваш вопрос в течении 1-ого дня,
- §f Вы можете написать в группу серверу чтобы ваше сообщение передали ktemу,
- §f группа: §evk.com/filkworld§f писать в - §eСообщения сообщества
-KTEM_INFORMATION_EN: '§6Ktem §8| §f%s §fнаписал вам сообщение: §a%s'
-KTEM_ERROR_EN: §6Ktem §8| §fВаше сообщение должено содержать не менее §e3§f и не более §c100§f символов
+ §6Ktem §8| §fYour message was send to ktem's messages
+ §f If Ktem didn't answered it during one day,
+ §f You may write to the server's group to send your message to Ktem,
+ §f grouo: §evk.com/filkworld§f write to - §eCommunity's messages
+KTEM_INFORMATION_EN: '§6Ktem §8| §f%s §fhas writen you message: §a%s'
+KTEM_ERROR_EN: §6Ktem §8| §fYour message have to contain more than §e3§f and less than §c100§f symbols
 
 
 HELP_PAPER_FOR_RU: '§e▸ Подкоманды для %s:'
@@ -777,10 +777,10 @@ DELAY_OFF_RU: '§cОтключена'
 STAFFCHAT_ON_RU: '§aВключен'
 STAFFCHAT_OFF_RU: '§cОтключен'
 
-DELAY_ON_EN: '§aВключена'
-DELAY_OFF_EN: '§cОтключена'
-STAFFCHAT_ON_EN: '§aВключен'
-STAFFCHAT_OFF_EN: '§cОтключен'
+DELAY_ON_EN: '§aEnabled'
+DELAY_OFF_EN: '§cDisabled'
+STAFFCHAT_ON_EN: '§aEnabled'
+STAFFCHAT_OFF_EN: '§cDisabled'
 
 SPYCMD_HELP_RU:
  - '§6SpyCmd §8| §fСписок команд:'
@@ -792,19 +792,19 @@ SPYCMD_ALREADY_RU: '§cУ вас уже включена слежка'
 SPYCMD_FORMAT_RU: '§6Cmd §8| %s §8» §b%s'
 
 SPYCMD_HELP_EN: |-
- - '§6SpyCmd §8| §fСписок команд:'
- - '§7/ktemspycmd on §f- включить слежку за командами'
- - '§7/ktemspycmd off §f- отключить слежку'
-SPYCMD_ON_EN: '§6SpyCmd §8| §fТеперь вы следите за командами'
-SPYCMD_OFF_EN: '§6SpyCmd §8| §fВы больше не следите за командами'
-SPYCMD_ALREADY_EN: '§cУ вас уже включена слежка'
+ - '§6SpyCmd §8| §fCommands list:'
+ - '§7/ktemspycmd on §f- enable commands spying'
+ - '§7/ktemspycmd off §f- disable spying'
+SPYCMD_ON_EN: '§6SpyCmd §8| §fNow you are spying for commands'
+SPYCMD_OFF_EN: '§6SpyCmd §8| §fYou are no longer spying for commands'
+SPYCMD_ALREADY_EN: '§cSpying is already enabled'
 SPYCMD_FORMAT_EN: '§6Cmd §8| %s §8» §b%s'
 
 SPYCHAT_ON_RU: '§6Chat §8| §fВы больше не следите за чатом'
 SPYCHAT_OFF_RU: '§6Chat §8| §fТеперь вы следите за чатом'
 
-SPYCHAT_ON_EN: '§6Chat §8| §fВы больше не следите за чатом'
-SPYCHAT_OFF_EN: '§6Chat §8| §fТеперь вы следите за чатом'
+SPYCHAT_ON_EN: '§6Chat §8| §fNow you are spying for chat'
+SPYCHAT_OFF_EN: '§6Chat §8| §fYou are no longer spying for chat'
 
 GROUP_SET_FORMAT_RU: '/ktemgroup set <ник> <донат-группа>'
 GROUP_CLEAR_FORMAT_RU: '/ktemgroup clear <ник>'
@@ -824,23 +824,23 @@ GROUP_SET_RU: '§eИгроку %s §eбыла установлена приви�
 GROUP_INVALID_RU: '§cВы указали неверную группу. Доступные группы: §fDEFAULT, PREMIUM, GOLD, LEGEND, EMERALD, GOLEM, DIAMOND, ENDERMAN'
 GROUP_MIGRATE_RU: '§eИгроку %s §eперенесена привилегия %s'
 
-GROUP_SET_FORMAT_EN: '/ktemgroup set <ник> <донат-группа>'
-GROUP_CLEAR_FORMAT_EN: '/ktemgroup clear <ник>'
-GROUP_VIEW_FORMAT_EN: '/ktemgroup view <группа>'
-GROUP_MIGRATE_FORMAT_EN: '/ktemgroup migrate <старый ник> <новый ник>'
+GROUP_SET_FORMAT_EN: '/ktemgroup set <nickname> <group>'
+GROUP_CLEAR_FORMAT_EN: '/ktemgroup clear <nickname>'
+GROUP_VIEW_FORMAT_EN: '/ktemgroup view <group>'
+GROUP_MIGRATE_FORMAT_EN: '/ktemgroup migrate <old nickname> <new nickname>'
 
 GROUP_HELP_EN:
- - '§6Привилегии §8| §fСписок команд:'
- - '§7/ktemgroup clear <ник> §f- снятие привилегии'
- - '§7/ktemgroup migrate <старый ник> <новый ник> §f- перенос привилегии'
- - '§7/ktemgroup set <ник> <донат-группа> §f- обновить привилегию'
- - '§7/ktemgroup view <группа> §f- показать всех игроков с определенной группой'
-GROUP_ERROR_ACCESS_EN: '§cВы не можете управлять привилегиями данного игрока'
-GROUP_ALREADY_DEFAULT_EN: '§cУ данного игрока нет привилегий'
-GROUP_CLEAR_EN: '§eС игрока %s §eбыла снята привилегия'
-GROUP_SET_EN: '§eИгроку %s §eбыла установлена привилегия %s'
-GROUP_INVALID_EN: '§cВы указали неверную группу. Доступные группы: §fDEFAULT, PREMIUM, GOLD, LEGEND, EMERALD, GOLEM, DIAMOND, ENDERMAN'
-GROUP_MIGRATE_EN: '§eИгроку %s §eперенесена привилегия %s'
+ - '§6Groups §8| §fCommands list:'
+ - '§7/ktemgroup clear <nickname> §f- clearing group'
+ - '§7/ktemgroup migrate <old nickname> <new nickname> §f- transfer group'
+ - '§7/ktemgroup set <nickname> <group> §f- update group'
+ - '§7/ktemgroup view <group> §f- show all players with certain group'
+GROUP_ERROR_ACCESS_EN: '§cYou can't manage groups of this player'
+GROUP_ALREADY_DEFAULT_EN: '§cThis player hasn't got group'
+GROUP_CLEAR_EN: '§eFrom player %s §egroup has been removed'
+GROUP_SET_EN: '§eFor player %s §ehas been set group %s'
+GROUP_INVALID_EN: '§cYou wrote wrong group. Available groups: §fDEFAULT, PREMIUM, GOLD, LEGEND, EMERALD, GOLEM, DIAMOND, ENDERMAN'
+GROUP_MIGRATE_EN: '§eFor player %s §ehas been transfered group %s'
 
 NO_FOUND_PLAYER_RU: '§cИгрок %s§c не найден или он оффлайн'
 NO_NEVER_PLAYER_RU: '§cИгрок %s никогда прежде не играл на нашем проекте'
@@ -867,20 +867,20 @@ PLAYER_NAME_13_RU: 'была'
 PLAYER_NAME_14_RU: 'был'
 
 
-PLAYER_NAME_1_EN: 'Ваша подруга'
-PLAYER_NAME_2_EN: 'найдена'
-PLAYER_NAME_3_EN: 'она'
-PLAYER_NAME_4_EN: 'Ваш друг'
-PLAYER_NAME_5_EN: 'найден'
-PLAYER_NAME_6_EN: 'он'
-PLAYER_NAME_7_EN: 'ответила'
-PLAYER_NAME_8_EN: 'ответил'
-PLAYER_NAME_9_EN: 'подруге'
-PLAYER_NAME_10_EN: 'другу'
-PLAYER_NAME_11_EN: 'зашла'
-PLAYER_NAME_12_EN: 'зашел'
-PLAYER_NAME_13_EN: 'была'
-PLAYER_NAME_14_EN: 'был'
+PLAYER_NAME_1_EN: 'Your girl friend'
+PLAYER_NAME_2_EN: 'found'
+PLAYER_NAME_3_EN: 'she'
+PLAYER_NAME_4_EN: 'Your boy friend'
+PLAYER_NAME_5_EN: 'found'
+PLAYER_NAME_6_EN: 'he'
+PLAYER_NAME_7_EN: 'answered'
+PLAYER_NAME_8_EN: 'answered'
+PLAYER_NAME_9_EN: 'girl friend'
+PLAYER_NAME_10_EN: 'boy friend'
+PLAYER_NAME_11_EN: 'joined'
+PLAYER_NAME_12_EN: 'joined'
+PLAYER_NAME_13_EN: 'was'
+PLAYER_NAME_14_EN: 'was'
 
 
 CORE_COMMAND_HELP_RU:
