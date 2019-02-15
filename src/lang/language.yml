@@ -766,7 +766,6 @@ KTEM_CREATE_EN: |-
  §f You may write to the server's group to send your message to Ktem,
  §f group: §evk.com/filkworld§f write to - §eCommunity's messages
 KTEM_INFORMATION_EN: '§6Ktem §8| §f%s §a%s'
- §f grouo: §evk.com/filkworld§f write to - §eCommunity's messages
 KTEM_INFORMATION_EN: '%s %s'
 KTEM_ERROR_EN: §6Ktem §8| §fYour message have to contain more than §e3§f and less than §c100§f symbols
 
@@ -1410,7 +1409,7 @@ PARTY_SETOWNER_OWNER_EN: '§cError, give permissions to manage the group can onl
 
 PARTY_JOIN_FORMAT_EN: '/party join <player name>'
 PARTY_JOIN_NOT_EN: "§cError, this player isn't being in the group"
-PARTY_JOIN_PUBLIC_EN: '§cError, the group of this player isn't public'
+PARTY_JOIN_PUBLIC_EN: "§cError, the group of this player isn't public"
 PARTY_JOIN_EN: '§6Party §8| §fYou joined the group of %s'
 PARTY_JOIN_ALERT_EN: '§6Party §8| %s §fjoined the public group'
 
