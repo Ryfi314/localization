@@ -312,7 +312,7 @@ ITEM_LOBBY_NAME_EN: '§eLobby selector'
 ITEM_LOBBY_LORE_EN:
  - '§7Change lobby and'
  - '§7find your friends'
-ITEM_PROFILE_NAME_EN: '§eProfile player %s'
+ITEM_PROFILE_NAME_EN: '§ePlayer %s§e profile'
 ITEM_PROFILE_LORE_EN:
  - '§7Helpful information'
 ITEM_TEST_NAME_EN: '§b%s |'
@@ -716,23 +716,23 @@ HISTORY_FORMAT_EN: '/history <nickname> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANI
 TEST_FORMAT_EN: '/test <String>'
 
 API_DELAY_RU: '§6API §8| §fГенерировать новый ключ доступа можно будет через %s'
-API_CREATE_RU:
- - ' '
- - ' §fСгенерированный ниже ключ доступа будет виден только сейчас'
- - ' §fВ будущем Вам понадобится генерация нового ключа'
- - ' §cБудьте осторожны! §fНе передавайте ключ никому'
- - ' '
+API_CREATE_RU: |-
+ 
+  §fСгенерированный ниже ключ доступа будет виден только сейчас'
+  §fВ будущем Вам понадобится генерация нового ключа'
+  §cБудьте осторожны! §fНе передавайте ключ никому'
+ 
 API_HOVER_MSG_RU: '§6API §8| §fВаш ключ доступа - §a%s §7(наведите)'
 API_HOVER_COPY_MSG_RU: '§fНажмите, чтобы показать в поле ввода ключ доступа\n§fЗатем скопируйте его (CTRL+A, CTRL+C)'
 
 
 API_DELAY_EN: '§6API §8| §fYou may generate new access key after %s'
 API_CREATE_EN: |-
- - ' '
- - ' §fGenerated below access key will be shown only now'
- - ' §fIn future, You should generate new one'
- - ' §cBe careful! §fDon't show key anyone'
- - ' '
+ 
+  §fGenerated below access key will be shown only now
+  §fIn future, You should generate new one
+  §cBe careful! §fDon't show key anyone
+ 
 API_HOVER_MSG_EN: '§6API §8| §fYour access key - §a%s §7(hover)'
 API_HOVER_COPY_MSG_EN: '§fClick, to show the access key in the input field\n§fThen copy it (CTRL+A, CTRL+C)'
 
@@ -765,7 +765,7 @@ KTEM_CREATE_EN: |-
  §f If Ktem didn't answered it during one day,
  §f You may write to the server's group to send your message to Ktem,
  §f grouo: §evk.com/filkworld§f write to - §eCommunity's messages
-KTEM_INFORMATION_EN: '§6Ktem §8| §f%s §fhas writen you message: §a%s'
+KTEM_INFORMATION_EN: '%s %s'
 KTEM_ERROR_EN: §6Ktem §8| §fYour message have to contain more than §e3§f and less than §c100§f symbols
 
 
@@ -835,8 +835,8 @@ GROUP_HELP_EN:
  - '§7/ktemgroup migrate <old nickname> <new nickname> §f- transfer group'
  - '§7/ktemgroup set <nickname> <group> §f- update group'
  - '§7/ktemgroup view <group> §f- show all players with certain group'
-GROUP_ERROR_ACCESS_EN: '§cYou can't manage groups of this player'
-GROUP_ALREADY_DEFAULT_EN: '§cThis player hasn't got group'
+GROUP_ERROR_ACCESS_EN: "§cYou can't manage groups of this player"
+GROUP_ALREADY_DEFAULT_EN: "§cThis player hasn't got group"
 GROUP_CLEAR_EN: '§eFrom player %s §egroup has been removed'
 GROUP_SET_EN: '§eFor player %s §ehas been set group %s'
 GROUP_INVALID_EN: '§cYou wrote wrong group. Available groups: §fDEFAULT, PREMIUM, GOLD, LEGEND, EMERALD, GOLEM, DIAMOND, ENDERMAN'
@@ -1512,7 +1512,7 @@ GROUP_BROADCAST_EN: '§6Group §8| %s §f%s'
 CORE_BROADCAST_EN: '§6Core §8| %s §f%s'
 VERIFY_BROADCAST_EN: '§6Verify §8| %s %s'
 VERIFY_INFO_BROADCAST_EN: '§6Verify §8| %s'
-KTEM_BROADCAST_EN: '§6Ktem §8| %s §f%s вам сообщение: §a%s'
+KTEM_BROADCAST_EN: '§6Ktem §8| %s §f%s has writen you message: §a%s'
 MODERATION_BROADCAST_EN: '§cМодерация §8| %s §7%s'
 INFO_BROADCAST_EN: '§7%s'
 ANSWER_BROADCAST_EN: '§cМодерация §8| %s §7%s игроку %s §8(§a%s§8) §7 -> §e%s'
@@ -2637,7 +2637,7 @@ GUI_BROADCAST_GADGETS_EN: '§8просматривает гаджеты'
 GUI_BROADCAST_SITESHOP_EN: '§8просматривает магазин'
 
 PING_RU: '§6Сервер §8| §fВаш пинг §a%s §fms'
-PING_EN: '§6Сервер §8| §fВаш пинг §a%s §fms'
+PING_EN: '§6Server §8| §fВаш пинг §a%s §fms'
 
 PING_CORE_RU: '§6Сервер §8| §fПинг до Core §a%s §fms'
 PING_CORE_EN: '§6Сервер §8| §fПинг до Core §a%s §fms'
@@ -3755,23 +3755,10 @@ GUI_SERVERS_TOTAL_RU: '§eСписок серверов'
 GUI_SERVERS_NAME_RU: 'Список серверов'
 
 GUI_GAMES_DEVELOPMENT_RU: '§c▸ В разработке'
-
 GUI_GAMES_NAME_RU: 'Выбор режима'
 GUI_GAMES_OFFLINE_RU: ' §cСервер перезапускается..'
 GUI_GAMES_CONNECT_RU: '§e▸ Нажмите, чтобы подключится'
 
-GUI_GAMES_SKYWARS_LORE_RU:
-- '§8Битвы на островах'
-- ''
-- '§7Вы появляетесь на острове,'
-- '§7и ваша цель скинуть всех'
-- '§7игроков на вашей карте.'
-- '§7У вас нет права на ошибку.'
-- '§71 шаг и вы летите вниз.'
-- ''
-- '§8На режиме играет %s'
-- ''
-- '%s'
 GUI_GAMES_LUCKYWARS_LORE_RU:
 - '§8Битвы на островах'
 - ''
@@ -5116,12 +5103,23 @@ GUI_SERVERS_TOTAL_LORE_EN:
 GUI_SERVERS_TOTAL_EN: '§eСписок серверов'
 GUI_SERVERS_NAME_EN: 'Список серверов'
 
-GUI_GAMES_DEVELOPMENT_EN: '§c▸ В разработке'
-
+GUI_GAMES_DEVELOPMENT_EN: '§c▸ In developed'
 GUI_GAMES_NAME_EN: 'Выбор режима'
 GUI_GAMES_OFFLINE_EN: ' §cСервер перезапускается..'
 GUI_GAMES_CONNECT_EN: '§e▸ Нажмите, чтобы подключится'
 
+GUI_GAMES_SKYWARS_LORE_RU:
+- '§8Битвы на островах'
+- ''
+- '§7Вы появляетесь на острове,'
+- '§7и ваша цель скинуть всех'
+- '§7игроков на вашей карте.'
+- '§7У вас нет права на ошибку.'
+- '§71 шаг и вы летите вниз.'
+- ''
+- '§8На режиме играет %s'
+- ''
+- '%s'
 GUI_GAMES_SKYWARS_LORE_EN:
 - '§8Битвы на островах'
 - ''
