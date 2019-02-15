@@ -764,13 +764,10 @@ KTEM_CREATE_EN: |-
  §6Ktem §8| §fYour message was send to ktem's messages
  §f If Ktem didn't answered it during one day,
  §f You may write to the server's group to send your message to Ktem,
-<<<<<<< patch-2
  §f group: §evk.com/filkworld§f write to - §eCommunity's messages
 KTEM_INFORMATION_EN: '§6Ktem §8| §f%s §a%s'
-=======
  §f grouo: §evk.com/filkworld§f write to - §eCommunity's messages
 KTEM_INFORMATION_EN: '%s %s'
->>>>>>> master
 KTEM_ERROR_EN: §6Ktem §8| §fYour message have to contain more than §e3§f and less than §c100§f symbols
 
 
