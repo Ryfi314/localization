@@ -764,8 +764,13 @@ KTEM_CREATE_EN: |-
  §6Ktem §8| §fYour message was send to ktem's messages
  §f If Ktem didn't answered it during one day,
  §f You may write to the server's group to send your message to Ktem,
+<<<<<<< patch-2
+ §f group: §evk.com/filkworld§f write to - §eCommunity's messages
+KTEM_INFORMATION_EN: '§6Ktem §8| §f%s §a%s'
+=======
  §f grouo: §evk.com/filkworld§f write to - §eCommunity's messages
 KTEM_INFORMATION_EN: '%s %s'
+>>>>>>> master
 KTEM_ERROR_EN: §6Ktem §8| §fYour message have to contain more than §e3§f and less than §c100§f symbols
 
 
@@ -1060,7 +1065,7 @@ PARTY_COMMAND_SETTING_HELP_RU:
  - '§6Party §8| §fСписок доступных настроек:'
  - ' §c• §eприглашения: §f[§aallinvite§f] - позволяет всем участникам приглашать игроков в группу'
  - ' §c• §eпубличность: §f[§apublic§f] - делает группу публичной и разрешает вступать в нее без приглашения'
- - ' §c• §eпубличность: §f[§aautowarp§f] - отключает телепортацию участников группы к владельцу при заходе на сервер'
+ - ' §c• §eавто-телепортация: §f[§aautowarp§f] - отключает телепортацию участников группы к владельцу при заходе на сервер'
  - ' §c• §eавто-исключение: §f[§aautokick§f] - отключает автоматическое исключение участников по истечению времени оффлайн'
 PARTY_SETTING_OWNER_RU: '§cИзменять настройки группы может только её создатель'
 
@@ -1323,20 +1328,20 @@ CORE_SETSTATS_EN: '§eИгроку %s§e установлен статус %s'
 CORE_STATS_INVALID_EN: '§cВы указали неверный статус. Доступные статусы: §fTester, Builder, YouTube, Junior, Helper, Moder'
 CORE_SETSTATS_FORMAT_EN: '/ktemcore setstats <ключ> <ник> <статус>'
 
-HACK_REASON_EN: '§4Ошибка #3 §cПодозрение на взлом.'
-VZLOM_REASON_EN: '§cОшибка #14 Пожалуйста сообщите в группу » §a§nvk.com/Ktem_Projects'
+HACK_REASON_EN: '§4Error #3 §cSuspicion of hacking'
+VZLOM_REASON_EN: '§cError #14 Please, contact group » §a§nvk.com/Ktem_Projects'
 
-PARTY_ALREADY_EN: '§6Party §8| §fВы уже в группе'
-PARTY_PLAYER_ALREADY_EN: '§cИгрок %s уже в группе'
-PARTY_NOT_EN: '§6Party §8| §fОшибка, вы не состоите в группе, видимо вы никому не нужны :('
-PARTY_PLAYER_NO_PARTY_EN: '§cИгрок %s не состоит в вашей группе'
-PARTY_PLAYER_NO_OWNER_EN: '§cВы не владелец группы'
-PARTY_LIMIT_EN: '§cДанная группа не может принимать игроков, поскольку её лимит привышен'
-PARTY_OWNER_NO_PARTY_EN: '§cИгрок %s больше не состоит в группе в которую он ваш пригласил'
-PARTY_NO_INVITE_EN: '§cИгрок %s не отправлял вам приглашений в группу'
+PARTY_ALREADY_EN: '§6Party §8| §fYou are already in the group'
+PARTY_PLAYER_ALREADY_EN: '§cPlayer %s is already in the group'
+PARTY_NOT_EN: "§6Party §8| §fError, you aren't in the group, perhaps nobody needs you :("
+PARTY_PLAYER_NO_PARTY_EN: "§cPlayer %s isn't in your group"
+PARTY_PLAYER_NO_OWNER_EN: "§cYou aren't owner of the group"
+PARTY_LIMIT_EN: "§cThis group can't accept players because its limit is exceeded"
+PARTY_OWNER_NO_PARTY_EN: "§cPlayer %s is no longer a member of the group he(she) invited you to"
+PARTY_NO_INVITE_EN: "§cPlayer %s didn't send you party invites"
 
 PARTY_CHAT_FORMAT_EN: '/pchat <message>'
-PARTY_OFFLINE_EN: '§cВсе участники группы оффлайн'
+PARTY_OFFLINE_EN: "§cAll group's members are offline"
 PARTY_CHAT_EN: '§dParty chat §8| %s §8» §f%s'
 
 PARTY_COMMAND_HELP_EN:
@@ -1359,81 +1364,81 @@ PARTY_COMMAND_MEMBER_HELP_EN:
  - '§7/party list §f- group list of members'
  - '§7/party invite <player name> §f- invite player in the group'
 
-PARTY_NOT_LEAVE_OWNER_EN: '§6Party §8| §fЧтобы §cпокинуть§f группу, сначала передайте права управления ею другомму игроку!'
-PARTY_LEAVE_EN: '§6Party §8| §fВы покинули группу игрока %s'
-PARTY_LEAVE_ALERT_EN: '§6Party §8| %s §fпокинул группу'
-PARTY_NOT_MEMBERS_EN: '§6Party §8| §fВсе участники группы покинули её, группа была удалена'
+PARTY_NOT_LEAVE_OWNER_EN: '§6Party §8| §fTo §leave§f the group, give manage permissions to another player first'
+PARTY_LEAVE_EN: '§6Party §8| §fYou left %s §fthe group'
+PARTY_LEAVE_ALERT_EN: '§6Party §8| %s §fleft the group'
+PARTY_NOT_MEMBERS_EN: '§6Party §8| §fAll group members left it, the group has been deleted'
 
-PARTY_REQUESTS_EN: '§6Party §8| §fСписок приглашений в группы (§a%s§f)'
-PARTY_REQUESTS_FORMAT_EN: '  §c• §fЗапрос от %s §7§nнажмите чтобы принять'
-PARTY_REQUESTS_HOVER_EN: '§fНажмите, чтобы присоединится к группе'
-PARTY_REQUESTS_NO_EN: '§cУ вас нет приглашений в группы'
+PARTY_REQUESTS_EN: '§6Party §8| §fList of the group invites (§a%s§f)'
+PARTY_REQUESTS_FORMAT_EN: '  §c• §fRequest from %s §7§click to accept'
+PARTY_REQUESTS_HOVER_EN: '§fClick, to join the group'
+PARTY_REQUESTS_NO_EN: "§cYou haven't got party invites"
 
-PARTY_KICK_FORMAT_EN: '/party kick <ник игрока>'
-PARTY_KICK_ME_EN: '§cОшибка, Вы не можете удалить самого себя'
-PARTY_KICK_OWNER_EN: '§cОшибка, Вы не можете удалить основателя группы'
-PARTY_KICK_EN: '§6Party §8| §fВы удалили игрока %s §fиз группы'
-PARTY_KICK_ALERT_EN: '§6Party §8| %s §fбыл удален лидером группы'
-PARTY_KICK_MSG_EN: '§6Party §8| %s §fудалил Вас из группы'
+PARTY_KICK_FORMAT_EN: '/party kick <nickname>'
+PARTY_KICK_ME_EN: "§cError, You can't kick yourself"
+PARTY_KICK_OWNER_EN: "§cError, You can't kick the group owner"
+PARTY_KICK_EN: '§6Party §8| §fYou kicked %s §ffrom the group'
+PARTY_KICK_ALERT_EN: '§6Party §8| %s §fhave been kicked by the group owner'
+PARTY_KICK_MSG_EN: '§6Party §8| %s §fkicked You from the group'
 
-PARTY_WARP_ALERT_EN: '§6Party §8| §fЛидер группы %s §fтелепортировал Вас на его сервер'
-PARTY_WARP_EN: '§6Party §8| §fВсе онлайн-участники были телепортированы на Ваш сервер'
-PARTY_WARP_OWNER_EN: '§6Party §8| §fТелепортировать участников на свой сервер может только лидер группы'
+PARTY_WARP_ALERT_EN: '§6Party §8| §fThe group leader %s §fteleported You to his(her) server'
+PARTY_WARP_EN: '§6Party §8| §fAll online-members were teleported on Your server'
+PARTY_WARP_OWNER_EN: '§6Party §8| §fTeleport members on your server can only the group leader'
 
-PARTY_SETTING_PUBLIC_EN: 'публичность'
-PARTY_SETTING_INVITE_EN: 'приглашения'
-PARTY_SETTING_AUTOWARP_EN: 'авто-телепортация'
-PARTY_AUTOKICK_EN: 'авто-исключение'
+PARTY_SETTING_PUBLIC_EN: 'publicity'
+PARTY_SETTING_INVITE_EN: 'invites'
+PARTY_SETTING_AUTOWARP_EN: 'auto-teleportation'
+PARTY_AUTOKICK_EN: 'auto-kick'
 PARTY_SETTING_FORMAT_EN: '/party setting <setting> <true/false>'
-PARTY_SETTING_ALREADY_EN: '§cОшибка, значение данной настройки уже является указанным'
-PARTY_SETTING_ALERT_EN: '§6Party §8| %s §fобновил значение настройки §a%s§f в группе'
-PARTY_SETTING_EN: '§6Party §8| §fЗначение настройки §a%s §fобновлено'
+PARTY_SETTING_ALREADY_EN: '§cError, value of this setting is already said'
+PARTY_SETTING_ALERT_EN: '§6Party §8| %s §fupdated value of the setting §a%s§f in group'
+PARTY_SETTING_EN: '§6Party §8| §fValue of the setting §a%s §fupdated'
 PARTY_COMMAND_SETTING_HELP_EN:
- - '§6Party §8| §fСписок доступных настроек:'
- - ' §c• §eприглашения: §f[§aallinvite§f] - позволяет всем участникам приглашать игроков в группу'
- - ' §c• §eпубличность: §f[§apublic§f] - делает группу публичной и разрешает вступать в нее без приглашения'
- - ' §c• §eпубличность: §f[§aautowarp§f] - отключает телепортацию участников группы к владельцу при заходе на сервер'
- - ' §c• §eавто-исключение: §f[§aautokick§f] - отключает автоматическое исключение участников по истечению времени оффлайн'
-PARTY_SETTING_OWNER_EN: '§cИзменять настройки группы может только её создатель'
+ - '§6Party §8| §fList of available setting:'
+ - ' §c• §einvites: §f[§aallinvite§f] - allows all members to invite players in group'
+ - ' §c• §eпpublicity: §f[§apublic§f] - makes group publuc'
+ - ' §c• §eauto-teleportation: §f[§aautowarp§f] - disables teleportation of group members when joining the server'
+ - ' §c• §eauto-kick: §f[§aautokick§f] - disables the automatic kick of group members when offline time expires'
+PARTY_SETTING_OWNER_EN: '§cChange the group settings can only the group owner'
 
-PARTY_DISBAND_EN: '§6Party §8| §fВы расформировали группу'
-PARTY_DISBAND_ALERT_EN: '§6Party §8| §fВаша группа была расформирована'
-PARTY_DISBAND_OWNER_EN: '§cРаспустить группу может только её создатель'
+PARTY_DISBAND_EN: '§6Party §8| §fYou disbanded the group'
+PARTY_DISBAND_ALERT_EN: '§6Party §8| §fYour group has been disbanded'
+PARTY_DISBAND_OWNER_EN: '§cDisband the group can only the group owner'
 
 PARTY_SETOWNER_FORMAT_EN: '/party setowner <player name>'
-PARTY_SETOWNER_ALREADY_EN: '§6Party §8| §fВы уже являетесь владельцем группы'
-PARTY_SETOWNER_ALERT_EN: '§6Party §8| %s §fстал новым владельцем группы'
-PARTY_SETOWNER_EN: '§6Party §8| §fВы передали права лидера игроку %s'
-PARTY_SETOWNER_OWNER_EN: '§cОшибка, передавать управление группой может только её владелец'
+PARTY_SETOWNER_ALREADY_EN: '§6Party §8| §fYou are already the group owner'
+PARTY_SETOWNER_ALERT_EN: '§6Party §8| %s §fbecame the new owner of the group'
+PARTY_SETOWNER_EN: '§6Party §8| §fYou have transferred leader rights to player %s'
+PARTY_SETOWNER_OWNER_EN: '§cError, give permissions to manage the group can only the group owner'
 
 PARTY_JOIN_FORMAT_EN: '/party join <player name>'
-PARTY_JOIN_NOT_EN: '§cОшибка, данный игрок не состоит в группе'
-PARTY_JOIN_PUBLIC_EN: '§cОшибка, группа данного игрока не является публичной'
-PARTY_JOIN_EN: '§6Party §8| §fВы присоединились к группе игрока %s'
-PARTY_JOIN_ALERT_EN: '§6Party §8| %s §fприсоединился к публичной группе'
+PARTY_JOIN_NOT_EN: "§cError, this player isn't being in the group"
+PARTY_JOIN_PUBLIC_EN: '§cError, the group of this player isn't public'
+PARTY_JOIN_EN: '§6Party §8| §fYou joined the group of %s'
+PARTY_JOIN_ALERT_EN: '§6Party §8| %s §fjoined the public group'
 
 PARTY_REJECT_FORMAT_EN: '/party reject <player name>'
-PARTY_REJECT_ALERT_EN: '§6Party §8| %s §fотклонил ваше приглашение в группу (он просто не знает, что теряет)'
-PARTY_REJECT_EN: '§6Party §8| §fВы отклонили приглашение в группу от игрока §a%s'
-PARTY_REJECT_NO_EN: '§cИгрок %s не отправлял вам приглашений в группу'
+PARTY_REJECT_ALERT_EN: "§6Party §8| %s §frejected your invition to the group (he doesn't know, what loses)"
+PARTY_REJECT_EN: '§6Party §8| §fYou rejected the invaition to the group from §a%s'
+PARTY_REJECT_NO_EN: "§cPlayer %s didn't send you party invites"
 
 PARTY_INVITE_FORMAT_EN: '/party invite <player name>'
-PARTY_INVITE_ME_EN: '§cОшибка, Вы не можете пригласить в группу самого себя'
-PARTY_INVITE_FRIEND_EN: '§cОшибка, данный игрок принимает приглашения только от своих друзей'
-PARTY_INVITE_ALREADY_EN: '§cИгрок %s уже имеет предложение на вступление в группу'
-PARTY_INVITE_LIMIT_EN: '§cЛимит группы превышен, лимит - %s'
-PARTY_INVITE_EN: '§6Party §8| §fПриглашение в группу отправлено игроку %s'
-PARTY_INVITE_OWNER_EN: '§6Party §8| §fОтправлять приглашения в группу может только её создатель!'
+PARTY_INVITE_ME_EN: "§cError, you can't invite yourself to the group"
+PARTY_INVITE_FRIEND_EN: '§cError, this player takes invites only from his(her) friends'
+PARTY_INVITE_ALREADY_EN: '§cPlayer %s already has invite to the group'
+PARTY_INVITE_LIMIT_EN: '§cLimit of the group exceeded, limit - %s'
+PARTY_INVITE_EN: '§6Party §8| §fInvite to the group sent to %s'
+PARTY_INVITE_OWNER_EN: '§6Party §8| §fSend invites to the group can only the group owner'
 
-PARTY_GUILD_EN: '§6Party §8| §fВы присоединились к группе гильдии игрока %s'
-PARTY_GUILD_ALERT_EN: '§6Party §8| %s §fприсоединился к группе гильдии'
-PARTY_GUILD_CREATE_EN: '§6Party §8| §fВы создали новую группу гильдии с игроком %s'
+PARTY_GUILD_EN: '§6Party §8| §fYou joined to the group of the player %s §fguild'
+PARTY_GUILD_ALERT_EN: '§6Party §8| %s §fjoined to the guild group'
+PARTY_GUILD_CREATE_EN: '§6Party §8| §fYou created new the guild group with player %s'
 
 PARTY_ACCEPT_FORMAT_EN: '/party accept <player name>'
-PARTY_ACCEPT_ALERT_EN: '§6Party §8| %s §fприсоединился к группе'
-PARTY_ACCEPT_EN: '§6Party §8| §fВы присоединились к группе игрока %s'
-PARTY_ACCEPT_CREATE_EN: '§6Party §8| §fВы создали новую группу с игроком %s'
-PARTY_ACCEPT_ME_EN: '§cОшибка, Вы не можете пригласить в группу самого себя'
+PARTY_ACCEPT_ALERT_EN: '§6Party §8| %s §fjoined to the group'
+PARTY_ACCEPT_EN: '§6Party §8| §fYou joined to the player %s §fgroup'
+PARTY_ACCEPT_CREATE_EN: '§6Party §8| §fYou created new group with player %s'
+PARTY_ACCEPT_ME_EN: "§cError, You can't invite yourself to the group"
 
 FRIEND_COMMAND_HELP_EN:
  - '§7/friends add <player name> §f- add player to friends list'
