@@ -1161,7 +1161,7 @@ FRIEND_PRESENT_FORMAT_RU: '/f present <ник друга>'
 FRIEND_PRESENT_NOT_RU: '§cОшибка, у вас ничего нет в руках'
 FRIEND_PRESENT_RU: '§6Друзья §8| §fВы отправили подарок другу %s'
 FRIEND_PRESENT_ALERT_RU: '§6Друзья §8| %s §fотправил вам подарок.'
-FRIEND_PRESENT_INVALID_RU: '§6Друзья §8| §cОшибка, ваш друг %s §cне находится на §aAnarchy§c, §aCreative§c или §aSkyBlock'
+FRIEND_PRESENT_INVALID_RU: '§6Друзья §8| §cОшибка, ваш друг %s §cне находится на §aSurvival§c, §aCreative§c или §aSkyBlock'
 FRIEND_PRESENT_NSERVER_RU: '§cОшибка, чтобы сделать подарок, вы должны быть на одном сервере с другом'
 
 LVL_UP_RU: '§a§l§kX§r §6§lУРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
@@ -1446,48 +1446,48 @@ FRIEND_COMMAND_HELP_EN:
  - '§7/friends present <player name> §f- send present for friend'
  - '§7/friends chat <message> §f- send all message for your friends'
  - '§7/friends tp <player name> §f- teleport to your friend server'
-FRIEND_NO_FRIENDS_EN: '§cУ вас нет друзей'
-FRIEND_NOTFRI_EN: '§cИгрок %s §cне является вашим другом'
-FRIEND_ALREADY_EN: '§cВы уже являетесь друзьями!'
-FRIEND_NO_REQUEST_EN: '§cУ вас нет запросов в друзья от игрока %s'
-FRIEND_YOU_LIMIT_EN: '§cВы привысили лимит на количество друзей, ваш лимит - %s'
-FRIEND_LIMIT_EN: '§cУказанный Вами игрок не может принимать заявки в друзья, поскольку его лимит превышен'
+FRIEND_NO_FRIENDS_EN: "§cYou haven't got friends"
+FRIEND_NOTFRI_EN: "§cPlayer %s §cisn't your friend"
+FRIEND_ALREADY_EN: '§cYou are already friends'
+FRIEND_NO_REQUEST_EN: "§cYou haven't got friend requests from player %s"
+FRIEND_YOU_LIMIT_EN: '§cYou exceeded the amount of friends limit, your limit - %s'
+FRIEND_LIMIT_EN: "§cThe player you specified can't accept friend requests, because his(her) limit is exceeded"
 
 FRIEND_ADD_FORMAT_EN: '/f add <player name>'
-FRIEND_ADD_EN: '§6Friends §8| §fЗапрос в друзья отправлен игроку %s'
-FRIEND_ADD_ME_EN: '§cВы не можете отправить заявку в друзья самому себе'
-FRIEND_ADD_NO_EN: '§cДанный игрок запретил отправлять ему запросы в друзья'
+FRIEND_ADD_EN: '§6Friends §8| §fFriend request was sent to %s'
+FRIEND_ADD_ME_EN: "§cYou can't send friend request yourself"
+FRIEND_ADD_NO_EN: '§cThis player forbad to send him(her) friend requests'
 
 FRIEND_CHAT_FORMAT_EN: '/f chat <message>'
 FRIEND_CHAT_EN: '§6Friends §8| §f%s §8» §7%s'
-FRIEND_CHAT_OFFLINE_EN: '§cУ вас нет друзей онлайн'
+FRIEND_CHAT_OFFLINE_EN: "§cYou haven't got online friends"
 
 FRIEND_ACCEPT_FORMAT_EN: '/f accept <player name>'
-FRIEND_ACCEPT_EN: '§6Friends §8| §fПоздравляем! Вы стали друзьями с игроком %s'
-FRIEND_ACCEPT_ALERT_EN: '§6Friends §8| §fПоздравляем! Вы стали друзьями с игроком %s'
+FRIEND_ACCEPT_EN: '§6Friends §8| §fCongratulations! You became friends with player %s'
+FRIEND_ACCEPT_ALERT_EN: '§6Friends §8| §fCongratulations! You became friends with player %s'
 
 FRIEND_REJECT_FORMAT_EN: '/f reject <player name>'
-FRIEND_REJECT_EN: '§6Friends §8| §fВы отклонили запрос в друзья от игрока %s'
-FRIEND_REJECT_ALERT_EN: '§6Friends §8| §fИгрок %s §fотклонил ваш запрос в друзья'
+FRIEND_REJECT_EN: '§6Friends §8| §fYou rejected friend request from player %s'
+FRIEND_REJECT_ALERT_EN: '§6Friends §8| §fPlayer %s §frejected your friend request'
 
 FRIEND_REMOVE_FORMAT_EN: '/f remove <player name>'
-FRIEND_REMOVE_ME_EN: '§cВы не можете удалить из друзей самого себя'
-FRIEND_REMOVE_EN: '§6Friends §8| §fИгрок %s §fбыл удален из вашего списка друзей'
-FRIEND_REMOVE_ALERT_EN: '§6Friends §8| §fИгрок %s §fудалил вас из друзей'
+FRIEND_REMOVE_ME_EN: "§cYou can't remove yourself from friends"
+FRIEND_REMOVE_EN: '§6Friends §8| §fPlayer %s §fwas removed from your friends list'
+FRIEND_REMOVE_ALERT_EN: '§6Friends §8| §fPlayer %s §fremoved you from friends'
 
-FRIEND_REQUESTS_NOT_EN: '§cУ вас нет непринятых заявок.'
+FRIEND_REQUESTS_NOT_EN: "§cYou have't got unaccepted friend requests."
 
 FRIEND_TP_FORMAT_EN: '/f tp <player name>'
-FRIEND_TP_ALREADY_EN: '§cВы уже на одном сервере'
-FRIEND_TP_EN: '§6Friends §8| %s §fтелепортировался к вам на сервер'
-FRIEND_TP_ALERT_EN: '§6Friends §8| §fВы были телепортированы на сервер игрока %s §f(§7%s§f)'
+FRIEND_TP_ALREADY_EN: '§cYou are already on the same server'
+FRIEND_TP_EN: '§6Friends §8| %s §fteleported to you on the server'
+FRIEND_TP_ALERT_EN: '§6Friends §8| §fYou were teleported on the server of player %s §f(§7%s§f)'
 
 FRIEND_PRESENT_FORMAT_EN: '/f present <player name>'
-FRIEND_PRESENT_NOT_EN: '§cОшибка, у вас ничего нет в руках'
-FRIEND_PRESENT_EN: '§6Friends §8| §fВы отправили подарок другу %s'
-FRIEND_PRESENT_ALERT_EN: '§6Friends §8| %s §fотправил вам подарок.'
-FRIEND_PRESENT_INVALID_EN: '§6Friends §8| §cОшибка, ваш друг %s §cне находится на §aAnarchy§c, §aCreative§c или §aSkyBlock'
-FRIEND_PRESENT_NSERVER_EN: '§cОшибка, чтобы сделать подарок, вы должны быть на одном сервере с другом'
+FRIEND_PRESENT_NOT_EN: "§cError, you haven't got anything in your hands"
+FRIEND_PRESENT_EN: '§6Friends §8| §fYou sent a present to %s'
+FRIEND_PRESENT_ALERT_EN: '§6Friends §8| %s §fsent you a present.'
+FRIEND_PRESENT_INVALID_EN: "§6Friends §8| §cError, your friend %s §cisn't on §aAnarchy§c, §aCreative§c or §aSkyBlock"
+FRIEND_PRESENT_NSERVER_EN: '§cError, to send a present, you have to be on the same server with friend'
 
 LVL_UP_EN: '§a§l§kX§r §6§lУРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
 NEW_LVL_EN: '§fВы достигли §d%s§f уровня!'
@@ -1514,31 +1514,31 @@ CORE_BROADCAST_EN: '§6Core §8| %s §f%s'
 VERIFY_BROADCAST_EN: '§6Verify §8| %s %s'
 VERIFY_INFO_BROADCAST_EN: '§6Verify §8| %s'
 KTEM_BROADCAST_EN: '§6Ktem §8| %s §f%s has writen you message: §a%s'
-MODERATION_BROADCAST_EN: '§cМодерация §8| %s §7%s'
+MODERATION_BROADCAST_EN: '§cМoderation §8| %s §7%s'
 INFO_BROADCAST_EN: '§7%s'
-ANSWER_BROADCAST_EN: '§cМодерация §8| %s §7%s игроку %s §8(§a%s§8) §7 -> §e%s'
-NEW_ASK_EN: '§cМодерация §8| %s §7задал вопрос -> §e%s'
+ANSWER_BROADCAST_EN: '§cModeration §8| %s §7%s player %s §8(§a%s§8) §7 -> §e%s'
+NEW_ASK_EN: '§cModeration §8| %s §7asked -> §e%s'
 
-PARTY_NEW_INVITE_EN: '   %s §fпригласил вас в группу'
-PARTY_NEW_GUILD_INVITE_EN: ' %s §fпригласил вас в группу гильдии'
-FRIEND_NEW_INVITE_EN: '   %s §fпредлагает вам дружить'
-GUILD_NEW_INVITE_EN: ' %s §fприглашает Вас в гильдию §e%s'
+PARTY_NEW_INVITE_EN: '   %s §finvited you to the group'
+PARTY_NEW_GUILD_INVITE_EN: ' %s §finvited youu to the guild group'
+FRIEND_NEW_INVITE_EN: '   %s §finvites you to be friends'
+GUILD_NEW_INVITE_EN: ' %s §finvites you to the guild §e%s'
 INVITE_TITLE_EN: '              §8 -| §6§l%s §8|-'
-FRIEND_TITLE_EN: 'ДРУЗЬЯ'
-PARTY_TITLE_EN: 'PARTY'
-GUILD_TITLE_EN: 'ГИЛЬДИИ'
-INVITE_ACCEPT_BUTTON_EN: '          §a§l[ПРИНЯТЬ]'
-INVITE_DECLINE_BUTTON_EN: ' §c§l[ОТКЛОНИТЬ]'
+FRIEND_TITLE_EN: 'FRIENDS'
+PARTY_TITLE_EN: 'PARTIES'
+GUILD_TITLE_EN: 'GUILDS'
+INVITE_ACCEPT_BUTTON_EN: '          §a§l[ACCEPT]'
+INVITE_DECLINE_BUTTON_EN: ' §c§l[REJECT]'
 
-ASK_HOVER_EN: '§7Нажмите, чтобы ответить игроку\n§7На вопрос: §a%s'
-FRIEND_HOVER_YES_EN: 'Нажмите, чтобы начать дружить!'
-FRIEND_HOVER_NO_EN: 'Нажмите, чтобы послать на***'
-PARTY_HOVER_YES_EN: 'Нажмите, чтобы принять приглашение'
-PARTY_HOVER_NO_EN: 'Нажмите, чтобы отклонить приглашение'
-PARTY_GUILD_HOVER_YES_EN: 'Нажмите, чтобы принять приглашение'
-PARTY_GUILD_HOVER_NO_EN: 'Нажмите, чтобы отклонить приглашение'
-GUILD_HOVER_YES_EN: 'Нажмите, чтобы принять приглашение'
-GUILD_HOVER_NO_EN: 'Нажмите, чтобы отклонить приглашение'
+ASK_HOVER_EN: '§7Click, to answer player\n§7On question: §a%s'
+FRIEND_HOVER_YES_EN: 'Click, to be friends'
+FRIEND_HOVER_NO_EN: 'Click, to reject'
+PARTY_HOVER_YES_EN: 'Click, to accept invition'
+PARTY_HOVER_NO_EN: 'Click, to reject invition'
+PARTY_GUILD_HOVER_YES_EN: 'Click, to accept invition'
+PARTY_GUILD_HOVER_NO_EN: 'Click, to reject invition'
+GUILD_HOVER_YES_EN: 'Click, to accept invition'
+GUILD_HOVER_NO_EN: 'Click, to reject invition'
 
 
 GUILD_NO_EN: '§cВы не состоите в гильдии'
@@ -1742,7 +1742,7 @@ GUILD_DELHOME_ALERT_RU: ''
 
 GUILD_SETHOME_RU: '§6Гильдии §8| §fТочка дома гильдии была установлена'
 GUILD_SETHOME_ALERT_RU: '§2Гильдия §8| %s §fустановил точку кланового дома'
-GUILD_SETHOME_INVALID_RU: '§cУстанавливать дом гильдии можно только на режимах: Anarchy, Creative, SkyBlock'
+GUILD_SETHOME_INVALID_RU: '§cУстанавливать дом гильдии можно только на режимах: Survival, Creative, SkyBlock'
 
 GUILD_INFO_FORMAT_RU: '/guild info <ник>'
 GUILD_INFO_RU: |-
@@ -1948,7 +1948,7 @@ GUILD_DELHOME_ALERT_EN: ''
 
 GUILD_SETHOME_EN: '§6Guild §8| §fТочка дома гильдии была установлена'
 GUILD_SETHOME_ALERT_EN: '§2Гильдия §8| %s §fустановил точку кланового дома'
-GUILD_SETHOME_INVALID_EN: '§cУстанавливать дом гильдии можно только на режимах: Anarchy, Creative, SkyBlock'
+GUILD_SETHOME_INVALID_EN: '§cУстанавливать дом гильдии можно только на режимах: Survival, Creative, SkyBlock'
 
 GUILD_INFO_FORMAT_EN: '/guild info <ник>'
 GUILD_INFO_EN: |-
@@ -1964,7 +1964,7 @@ PERSONALUP_DISABLE_RU: '§cДля вас недоступно повышение
 PERSONALUP_KEY_NOT_ACTIVE_RU: '§cОшибка, ключ не действителен.'
 PERSONALUP_KEY_REASON_RU: '§4Ошибка #23 §cВведен не действительный ключ.'
 
-DISABLE_COMMAND_IN_GAME_RU: '%s§cThis feature is disabled'
+DISABLE_COMMAND_IN_GAME_RU: '%sThis feature is disabled'
 
 KTEMRULES_NEW_RU: '§fНовее правила можете найти здесь §aforum.filkworld.cf/ktemrules'
 
@@ -2794,20 +2794,20 @@ HAT_ERROR_EN: '§cОшибка, вы ничего не держите в рук�
 LIST_RU:
 - ''
 - '§6Cервер §8| §fНа режиме %s'
-#- ' §a▪ §fКрутые ребята: %s'
-#- ' §a▪ §fИгроки: %s'
-#- ' §a▪ §fДонатеры: %s'
-#- ' §a▪ §fАдминистрация: %s'
+- ' §a▪ §fКрутые ребята: %s'
+- ' §a▪ §fИгроки: %s'
+- ' §a▪ §fДонатеры: %s'
+- ' §a▪ §fАдминистрация: %s'
 - ''
 LIST_EMPTY_RU: '§8Никого нет'
 
 LIST_EN:
 - ''
 - '§6Cервер §8| §fНа режиме %s'
-#- ' §a▪ §fКрутые ребята: %s'
-#- ' §a▪ §fИгроки: %s'
-#- ' §a▪ §fДонатеры: %s'
-#- ' §a▪ §fАдминистрация: %s'
+- ' §a▪ §fКрутые ребята: %s'
+- ' §a▪ §fИгроки: %s'
+- ' §a▪ §fДонатеры: %s'
+- ' §a▪ §fАдминистрация: %s'
 - ''
 LIST_EMPTY_EN: '§8Никого нет'
 
