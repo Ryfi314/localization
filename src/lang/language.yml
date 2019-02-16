@@ -1742,7 +1742,7 @@ GUILD_DELHOME_ALERT_RU: ''
 
 GUILD_SETHOME_RU: '§6Гильдии §8| §fТочка дома гильдии была установлена'
 GUILD_SETHOME_ALERT_RU: '§2Гильдия §8| %s §fустановил точку кланового дома'
-GUILD_SETHOME_INVALID_RU: '§cУстанавливать дом гильдии можно только на режимах: Survival, Creative, SkyBlock'
+GUILD_SETHOME_INVALID_RU: '§cУстанавливать дом гильдии можно только на режимах: Anarchy, Creative, SkyBlock'
 
 GUILD_INFO_FORMAT_RU: '/guild info <ник>'
 GUILD_INFO_RU: |-
