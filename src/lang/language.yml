@@ -910,6 +910,9 @@ CORE_NPC_COMMAND_HELP_RU:
 
 NPC_CREATE_FORMAT_RU: '/ktemnpc create <id> <тип> <название>'
 NPC_ALREADY_EXIST_RU: '§cОшибка, npc с id %s уже существует'
+NPC_CREATE_ERROR_RU: |-
+ §cОшибка, доступные типы:
+ %s
 NPC_CREATE_SUCCESS_RU: '§6NPC §8| §fВы создали npc с именем §a%s§f под id - §e%s'
 NPC_DELETE_FORMAT_RU: '/ktemnpc delete <id>'
 NPC_NOT_FOUND_RU: '§cОшибка, npc с id %s не найден'
@@ -1242,6 +1245,9 @@ CORE_NPC_COMMAND_HELP_EN:
 
 NPC_CREATE_FORMAT_EN: '/ktemnpc create <id> <тип> <название>'
 NPC_ALREADY_EXIST_EN: '§cОшибка, npc с id %s уже существует'
+NPC_CREATE_ERROR_RU: |-
+ §cОшибка, доступные типы:
+ %s
 NPC_CREATE_SUCCESS_EN: '§6NPC §8| §fВы создали npc с именем §a%s§f под id - §e%s'
 NPC_DELETE_FORMAT_EN: '/ktemnpc delete <id>'
 NPC_NOT_FOUND_EN: '§cОшибка, npc с id %s не найден'
@@ -2019,10 +2025,6 @@ BANIP_ALREADY_RU: '§cАдрес %s уже заблокирован'
 MUTE_ALREADY_RU: '§cУ игрока %s уже заблокирован чат'
 BANIP_NOT_FOUND_RU: '§cИгрок %s не найден, или адрес указан неверно'
 
-UNBANIP_NO_RU: '§cАдрес %s, не заблокирован'
-UNBAN_NO_RU: '§cИгрок %s, не заблокирован'
-UNMUTE_NO_RU: '§cЧат игрока %s, не заблокирован'
-
 SETTINGS_DONATECHAT_DISABLE_RU: '§cВы отключили чат донатеров. Чтобы написать туда, включите его в личных настройках'
 
 REPORT_ALREADY_SENT_RU: '§cВы уже отправляли жалобу на данного игрока'
@@ -2032,6 +2034,12 @@ REPORT_FOR_PERSONAL_RU:
  - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
 REPORT_SENT_RU: '§eЖалоба отправлена. Чтобы ее рассмотрели модераторы необходимо, чтобы еще один человек подал жалобу на игрока'
 REPORT_TWO_SENT_RU: '§cЖалобы §8| §fЖалоба отправлена. Вы не первый, кто жаловался на этого игрока, наши §9модераторы§f были оповещены'
+REPORT_PLAYER_GUILTY_RU: '§cЖалобы §8| §fИгрок %s, на которого Вы подавали жалобу был наказан. Спасибо за содействие в поимке!'
+REPORT_PLAYER_INNOCENT_RU: '%s §fотклонил вашу жалобу на %s'
+REPORT_BROADCAST_PLAYER_GUILTY_RU: '§cМодерация §8| §7%s §7посчитал, что §e%s §f- §cвиновен'
+REPORT_BROADCAST_PLAYER_INNOCENT_RU: '§cМодерация §8| §7%s §7посчитал, что §e%s §f- §aневиновен'
+REPORT_PLAYER_STARTED_SPECTATE_RU: '§cМодерация §8| §7%s §7отправился следить за §7%s'
+REPORT_NO_PERM_ACTIONS_RU: '§cЖалобы §8| §fПринимать решения по жалобам могут только модераторы и выше.'
 
 ASK_DELAY_RU: '§cОшибка, отправить новый вопрос можно будет через %s'
 ASK_ALREADY_SENT_RU: '§cВы уже задавали вопрос, дождитесь ответа на него'
@@ -2203,6 +2211,7 @@ GUILDUNMUTE_NOT_FOUND_RU: '§cИстория разблокировок чата
 
 SKIN_CLEAR_RU: '§6Skins §8| §fВы сбросили свой скин'
 SKIN_SET_RU: '§6Skins §8| §fВы установили скин §a%s'
+SKIN_NO_PREMIUM_RU: '§cОшибка, %s не имеет лицензии'
 
 SERVER_DENIED_RU: '§6Сервер §8| §fДанный сервер запрещен для телепортации'
 SERVER_NOT_FOUND_RU: '§cОшибка, указанный сервер не найден'
@@ -2286,10 +2295,13 @@ BAN_ALREADY_EN: '§cИгрок %s уже заблокирован'
 BANIP_ALREADY_EN: '§cАдрес %s уже заблокирован'
 MUTE_ALREADY_EN: '§cУ игрока %s уже заблокирован чат'
 BANIP_NOT_FOUND_EN: '§cИгрок %s не найден, или адрес указан неверно'
+UNBAN_NO_RU: '§cИгрок %s, не заблокирован'
+UNMUTE_NO_RU: '§cЧат игрока %s, не заблокирован'
+UNBANIP_NO_RU: '§cАдрес %s, не заблокирован'
 
-UNBANIP_NO_EN: '§cАдрес %s, не заблокирован'
 UNBAN_NO_EN: '§cИгрок %s, не заблокирован'
 UNMUTE_NO_EN: '§cЧат игрока %s, не заблокирован'
+UNBANIP_NO_EN: '§cАдрес %s, не заблокирован'
 
 SETTINGS_DONATECHAT_DISABLE_EN: '§cВы отключили чат донатеров. Чтобы написать туда, включите его в личных настройках'
 
@@ -2300,6 +2312,12 @@ REPORT_FOR_PERSONAL_EN:
  - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
 REPORT_SENT_EN: '§eЖалоба отправлена. Чтобы ее рассмотрели модераторы необходимо, чтобы еще один человек подал жалобу на игрока'
 REPORT_TWO_SENT_EN: '§cЖалобы §8| §fЖалоба отправлена. Вы не первый, кто жаловался на этого игрока, наши §9модераторы§f были оповещены'
+REPORT_PLAYER_GUILTY_EN: '§cЖалобы §8| §fИгрок %s, на которого Вы подавали жалобу был наказан. Спасибо за содействие в поимке!'
+REPORT_PLAYER_INNOCENT_EN: '%s §fотклонил вашу жалобу на %s'
+REPORT_BROADCAST_PLAYER_GUILTY_EN: '§cМодерация §8| §7%s §7посчитал, что §e%s §f- §cвиновен'
+REPORT_BROADCAST_PLAYER_INNOCENT_EN: '§cМодерация §8| §7%s §7посчитал, что §e%s §f- §aневиновен'
+REPORT_PLAYER_STARTED_SPECTATE_EN: '§cМодерация §8| §7%s §7отправился следить за §7%s'
+REPORT_NO_PERM_ACTIONS_EN: '§cЖалобы §8| §fПринимать решения по жалобам могут только модераторы и выше.'
 
 ASK_DELAY_EN: '§cОшибка, отправить новый вопрос можно будет через %s'
 ASK_ALREADY_SENT_EN: '§cВы уже задавали вопрос, дождитесь ответа на него'
@@ -2471,6 +2489,7 @@ GUILDUNMUTE_NOT_FOUND_EN: '§cИстория разблокировок чата
 
 SKIN_CLEAR_EN: '§6Skins §8| §fВы сбросили свой скин'
 SKIN_SET_EN: '§6Skins §8| §fВы установили скин §a%s'
+SKIN_NO_PREMIUM_EN: '§cОшибка, %s не имеет лицензии'
 
 SERVER_DENIED_EN: '§6Server §8| §fДанный сервер запрещен для телепортации'
 SERVER_NOT_FOUND_EN: '§cОшибка, указанный сервер не найден'
@@ -2941,6 +2960,14 @@ VERIFY_LASTTIMED_EN: '§6Verify §8| §cСессия истекла'
 
 LANGUAGE_SELECT_RU: '§6Сервер §8| §fВы выбрали язык §a%s'
 LANGUAGE_SELECT_EN: '§6Server §8| §fLanguage change to §a%s'
+
+REJOIN_NOT_FOUND_RU: '§cОшибка, Вы нигде не играли или сервер был перезагружен'
+REJOIN_INFO_RU: '§fЕсли Вы были §cкикнуты§f, напишите §7/rejoin§f для повторного входа в игру'
+REJOIN_RU: '§aВы повторно вошли в игру на сервере %s'
+
+REJOIN_NOT_FOUND_EN: '§cОшибка, Вы нигде не играли или сервер был перезагружен'
+REJOIN_INFO_En: '§fЕсли Вы были §cкикнуты§f, напишите §7/rejoin§f для повторного входа в игру'
+REJOIN_EN: '§aВы повторно вошли в игру на сервере %s'
 
 #Guis ru
 GUI_BACK_NAME_RU: '§cНазад'
@@ -5258,9 +5285,9 @@ GUI_GAMES_BEDWARS_RU: '§bBedWars'
 GUI_GAMES_ANARCHY_RU: '§bAnarchy'
 GUI_GAMES_PARKOUR_RU: '§bParkour'
 GUI_GAMES_CREATIVE_RU: '§bCreative'
-GUI_GAMES_DONATE_RU: '§bPrivileges'
-GUI_GAMES_LOBBY_RU: '§bMain lobby'
-GUI_GAMES_NAME_RU: 'Game selection'
+GUI_GAMES_DONATE_RU: '§bПривилегии'
+GUI_GAMES_LOBBY_RU: '§bГлавное лобби'
+GUI_GAMES_NAME_RU: 'Выбор режима'
 
 GUI_GAMES_SKYWARS_EN: '§bSkyWars'
 GUI_GAMES_LUCKYWARS_EN: '§bLuckyWars'
