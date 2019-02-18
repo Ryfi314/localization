@@ -850,7 +850,7 @@ NO_NEVER_PLAYER_EN: '§cError, player %s never played on our project'
 
 # Новые сообщения с она/подруга
 NOT_FOUND_PLAYER_RU: '§c%s %s§c не %s или %s оффлайн'
-NOT_FOUND_PLAYER_EN: '§c%s %s§c not %s or %s is offline'
+NOT_FOUND_PLAYER_EN: '§c%s %s§c not %s or %s offline'
 
 PLAYER_NAME_1_RU: 'Ваша подруга'
 PLAYER_NAME_2_RU: 'найдена'
@@ -895,7 +895,7 @@ CORE_COMMAND_HELP_RU:
  - '§7/ktemcore removeadministrator <ключ> <администратор> §f- снять администратора'
  - '§7/ktemcore setadministrator <ключ> <ник> §f- назначить нового администратора'
 CORE_NPC_COMMAND_HELP_RU:
- - '§6NPC §8| §fCommands list:'
+ - '§6NPC §8| §fСписок команд:'
  - '§7/ktemcore npc create <id> <тип> <название> §f- создание npc'
  - '§7/ktemcore npc delete <id> §f- удаление'
  - '§7/ktemcore npc update <id> §f- обновить npc'
@@ -904,7 +904,7 @@ CORE_NPC_COMMAND_HELP_RU:
  - '§7/ktemcore npc tphere <id> §f- телепортация npc к себе'
  - '§7/ktemcore npc clearcmds <id> §f- очистить все команды'
  - '§7/ktemcore npc setcommand <id> <команда> §f- добавить команду'
- - '§7/ktemcore npc info <id> §f- информация о np'
+ - '§7/ktemcore npc info <id> §f- информация о npc'
  - '§7/ktemcore npc tp <id> §f- телепортация к npc'
  - '§7/ktemcore npc list §f- список всех npc'
 
@@ -922,20 +922,20 @@ NPC_SUCCESS_REMOVED_CMDS_RU: '§6NPC §8| §fВы очистили команд�
 NPC_TPHERE_FORMAT_RU: '/ktemnpc tphere <id>'
 NPC_SUCCESS_TPHERE_RU: '§6NPC §8| §fВы телепортировали npc с id - §e%s§f к себе'
 NPC_INFO_FORMAT_RU: '/ktemnpc info <id>'
-NPC_INFORMATION_RU:
- - '§eИнформация о NPC:'
- - ' §f- ID npc: §a%s'
- - ' §f- Имя: %s'
- - ' §f- Тип: §a%s'
- - ' §f- Прозрачность: %s'
- - ' §f- Команды: §a%s'
- - ' §7Локация:'
- - ' §8§l▹ §fX: §e%s'
- - ' §8§l▹ §fY: §e%s'
- - ' §8§l▹ §fZ: §e%s'
- - ' §8§l▹ §fYaw: §e%s'
- - ' §8§l▹ §fPitch: §e%s'
- - ' §8§l▹ §fМир: §e%s'
+NPC_INFORMATION_RU: |-
+ §eИнформация о NPC:
+ §f- ID npc: §a%s
+ §f- Имя: %s
+ §f- Тип: §a%s
+ §f- Прозрачность: %s
+ §f- Команды: §a%s
+ §7Локация:
+ §8§l ▹ §fX: §e%s
+ §8§l ▹ §fY: §e%s
+ §8§l ▹ §fZ: §e%s
+ §8§l ▹ §fYaw: §e%s
+ §8§l ▹ §fPitch: §e%s
+ §8§l ▹ §fМир: §e%s
 NPC_TP_FORMAT_RU: '/ktemnpc tp <id>'
 NPC_SUCCESS_TELEPORTED_RU: '§6NPC §8| §fВы телепортированы к npc - %s'
 NPC_LIST_RU: '§6NPC §8| §fСписок всех npc:'
@@ -1225,115 +1225,115 @@ GUILD_HOVER_NO_RU: 'Нажмите, чтобы отклонить приглаш
 
 
 CORE_COMMAND_HELP_EN:
- - '§7/ktemcore money §f- управление экономикой'
- - '§7/ktemcore npc §f- управление NPC'
- - '§7/ktemcore whois <ник> §f- полная информация об игроке'
- - '§7/ktemcore hide §f- скрыть себя'
- - '§7/ktemcore servers §f- управление серверами'
- - '§7/ktemcore delstats <ключ> <ник> §f- понижение статуса персонала'
- - '§7/ktemcore setstats <ключ> <ник> <статус> §f- установить статус игроку'
- - '§7/ktemcore removeadministrator <ключ> <администратор> §f- снять администратора'
- - '§7/ktemcore setadministrator <ключ> <ник> §f- назначить нового администратора'
+ - '§7/ktemcore money §f- control economy'
+ - '§7/ktemcore npc §f- control NPC'
+ - '§7/ktemcore whois <name> §f- detalied information for player'
+ - '§7/ktemcore hide §f- hide your'
+ - '§7/ktemcore servers §f- conrtol servers'
+ - '§7/ktemcore delstats <key> <name> §f- понижение статуса персонала'
+ - '§7/ktemcore setstats <key> <name> <stats> §f- set stats for player'
+ - '§7/ktemcore removeadministrator <key> <administrator name> §f- take off administrator'
+ - '§7/ktemcore setadministrator <key> <player name> §f- to appoint administrator'
 CORE_NPC_COMMAND_HELP_EN:
- - '§6NPC §8| §fСписок команд:'
- - '§7/ktemcore npc create <id> <тип> <название> §f- создание npc'
- - '§7/ktemcore npc delete <id> §f- удаление'
- - '§7/ktemcore npc update <id> §f- обновить npc'
- - '§7/ktemcore npc setname <id> <имя> §f- сменить имя'
- - '§7/ktemcore npc setglow <id> <true/false> §f- сменить прозрачность'
- - '§7/ktemcore npc tphere <id> §f- телепортация npc к себе'
- - '§7/ktemcore npc clearcmds <id> §f- очистить все команды'
- - '§7/ktemcore npc setcommand <id> <команда> §f- добавить команду'
- - '§7/ktemcore npc info <id> §f- информация о np'
- - '§7/ktemcore npc tp <id> §f- телепортация к npc'
- - '§7/ktemcore npc list §f- список всех npc'
+ - '§6NPC §8| §fCommands list:'
+ - '§7/ktemcore npc create <id> <type> <name> §f- create npc'
+ - '§7/ktemcore npc delete <id> §f- delete npc'
+ - '§7/ktemcore npc update <id> §f- update npc'
+ - '§7/ktemcore npc setname <id> <name> §f- change name for npc'
+ - '§7/ktemcore npc setglow <id> <true/false> §f- change glow'
+ - '§7/ktemcore npc tphere <id> §f- teleport npc to your'
+ - '§7/ktemcore npc clearcmds <id> §f- clear all commands for npc'
+ - '§7/ktemcore npc setcommand <id> <command> §f- add command'
+ - '§7/ktemcore npc info <id> §f- info for npc'
+ - '§7/ktemcore npc tp <id> §f- teleport to npc'
+ - '§7/ktemcore npc list §f- npc list'
 
-NPC_CREATE_FORMAT_EN: '/ktemnpc create <id> <тип> <название>'
-NPC_ALREADY_EXIST_EN: '§cError, npc с id %s уже существует'
+NPC_CREATE_FORMAT_EN: '/ktemnpc create <id> <type> <name>'
+NPC_ALREADY_EXIST_EN: '§cError, npc for id %s already created'
 NPC_CREATE_ERROR_RU: |-
  §cОшибка, доступные типы:
  %s
-NPC_CREATE_SUCCESS_EN: '§6NPC §8| §fВы создали npc с именем §a%s§f под id - §e%s'
+NPC_CREATE_SUCCESS_EN: '§6NPC §8| §fYou created npc for name §a%s§f or id - §e%s'
 NPC_DELETE_FORMAT_EN: '/ktemnpc delete <id>'
-NPC_NOT_FOUND_EN: '§cError, npc с id %s не найден'
-NPC_REMOVED_EN: '§6NPC §8| §fnpc с id - §e%s§f удален'
+NPC_NOT_FOUND_EN: '§cError, npc for id %s not found'
+NPC_REMOVED_EN: '§6NPC §8| §fnpc с id - §e%s§f deleted'
 NPC_CLEARCMD_FORMAT_EN: '/ktemnpc clearcmds <id>'
-NPC_SUCCESS_REMOVED_CMDS_EN: '§6NPC §8| §fВы очистили команды у npc с id - §e%s'
+NPC_SUCCESS_REMOVED_CMDS_EN: '§6NPC §8| §fYou clear commands for npc in id - §e%s'
 NPC_TPHERE_FORMAT_EN: '/ktemnpc tphere <id>'
-NPC_SUCCESS_TPHERE_EN: '§6NPC §8| §fВы телепортировали npc с id - §e%s§f к себе'
+NPC_SUCCESS_TPHERE_EN: '§6NPC §8| §fYou teleported npc in id - §e%s§f to your'
 NPC_INFO_FORMAT_EN: '/ktemnpc info <id>'
-NPC_INFORMATION_EN:
- - '§eИнформация о NPC:'
- - '§f- ID npc: §a%s'
- - '§f- Имя: %s'
- - '§f- Тип: §a%s'
- - '§f- Прозрачность: %s'
- - '§f- Команды: §a%s'
- - '§7Локация:'
- - ' §8§l▹ §fX: §e%s'
- - ' §8§l▹ §fY: §e%s'
- - ' §8§l▹ §fZ: §e%s'
- - ' §8§l▹ §fYaw: §e%s'
- - ' §8§l▹ §fPitch: §e%s'
- - ' §8§l▹ §fМир: §e%s'
+NPC_INFORMATION_EN: |-
+ §eInformation at NPC:
+ §f- NPC ID: §a%s
+ §f- Name: %s
+ §f- Type: §a%s
+ §f- Glowing: %s
+ §f- Commands: §a%s
+ §7Location:
+ §8§l ▹ §fX: §e%s
+ §8§l ▹ §fY: §e%s
+ §8§l ▹ §fZ: §e%s
+ §8§l ▹ §fYaw: §e%s
+ §8§l ▹ §fPitch: §e%s
+ §8§l ▹ §fWorld: §e%s
 NPC_TP_FORMAT_EN: '/ktemnpc tp <id>'
-NPC_SUCCESS_TELEPORTED_EN: '§6NPC §8| §fВы телепортированы к npc - %s'
-NPC_LIST_EN: '§6NPC §8| §fСписок всех npc:'
+NPC_SUCCESS_TELEPORTED_EN: '§6NPC §8| §fYou teleported to npc - %s'
+NPC_LIST_EN: '§6NPC §8| §fNpc total list:'
 NPC_LIST_FORMAT_EN: '§f- §6#%s §fID: §a%s'
 NPC_UPDATE_FORMAT_EN: '/ktemnpc update <id>'
-NPC_SUCCESS_UPDATE_EN: '§6NPC §8| §fВы обновили npc - %s'
+NPC_SUCCESS_UPDATE_EN: '§6NPC §8| §fYou update npc - %s'
 NPC_SETGLOW_FORMAT_EN: '/ktemnpc setglow <id> <true/false>'
-NPC_SETGLOW_EN: '§6NPC §8| §fNpc - §a%s§f установлена прозрачность §e%s'
-NPC_SETNAME_FORMAT_EN: '/ktemnpc setname <id> <имя>'
-NPC_SETNAME_EN: '§6NPC §8| §fNpc с id - §a%s§f §fпереименован в %s'
-NPC_SETCOMMAND_FORMAT_EN: '/ktemnpc setcommand <id> <команда>'
-NPC_SETCOMMAND_EN: '§6NPC §8| §fВы установили команду §a%s§f npc с id - §e%s'
+NPC_SETGLOW_EN: '§6NPC §8| §fNpc - §a%s§f set glowing §e%s'
+NPC_SETNAME_FORMAT_EN: '/ktemnpc setname <id> <name>'
+NPC_SETNAME_EN: '§6NPC §8| §fNpc for id - §a%s§f §frenamed to %s'
+NPC_SETCOMMAND_FORMAT_EN: '/ktemnpc setcommand <id> <command>'
+NPC_SETCOMMAND_EN: '§6NPC §8| §fYou set command §a%s§f for npc id - §e%s'
 
-CORE_HIDE_ENABLE_EN: '§6Core §8| §fВы скрыли себя'
-CORE_HIDE_DISABLE_EN: '§6Core §8| §fВы отключили скрытие'
+CORE_HIDE_ENABLE_EN: '§6Core §8| §fYour enable hide for your'
+CORE_HIDE_DISABLE_EN: '§6Core §8| §fYour disable hide'
 
 CORE_MONEY_COMMAND_HELP_EN:
- - '§6Money §8| §fСписок команд:'
- - '§7/ktemcore money <ключ> check <ник> §f- проверка баланса'
- - '§7/ktemcore money <ключ> add <ник> <монеты> §f- выдача монет'
- - '§7/ktemcore money <ключ> rem <ник> <монеты> §f- удаление монет'
-CORE_MONEY_CHECK_EN: '§6Баланс §8| §fНа аккаунте %s §a%s §fмонет'
-CORE_MONEY_CHECK_FORMAT_EN: '/ktemcore money <ключ> check <ник>'
-CORE_MONEY_ERROR_EN: '§cВведена неверная сумма'
-CORE_MONEY_ADD_EN: '§6Баланс §8| §fНа аккаунт %s§f добавлено §a%s §fмонет'
-CORE_MONEY_ADD_FORMAT_EN: '/ktemcore money <ключ> add <ник> <монеты>'
-CORE_MONEY_REMOVE_EN: '§6Баланс §8| §fС аккаунта %s§f снятно §a%s §fмонет'
-CORE_MONEY_REMOVE_FORMAT_EN: '/ktemcore money <ключ> rem <ник> <монеты>'
+ - '§6Money §8| §fCommands list:'
+ - '§7/ktemcore money <key> check <name> §f- chack balance'
+ - '§7/ktemcore money <key> add <name> <money> §f- give money'
+ - '§7/ktemcore money <key> rem <name> <money> §f- take money'
+CORE_MONEY_CHECK_EN: '§6Balance §8| §fFor account %s §a%s §fmoney'
+CORE_MONEY_CHECK_FORMAT_EN: '/ktemcore money <key> check <name>'
+CORE_MONEY_ERROR_EN: '§cSum incorrect'
+CORE_MONEY_ADD_EN: '§6Balance §8| §fFor account %s§f added §a%s §fmoney'
+CORE_MONEY_ADD_FORMAT_EN: '/ktemcore money <key> add <name> <money>'
+CORE_MONEY_REMOVE_EN: '§6Balance §8| §fFor account %s§f take §a%s §fmoney'
+CORE_MONEY_REMOVE_FORMAT_EN: '/ktemcore money <key> rem <name> <money>'
 
-CORE_WRONGKEY_EN: '§cError, не верный ключ'
-CORE_REASON_WRONGKEY_EN: '§4Ошибка #14 §cВведен не верный ключ.'
+CORE_WRONGKEY_EN: '§cError, key is incorrect'
+CORE_REASON_WRONGKEY_EN: '§4Error #14 §cWriten a invalid key.'
 
-CORE_WHOIS_FORMAT_EN: '/ktemcore whois <ник>'
-CORE_WHOIS_YT_EN: '§f- YouTube канал: §a%s'
-CORE_WHOIS_KTEMXP_EN: '§f- Проценты повышения: §a%s'
+CORE_WHOIS_FORMAT_EN: '/ktemcore whois <name>'
+CORE_WHOIS_YT_EN: '§f- YouTube channel: §a%s'
+CORE_WHOIS_KTEMXP_EN: '§f- Percent boost: §a%s'
 CORE_WHOIS_EN: |-
- §eИнформация об игроке %s
- §f- ID игрока: §a%s
- §f- Привилегия: §a%s
- §f- Ктемов: §a%s
- §f- Монет: §a%s
- §f- Золота: §a%s
- §f- Уровень игрока: §a%s
- §f- Опыт игрока: §a%s
- §f- Ключей: §a%s
+ §eInfo for player %s
+ §f- player ID: §a%s
+ §f- Rank: §a%s
+ §f- Ktems: §a%s
+ §f- Money: §a%s
+ §f- Golds: §a%s
+ §f- Player level: §a%s
+ §f- Experience: §a%s
+ §f- Keys: §a%s
 
-CORE_ALREADY_ADMINISTRATOR_EN: '§cДанный игрок уже администратор'
-CORE_SETADMINISTRATOR_EN: '§eИгроку %s§e был установлен статус администратор'
-CORE_SETADMINISTRATOR_FORMAT_EN: '/ktemcore setadministrator <ключ> <ник>'
-CORE_REMOVEADMINISTRATOR_EN: '§eАдминистратор %s§e был удален'
-CORE_NO_ADMINISTRATOR_EN: '§cИгрок %s §cне является администратором'
-CORE_REMOVEADMINISTRATOR_FORMAT_EN: '/ktemcore removeadministrator <ключ> <администратор>'
-CORE_DELSTATS_EN: '§eС игрока %s §eбыли сняты все привилегии'
-CORE_NO_PERSONAL_EN: '§cИгрок %s §cне состоит в персонале или статусе'
-CORE_DELSTATS_FORMAT_EN: '/ktemcore delstats <ключ> <ник>'
-CORE_SETSTATS_EN: '§eИгроку %s§e установлен статус %s'
-CORE_STATS_INVALID_EN: '§cВы указали неверный статус. Доступные статусы: §fTester, Builder, YouTube, Junior, Helper, Moder'
-CORE_SETSTATS_FORMAT_EN: '/ktemcore setstats <ключ> <ник> <статус>'
+CORE_ALREADY_ADMINISTRATOR_EN: '§cPlayer already administrator'
+CORE_SETADMINISTRATOR_EN: '§eИгроку %s§e was set stats administrator'
+CORE_SETADMINISTRATOR_FORMAT_EN: '/ktemcore setadministrator <key> <name>'
+CORE_REMOVEADMINISTRATOR_EN: '§eAdministrator %s§e was removed'
+CORE_NO_ADMINISTRATOR_EN: '§cPlayer %s §cis not administrator'
+CORE_REMOVEADMINISTRATOR_FORMAT_EN: '/ktemcore removeadministrator <key> <administrator name>'
+CORE_DELSTATS_EN: '§eFor player %s §eremoved all ranked'
+CORE_NO_PERSONAL_EN: '§cPlayer %s §cnot composed for rank or stats'
+CORE_DELSTATS_FORMAT_EN: '/ktemcore delstats <key> <name>'
+CORE_SETSTATS_EN: '§ePlayer %s§e set stats %s'
+CORE_STATS_INVALID_EN: '§cYour indicated incorrent stats. Avainable stats: §fTester, Builder, YouTube, Junior, Helper, Moder'
+CORE_SETSTATS_FORMAT_EN: '/ktemcore setstats <key> <name> <stats>'
 
 HACK_REASON_EN: '§4Error #3 §cSuspicion of hacking'
 VZLOM_REASON_EN: '§cError #14 Please, contact group » §a§nvk.com/Ktem_Projects'
@@ -1507,11 +1507,11 @@ GET_REWARD_EN: '§7Go to the profile to get your reward'
 LEVEL_COMMAND_1_EN: '§6Leveling §8| §fYou have §d%s§f level'
 LEVEL_COMMAND_2_EN: '§6Leveling §8| §fTo the next level you need §a%s§f exp more'
 
-BOX_NO_KEY_EN: '§cYou have not keys'
-BOX_WORK_EN: '§cWait... Chest scrolls!'
-BOX_OPEN_YOU_EN: '§fYou started open a chest...'
-BOX_WINNER_EN: '§fYou won %s§f item %s'
-BOX_WINNER_OTHER_EN: '%s §fWon %s§f item %s'
+BOX_NO_KEY_EN: '§bLuckyChest §8| §cYou have not keys'
+BOX_WORK_EN: '§bLuckyChest §8| §cWait... Chest scrolls!'
+BOX_OPEN_YOU_EN: '§bLuckyChest §8| §fYou started open a chest...'
+BOX_WINNER_EN: '§bLuckyChest §8| §fYou won %s§f item %s'
+BOX_WINNER_OTHER_EN: '§bLuckyChest §8| %s §fWon %s§f item %s'
 BOX_KEYS_EN: '§dKeys §f(§6+%s§f)'
 BOX_EXP_EN: '§eexperience §f(§a+%s§f)'
 BOX_MONEY_EN: '§aCoins §f(§6+%s§f)'
@@ -1520,7 +1520,7 @@ BOX_LEGENDARY_EN: '§6Legendary'
 BOX_EPIC_EN: '§5Epic'
 BOX_RARE_EN: '§bRare'
 BOX_DEFAULT_EN: '§eDefault'
-BOX_GADGET_ALREADY_EN: '§bLuckyChest §8| §fУ вас уже есть данный гаджет, вы получили §6+10 монет'
+BOX_GADGET_ALREADY_EN: '§bLuckyChest §8| §fYou has already this gadget, you got §6+10 money'
 
 STAFFCHAT_MSG_EN: '§eStaff chat §8| §f%s §8» §f%s'
 DONATECHAT_MSG_EN: '§6Donate chat §8| §f%s §8» §7%s'
