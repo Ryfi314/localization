@@ -74,6 +74,14 @@ CONVERT_AVAILABLE_RU: '§cОшибка, доступные вклюты: golds, 
 CONVERT_GOLDS_EN: 'gold'
 CONVERT_KTEMS_EN: 'ktems'
 CONVERT_COINS_EN: 'coins'
+
+SERVER_CONNECTED_RU: '§6Proxy §8| §fСервер §a%s§f §aвключен§f с адреса §e%s'
+SERVER_DISCONNECTED_RU: '§6Proxy §8| §fСервер §a%s§f §cотключен§f, по причине §a%s'
+SERVER_COMMAND_RU: '§6Core §8| §fПолучена команда §a%s'
+
+SERVER_CONNECTED_EN: '§6Proxy §8| §fСервер §a%s§f был подключен с адреса §e%s'
+SERVER_DISCONNECTED_EN: '§6Proxy §8| §fСервер §a%s§f §cотключен§f по причине §a%s'
+SERVER_COMMAND_EN: '§6Core §8| §fПолучена команда §a%s'
  
 YES_RU: 'Да'
 YES_EN: 'Yes'
@@ -123,8 +131,8 @@ NO_CONNECT_REASON_RU: '§cОшибка #13, Синхронизация не вы
 NO_CONNECT_REASON_EN: '§cError#13, Synchronization is not executed. Please will report in a group » §a§nvk.com/FilkWorld'
 
 # (1| <5) (2| >10) (3| >13)
-ONLINE_COLOR_1: '§c'
-ONLINE_COLOR_2: '§e'
+ONLINE_COLOR_1: '§a'
+ONLINE_COLOR_2: '§a'
 ONLINE_COLOR_3: '§a'
 
 SECOND_0_RU: 'секунд'
@@ -558,7 +566,7 @@ NO_PERMISSION_ONLY_RU: '§cУ вас нет прав, данная функци�
 CREATIVE_COMMANDS_RU: '§eСоздайте свой плот §c/p auto§e, или телепортируйтесь домой §c/p home'
 CREATIVE_COMMANDS_EN: '§eСоздайте свой плот §c/p auto§e, или телепортируйтесь домой §c/p home'
 
-BOARD_NEWS_RU: 'Новости: §a'
+BOARD_NEWS_RU: 'Новости: §e'
 BOARD_PLAYERS_RU: 'Игроков'
 BOARD_TEAMS_RU: 'Команд'
 BOARD_FOR_START_RU: 'Для старта нужно'
@@ -602,7 +610,7 @@ BOARD_SHOP_RU: 'Магазин'
 BOARD_GROUP_RU: 'Группа проекта'
 BOARD_BREAK_RU: 'Сломано '
 
-BOARD_NEWS_EN: 'News: §a'
+BOARD_NEWS_EN: 'News: §e'
 BOARD_PLAYERS_EN: 'Игроков'
 BOARD_TEAMS_EN: 'Команд'
 BOARD_FOR_START_EN: 'Для старта нужно'
