@@ -75,13 +75,13 @@ CONVERT_GOLDS_EN: 'gold'
 CONVERT_KTEMS_EN: 'ktems'
 CONVERT_COINS_EN: 'coins'
 
-SERVER_CONNECTED_RU: '§6Proxy §8| §fСервер §a%s§f §aвключен§f с адреса §e%s'
+SERVER_CONNECTED_RU: '§6Proxy §8| §fСервер §a%s§f §fбыл§a включен§f с адреса §e%s'
 SERVER_DISCONNECTED_RU: '§6Proxy §8| §fСервер §a%s§f §cотключен§f, по причине §a%s'
-SERVER_COMMAND_RU: '§6Core §8| §fПолучена команда §a%s'
+SERVER_COMMAND_RU: '§6Proxy §8| §fПолучена команда §a%s'
 
-SERVER_CONNECTED_EN: '§6Proxy §8| §fСервер §a%s§f был подключен с адреса §e%s'
-SERVER_DISCONNECTED_EN: '§6Proxy §8| §fСервер §a%s§f §cотключен§f по причине §a%s'
-SERVER_COMMAND_EN: '§6Core §8| §fПолучена команда §a%s'
+SERVER_CONNECTED_EN: '§6Proxy §8| §fServer §a%s§f connected from addres §e%s'
+SERVER_DISCONNECTED_EN: '§6Proxy §8| §fServer §a%s§f §cdisconnected§f of reason §a%s'
+SERVER_COMMAND_EN: '§6Proxy §8| §fReceived command §a%s'
  
 YES_RU: 'Да'
 YES_EN: 'Yes'
@@ -611,21 +611,21 @@ BOARD_GROUP_RU: 'Группа проекта'
 BOARD_BREAK_RU: 'Сломано '
 
 BOARD_NEWS_EN: 'News: §e'
-BOARD_PLAYERS_EN: 'Игроков'
-BOARD_TEAMS_EN: 'Команд'
+BOARD_PLAYERS_EN: 'Players'
+BOARD_TEAMS_EN: 'Teams'
 BOARD_FOR_START_EN: 'Для старта нужно'
-BOARD_TIME_EN: 'Время'
-BOARD_MAPS_EN: 'Карта'
-BOARD_MODULES_EN: 'Модулей'
+BOARD_TIME_EN: 'Time'
+BOARD_MAPS_EN: 'Map'
+BOARD_MODULES_EN: 'Modules'
 BOARD_WAIT_EN: 'Ожидание игроков'
 BOARD_TIME_TO_DM_EN: 'Время до дезматча'
 BOARD_SERVER_EN: 'Сервер'
 BOARD_TO_START_EN: 'Старт через'
-BOARD_SPECTATOR_EN: 'Наблюдателей'
+BOARD_SPECTATOR_EN: 'Spectators'
 BOARD_KILLS_EN: 'Убийств'
-BOARD_LIFE_COUNT_EN: 'Жизней'
-BOARD_CHEST_EN: 'Сундуков'
-BOARD_DEATH_EN: 'Смертей'
+BOARD_LIFE_COUNT_EN: 'Health'
+BOARD_CHEST_EN: 'Chests'
+BOARD_DEATH_EN: 'Deaths'
 BOARD_FRIENDS_EN: 'Friends'
 BOARD_PERK_EN: 'Умение'
 BOARD_ONLINE_EN: 'Online'
@@ -640,14 +640,14 @@ BOARD_BLOCK_BREAK_EN: 'Сломано блоков'
 BOARD_BLOCK_PLACE_EN: 'Создано блоков'
 BOARD_GOLD_EN: 'Golds'
 BOARD_GLOBAL_ONLINE_EN: 'Total online'
-BOARD_GROUP_EN: 'Ваш ранг'
+BOARD_GROUP_EN: 'Rank'
 BOARD_TOTAL_WINS_EN: 'Total wins'
 BOARD_TOTAL_BED_EN: 'beds'
 BOARD_TOTAL_KILLS_EN: 'Total kills'
 BOARD_TOTAL_GAMES_EN: 'Total games'
 BOARD_TOTAL_LUCKYBLOCKS_EN: 'L-B'
-BOARD_STATS_GAMEMODE_EN: 'Статистика '
-BOARD_STATS_GAMEMODE_2_EN: 'режима'
+BOARD_STATS_GAMEMODE_EN: 'Mode '
+BOARD_STATS_GAMEMODE_2_EN: 'statistic'
 BOARD_STATS_EN: 'Detailed statistics'
 BOARD_RANK_YOU_EN: 'Your rank'
 BOARD_VK_EN: 'VKontakte'
@@ -2406,7 +2406,7 @@ MAIL_MSG_EN: |-
  §6Mail §8| §fВам поступило новое сообщение от %s
   §a• §fСообщение: §e%s
 MEMORY_EN: |-
- §6Server §8| §fИнформация о памяти:
+ §6Server §8| §fInfo of memory:
  Max memory %s MB
  Allowed memory %s MB
  Free memory %s MB
@@ -2820,7 +2820,7 @@ HAT_ERROR_EN: '§cError, you ничего не держите в руках'
 
 LIST_RU:
 - ''
-- '§6Cервер §8| §fНа режиме %s'
+- '§6Cервер §8| §fНа режиме §a%s'
 #- ' §a▪ §fКрутые ребята: %s'
 #- ' §a▪ §fИгроки: %s'
 #- ' §a▪ §fДонатеры: %s'
@@ -2830,7 +2830,7 @@ LIST_EMPTY_RU: '§8Никого нет'
 
 LIST_EN:
 - ''
-- '§6Server §8| §fНа режиме %s'
+- '§6Server §8| §fOn mode §a%s'
 #- ' §a▪ §fКрутые ребята: %s'
 #- ' §a▪ §fИгроки: %s'
 #- ' §a▪ §fДонатеры: %s'
@@ -4372,7 +4372,7 @@ GUI_YOUTUBE_LORE_EN:
 - '§7Special menu with extra opportunities,'
 - '§7for youtubers'
 - ''
-- '§e▸ Open youtube menu
+- '§e▸ Open youtube menu'
 
 GUI_DONATE_LORE_EN:
 - '§7Detalied information about the features'
@@ -4387,7 +4387,7 @@ GUI_INFO_LORE_EN:
 - '§e▸ Open the information menu'
 
 GUI_LANGUAGE_LORE_EN:
-- '§7Change default server language
+- '§7Change default server language'
 - '§7Translation and languages will be added!'
 - ''
 - '§7Currently available:'
