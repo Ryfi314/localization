@@ -2851,7 +2851,7 @@ ANARCHY_RULES_RU: |-
  
  §7Правила для §6Anarchy§7:
   
- §f1. §7Соблюдать общение правила поведения в чате
+ §f1. §7Соблюдать общие правила поведения в чате
  §f2. §7Не использовать читы или любой запрещенный софт
  §f3. §7Не багоюзить, не создавать лаг машины и
  §7не совершать действия, которые могут навредить серверу!
@@ -2862,13 +2862,13 @@ ANARCHY_RULES_EN: |-
  
  §7Rules for §6Anarchy§7:
   
- §f1. §7Соблюдать общение правила поведения в чате
- §f2. §7Не использовать читы или любой запрещенный софт
- §f3. §7Не багоюзить, не создавать лаг машины и
- §7не совершать действия, которые могут навредить серверу!
+ §f1. §7Follow the general rules in the chat
+ §f2. §7Do not use cheats or any prohibited software
+ §f3. §7Do not use bugs, do not create a lag machine and
+ §7do not perform actions that can harm the server!
   
- §eНа этом все, больше вы ничем не ограничены
- §eДелайте что хотите и как захотите!
+ §eThat's all, the more you are not limited by anything
+ §eDo what you want and how you want!
 
 
 PARKOUR_ERROR_LOCATION_RU: '§cОшибка, локация не найдена'
@@ -2898,25 +2898,25 @@ PARKOUR_MODULE_NO_RU: '§6Parkour §8| §cВы не прошли через мо
 PARKOUR_ERROR_LOCATION_RU: '§cError, location not found'
 PARKOUR_NO_FOUND_RU: '§cError, map not found'
 
-PARKOUR_START_EN: "§6Parkour §8| §fВы начали проходить паркур на карте '§a%s§f' §7(§a%s§7)"
+PARKOUR_START_EN: "§6Parkour §8| §fYou started to pass parkour on the map '§a%s§f' §7(§a%s§7)"
 PARKOUR_FLY_EN: |-
- §cНе используйте полёт, иначе ваш аккаунт будет заблокирован
- §cДокладывайте о таких нарушениях на форум.
-PARKOUR_DISABLE_EN: '§6Parkour §8| §cЭтот паркур отключен'
-PARKOUR_NO_MODULE_EN: '§6Parkour §8| §fВам необходимо пройти через модуль 1'
-PARKOUR_NO_MAP_EN: '§6Parkour §8| §fВы не на арене'
-PARKOUR_RESET_EN: '§6Parkour §8| §fВремя перезапущено. Вы начали проходить карту заного!'
-PARKOUR_FINISH_EN: '§6Parkour §8| §fВы прошли этот паркур в первый раз за §a%s'
-PARKOUR_ALERT_EN: '§6Parkour §8| %s §fпрошел паркур за §e%s§f на карте §a%s'
+ §cDon't use fly, otherwise your account will be banned
+ §cWrite about the cheaters on forum.
+PARKOUR_DISABLE_EN: '§6Parkour §8| §cThis parkour is disabled'
+PARKOUR_NO_MODULE_EN: '§6Parkour §8| §fYou have to pass the module 1'
+PARKOUR_NO_MAP_EN: "§6Parkour §8| §fYou aren't on the area"
+PARKOUR_RESET_EN: '§6Parkour §8| §fTime restarted! You started to pass parkour again!'
+PARKOUR_FINISH_EN: '§6Parkour §8| §fYou passed this parkour first time for §a%s'
+PARKOUR_ALERT_EN: '§6Parkour §8| %s §fpassed parkour for §e%s§f on the map §a%s'
 PARKOUR_NEW_EN: |-
- §6Parkour §8| §2Вы побили свой старый рекорд!
- §6Parkour §8| §fВы прошли этот паркур за §e%s
+ §6Parkour §8| §2You beat your record
+ §6Parkour §8| §fYou passed this parkour for §e%s
 PARKOUR_OLD_EN: |-
- §6Parkour §8| §4Вы не побили свой старый рекорд
- §6Parkour §8| §fВы прошли этот паркур за §c%s
-PARKOUR_MODULE_EN: '§6Parkour §8| §fМодуль §e%s§7/§a%s§f достигнут'
-PARKOUR_MODULE_ALREADY_EN: '§6Parkour §8| §cВы уже прошли этот модуль'
-PARKOUR_MODULE_NO_EN: '§6Parkour §8| §cВы не прошли через модуль'
+ §6Parkour §8| §4You didn't beat your old record
+ §6Parkour §8| §fYou passed this parkour for §c%s
+PARKOUR_MODULE_EN: '§6Parkour §8| §fModule §e%s§7/§a%s§f achieved'
+PARKOUR_MODULE_ALREADY_EN: '§6Parkour §8| §cYou already passed this module'
+PARKOUR_MODULE_NO_EN: "§6Parkour §8| §cYou didn't pass the modeule"
 
 NO_PERMISSION_STATS_RU: '§cОшибка, просматривать статистику других игроков может только §7§lGOLEM§c и выше'
 NO_PERMISSION_STATS_EN: '§cError, view statistic other players can only §7§lGOLEM§c or higher'
@@ -2949,15 +2949,15 @@ VERIFY_LASTTIMED_RU: '§6Verify §8| §cСессия истекла'
 
 
 CHAT_DISABLE_INFO_EN: |-
- §4§lВнимание! §cЧат отключен!
- §cВы можете включить его в личном профиле -> настройки
-CHAT_DISABLE_TITEL_EN: '§cУ вас отключен чат'
-CHAT_DISABLE_SUBTITLE_EN: '§7Можете включить в Профиль ▸ Настройки'
-CHAT_DISABLE_EN: '§cУ вас отключен чат'
+ §4§lWarning! §cChat disabled!
+ §cYou can enable it in the self profile -> settings
+CHAT_DISABLE_TITEL_EN: '§cYou have got disabled chat!'
+CHAT_DISABLE_SUBTITLE_EN: '§7May enable it in Profile ▸ Settings'
+CHAT_DISABLE_EN: '§cYou have got disabled chat!'
 
-HIDE_INFO_EN: '§4§lВнимание! §cУ вас включено скрытие!'
+HIDE_INFO_EN: '§4§lWarning! §cYou are hided!'
 
-YOUTUBE_NOT_FOUND_EN: '§6YouTube §8| §cСейчас у вас нет ссылки, добавьте её /yt addlink <ссылка на канал>'
+YOUTUBE_NOT_FOUND_EN: "§6YouTube §8| §cYou don't have got link, add it /yt addlink <channel link>"
 YOUTUBE_INFO_EN: '§6§lYouTube §fchannel » §3§l%s'
 
 JOIN_TO_LOBBY_EN: ' §a▸ %s §6joined to server'
@@ -2973,9 +2973,9 @@ REJOIN_NOT_FOUND_RU: '§cОшибка, Вы нигде не играли или 
 REJOIN_INFO_RU: '§fЕсли Вы были §cкикнуты§f, напишите §7/rejoin§f для повторного входа в игру'
 REJOIN_RU: '§aВы повторно вошли в игру на сервере %s'
 
-REJOIN_NOT_FOUND_EN: '§cError, Вы нигде не играли или сервер был перезагружен'
-REJOIN_INFO_En: '§fЕсли Вы были §cкикнуты§f, напишите §7/rejoin§f для повторного входа в игру'
-REJOIN_EN: '§aВы повторно вошли в игру на сервере %s'
+REJOIN_NOT_FOUND_EN: "§cError, You didn't played anywhere or server was restarted"
+REJOIN_INFO_En: '§fIf you were §ckicked§f, write §7/rejoin§f for second join to the games'
+REJOIN_EN: '§aYou join second to the game %s'
 
 #Guis ru
 GUI_BACK_NAME_RU: '§cНазад'
@@ -4341,38 +4341,38 @@ GUI_STATS_LORE_EN:
 - '§e▸ Open the statistics menu'
 
 GUI_DONATEMENU_LORE_EN:
-- '§7Кастомизация игрока на игровых'
-- '§7аренах. Вы сможете выбрать цвет префикса,'
-- '§7написать быстрое сообщение, смайл'
-- '§7и многое другое.'
+- '§7Player customization on game'
+- '§7areas. You will be able to choose prefix color,'
+- '§7write fast messages, smiles'
+- '§7and other.'
 - ''
-- '§e▸ Открыть донат меню'
+- '§e▸ Open donate menu'
 
 GUI_EFFECTSHOP_LORE_EN:
-- '§7Позволяет купить и активировать'
-- '§7различные косметические улучшения'
+- '§7Allows to buy and activate'
+- '§7different cosmetic improvements'
 - '§fПредсмертный хрип§7, §fЭффект полета стрел§7,'
-- '§fЭффект убийства§7, §fЭффект победителя§7 и т.д.'
+- '§fЭффект убийства§7, §fЭффект победителя§7 etc.'
 - ''
-- '§cВНИМАНИЕ! Все эффекты будут'
-- '§cработать на всех аренах и играх!'
+- '§cWARNING! All effects will'
+- '§cwork on all areas and games!'
 - ''
 - '§e▸ Open cosmetics'
 
 GUI_PERSONALUP_LORE_EN:
-- '§7Подробная информация о возможностях'
-- '§7повышения'
+- '§7Detail information about'
+- '§7opportunities of promotion'
 - ''
 - '%s'
 
 PERSONALUP_OPEN_EN: '§e▸ Open the boost menu'
-PERSONALUP_NO_EN: '§c▸ Для Вас не доступно повышение'
+PERSONALUP_NO_EN: '§c▸ No promotion available for you'
 
 GUI_YOUTUBE_LORE_EN:
-- '§7Специальное меню с дополнительными возможностями,'
-- '§7для ютуберов'
+- '§7Special menu with extra opportunities,'
+- '§7for youtubers'
 - ''
-- '§e▸ Открыть youtube меню'
+- '§e▸ Open youtube menu
 
 GUI_DONATE_LORE_EN:
 - '§7Detalied information about the features'
@@ -4387,30 +4387,30 @@ GUI_INFO_LORE_EN:
 - '§e▸ Open the information menu'
 
 GUI_LANGUAGE_LORE_EN:
-- '§7Смена дефолтного языка на сервере'
-- '§7Перевод и языки будут дополнятся!'
+- '§7Change default server language
+- '§7Translation and languages will be added!'
 - ''
-- '§7На данный момент доступны:'
+- '§7Currently available:'
 GUI_LANGUAGE_LORE2_EN:
 - ''
-- '§cВНИМАНИЕ! Если вы хотите помочь'
-- '§cс переводом, то можете писать свои'
-- '§cошибки по ссылке goo-gl.ru/4Rqm'
+- '§cWARNING! If you want to help'
+- '§cwith transation, you can write'
+- '§cerrors on link goo-gl.ru/4Rqm'
 - ''
 - '§e▸ Open the language menu'
 
 GUI_ITEMS_LORE_EN:
-- '§7Ваши предметы, полученые за участие'
-- '§7в играх/конкурсах/голосовании за сервер'
+- '§7Your item, got for participation'
+- '§7in games/contests/voting for server'
 - ''
 - '§7Total items: §e%s'
 - ''
 - '§e▸ Open the items menu'
 
 GUI_SHOP_LORE_EN:
-- '§7Магазин, в котором вы можете'
-- '§7приобрести различные вещи, предметы'
-- '§7за золото, и ктемы'
+- '§7Shop, where you can'
+- '§7diffent things, items'
+- '§7for gold, and ktems'
 - ''
 - '§e▸ Open shop'
 
@@ -5307,45 +5307,45 @@ GUI_GAMES_DONATE_EN: '§bPrivileges'
 GUI_GAMES_LOBBY_EN: '§bMain lobby'
 GUI_GAMES_NAME_EN: 'Game selection'
 
-GUI_YOUTUBERS_NAME_EN: 'Список ютуберов'
-GUI_BUILDERS_NAME_EN: 'Список строителей'
+GUI_YOUTUBERS_NAME_EN: 'Youtubers list'
+GUI_BUILDERS_NAME_EN: 'Builders list'
 GUI_STAFF_NAME_EN: 'Staff list (%s)'
-GUI_GROUP_NAME_EN: 'Список игроков имеющих группу - %s'
-GUI_GROUP_NO_FOUND_EN: '§cНет людей состоящих в %s'
-GUI_YOUTUBERS_ITEM_EN: '§eСписок ютуберов'
-GUI_BUILDERS_ITEM_EN: '§eСписок строителей'
+GUI_GROUP_NAME_EN: 'List of players with thr group - %s'
+GUI_GROUP_NO_FOUND_EN: '§cThere is no players with %s'
+GUI_YOUTUBERS_ITEM_EN: '§eYoutubers list'
+GUI_BUILDERS_ITEM_EN: '§eBuilders list'
 GUI_STAFF_ITEM_EN: '§eStaff list'
-GUI_GROUP_ITEM_EN: '§eСписок игроков с группой - %s'
-GUI_DEFAULT_EN: 'Игроков'
-GUI_PREMIUM_EN: 'Премиумов'
-GUI_GOLD_EN: 'Голдов'
-GUI_LEGEND_EN: 'Легенд'
-GUI_EMERALD_EN: 'Эмеральдом'
-GUI_GOLEM_EN: 'Големов'
-GUI_DIAMOND_EN: 'Даймондов'
-GUI_ENDERMAN_EN: 'Эндерменов'
-GUI_TESTER_EN: 'Тестеров'
-GUI_BUILDER_EN: 'Строителей'
-GUI_YOUTUBE_EN: 'Ютуберов'
+GUI_GROUP_ITEM_EN: '§eList of players with the group - %s'
+GUI_DEFAULT_EN: 'Players'
+GUI_PREMIUM_EN: 'Premiums'
+GUI_GOLD_EN: 'Golds'
+GUI_LEGEND_EN: 'Legends'
+GUI_EMERALD_EN: 'Emeralds'
+GUI_GOLEM_EN: 'Golems'
+GUI_DIAMOND_EN: 'Diamonds'
+GUI_ENDERMAN_EN: 'Endermans'
+GUI_TESTER_EN: 'Testers'
+GUI_BUILDER_EN: 'Builders'
+GUI_YOUTUBE_EN: 'Youtubers'
 GUI_JUNIOR_EN: 'Juniors'
-GUI_HELPER_EN: 'helpers'
-GUI_MODER_EN: 'moderatos'
-GUI_ADMIN_EN: 'admins'
-GUI_NO_DEFAULT_EN: 'Игроках'
-GUI_NO_PREMIUM_EN: 'Премиумах'
-GUI_NO_GOLD_EN: 'Голдах'
-GUI_NO_LEGEND_EN: 'Легендах'
-GUI_NO_EMERALD_EN: 'Эмеральдах'
-GUI_NO_GOLEM_EN: 'Големах'
-GUI_NO_DIAMOND_EN: 'Даймондах'
-GUI_NO_ENDERMAN_EN: 'Эндерменах'
-GUI_NO_TESTER_EN: 'Тестерах'
-GUI_NO_BUILDER_EN: 'Строителей'
-GUI_NO_YOUTUBE_EN: 'Ютуберах'
-GUI_NO_JUNIOR_EN: 'Младших хелперах'
-GUI_NO_HELPER_EN: 'Хелперах'
-GUI_NO_MODER_EN: 'Модераторах'
-GUI_NO_ADMIN_EN: 'Администраторах'
+GUI_HELPER_EN: 'Helpers'
+GUI_MODER_EN: 'Moderators'
+GUI_ADMIN_EN: 'Admins'
+GUI_NO_DEFAULT_EN: 'Players'
+GUI_NO_PREMIUM_EN: 'Premiums'
+GUI_NO_GOLD_EN: 'Golds'
+GUI_NO_LEGEND_EN: 'Legends'
+GUI_NO_EMERALD_EN: 'Emeralds'
+GUI_NO_GOLEM_EN: 'Golems'
+GUI_NO_DIAMOND_EN: 'Diamonds'
+GUI_NO_ENDERMAN_EN: 'Endermans'
+GUI_NO_TESTER_EN: 'Testers'
+GUI_NO_BUILDER_EN: 'Builders'
+GUI_NO_YOUTUBE_EN: 'Youtubers'
+GUI_NO_JUNIOR_EN: 'Juniors'
+GUI_NO_HELPER_EN: 'Helpers'
+GUI_NO_MODER_EN: 'Moderators'
+GUI_NO_ADMIN_EN: 'Admins'
 GUI_STAFF_ITEM_LORE_EN:
 - ''
 - '§7Total %s'
@@ -5383,57 +5383,57 @@ GUI_STAFF_MODERATORS_EN: 'Moderators'
 GUI_STAFF_ADMINS_EN: 'Admins'
 
 GUI_SETTING_FLY_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7полет в главном лобби и в лобби'
+- '§7Allows to enable or disable'
+- '§7flying in the main lobby and lobby'
 - '§7ожидания старта игры'
 GUI_SETTING_BLOOD_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7кровь во время игры'
+- '§7Allows to enable or disable'
+- '§7blood during the game'
 GUI_SETTING_HIDE_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7скрытие игроков в лобби'
+- '§7Allows to enable or disable'
+- '§7hiding players in the lobby'
 GUI_SETTING_CHAT_LORE_EN:
-- '§7Позволяет включить или выключит'
-- '§7Возможность писать или читать чат'
+- '§7Allows to enable or disable'
+- '§7opportunity to write or read chat'
 GUI_SETTING_MUSIC_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7музыку в лобби ожидания'
-- '§7до старта игры'
+- '§7Allows to enable or disable'
+- '§7music in the waiting lobby'
+- '§7before game start'
 GUI_SETTING_SCOREBOARD_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7отображение скорбордов справа'
-- '§7во всех лобби'
+- '§7Allows to enable or disable'
+- '§7displaying scoreboards right'
+- '§7in the all lobbies'
 GUI_SETTING_MAIL_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7писать вам сообщения в mail'
+- '§7Allows to enable or disable'
+- '§7writing messages to your mail.'
 - ''
-- '§cВнимание!§7 Ваши друзья все равно'
-- '§7смогут вам писать, даже если вы'
-- '§7отключите mail сообщения'
+- '§cWarning!§7 You friends whatever'
+- '§7will be able to write you, even if you'
+- '§7disable mail messages'
 GUI_SETTING_MSG_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7личные сообщения'
+- '§7Allows to enable or disable'
+- '§7private messages'
 - ''
-- '§cВнимание§7! Ваши друзья все равно'
-- '§7смогут вам писать, даже если'
-- '§7отключите личные сообщения'
+- '§cWarning!§7 You friends whatever'
+- '§7will be able to write you, even if you'
+- '§7disable private messages'
 GUI_SETTING_FRIEND_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7возможность принимать запросы'
-- '§7на дружбу'
+- '§7Allows to enable or disable'
+- '§7opportunity to get'
+- '§7friend requests'
 GUI_SETTING_PARTY_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7возможность приглашать вас в party'
+- '§7Allows to enable or disable'
+- '§7opportunity to invite you to the party'
 - ''
-- '§cВнимание§7! Ваши друзья все равно'
-- '§7смогут вас пригласить'
+- '§cWarning!§7 You friends whatever'
+- '§7will be able to invite you'
 GUI_SETTING_GUILD_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7возможность приглашать вас в гильдии'
+- '§7Allows to enable or disable'
+- '§7opportunity to invite you to the guild'
 GUI_SETTING_DONATECHAT_LORE_EN:
-- '§7Позволяет включить или выключить'
-- '§7чат донатеров §f/dc'
-- '§7через весь сервер'
+- '§7Allows to enable or disable'
+- '§7donaters chat §f/dc'
+- '§7through the all server'
 GUI_SETTING_UNAVAILABLE_LORE_EN:
 - ''
 - '§cNo available!'
@@ -5541,8 +5541,8 @@ GUI_DONATEMENU_PREFIX_LORE_EN:
 - ''
 - '§e▸ Tap to open the menu'
 GUI_DONATEMENU_SMILES_LORE_EN:
-- '§7Удиви своих друзей,'
-- '§7используя эти смайлики.'
+- '§7Surprise your friends,'
+- '§7using these smiles.'
 - ''
 - '§7Only available for §7§lGOLEM§7 or higher'
 - ''
