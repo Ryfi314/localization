@@ -130,11 +130,6 @@ RESTARTING_BROADCAST_EN: '§cBefore a restart remained, §e%s§c %s'
 NO_CONNECT_REASON_RU: '§cОшибка #13, Синхронизация не выполнена. Пожалуйста сообщите в группу » §a§nvk.com/FilkWorld'
 NO_CONNECT_REASON_EN: '§cError#13, Synchronization is not executed. Please will report in a group » §a§nvk.com/FilkWorld'
 
-# (1| <5) (2| >10) (3| >13)
-ONLINE_COLOR_1: '§a'
-ONLINE_COLOR_2: '§a'
-ONLINE_COLOR_3: '§a'
-
 SECOND_0_RU: 'секунд'
 SECOND_1_RU: 'а'
 SECOND_2_RU: 'ы'
@@ -622,7 +617,7 @@ BOARD_TIME_TO_DM_EN: 'Время до дезматча'
 BOARD_SERVER_EN: 'Сервер'
 BOARD_TO_START_EN: 'Старт через'
 BOARD_SPECTATOR_EN: 'Spectators'
-BOARD_KILLS_EN: 'Убийств'
+BOARD_KILLS_EN: 'Kills'
 BOARD_LIFE_COUNT_EN: 'Health'
 BOARD_CHEST_EN: 'Chests'
 BOARD_DEATH_EN: 'Deaths'
@@ -631,7 +626,7 @@ BOARD_PERK_EN: 'Умение'
 BOARD_ONLINE_EN: 'Online'
 BOARD_NA_EN: 'No select'
 BOARD_DISCORD_EN: 'Discord'
-BOARD_POINTS_EN: 'Очков'
+BOARD_POINTS_EN: 'Points'
 BOARD_MONEY_EN: 'Coins'
 BOARD_KTEMS_EN: 'Ktems'
 BOARD_BALANCE_EN: 'Balance'
@@ -4206,6 +4201,7 @@ GUI_FRIEND_REQUESTS_LORE_RU:
 - '§e▸ ЛКМ, чтобы принять запрос'
 - '§e▸ ПКМ, чтобы отклонить запрос'
 GUI_FRIEND_REQUESTS_ITEM_LORE_RU:
+- ''
 - '§7Всего запросов:'
 - '§a%s'
 
@@ -5680,6 +5676,7 @@ GUI_FRIEND_REQUESTS_LORE_EN:
 - '§e▸ Left click, to accept request'
 - '§e▸ Richi click, to decline request'
 GUI_FRIEND_REQUESTS_ITEM_LORE_EN:
+- ''
 - '§7Total requests:'
 - '§a%s'
 
