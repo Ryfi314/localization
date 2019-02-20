@@ -3085,7 +3085,7 @@ AUTH_ERROR_EN: '§cError - %s'
 AUTH_CHANGEPASSWORD_FORMAT_EN: '/auth changepassword <player name> <password>'
 AUTH_PASSWORD_CHANGED_EN: '§6Auth §8| §fPlayer password %s§f changed to §a%s'
 AUTH_LASTLOGIN_FORMAT_EN: '/auth lastlogin <player name>'
-AUTH_LASTLOGIN_EN: '§6Auth §8| §fPlayer %s§f последний раз был авторизован %s§f ago'
+AUTH_LASTLOGIN_EN: '§6Auth §8| §fPlayer %s§f last time was logged in %s§f ago'
 LOGIN_ALREADY_EN: '§cYou already authorized!'
 LOGIN_FORMAT_EN: '/login <password>'
 REGISTER_FORMAT_EN: '/reg <password> <repeat password>'
@@ -3110,19 +3110,19 @@ MAIL_CHANGE_WRONG_EN: '§cMail, the one you specified as a previously linked acc
 MAIL_CHANGE_INCORRECT_EN: '§cSpecified email not valid'
 MAIL_CHANGE_CONFIRM_EN: '§6Auth §8| §fYou successfully unsnap old email and initiated the procedure snap new email'
 RECOVERY_WRONG_EN: '§cError, wrong mail'
-RECOVERY_SENT_EN: '§6Auth §8| §fПисьмо с паролем было выслано на вашу почту'
+RECOVERY_SENT_EN: '§6Auth §8| §fLetter with password was sent to your email'
 MAIL_RECOVERY_FORMAT_EN: '/email recovery <mail>'
 MAIL_ADD_FORMAT_EN: '/email add <your mail> <repeat mail>'
-MAIL_ADD_ALREADY_EN: '§cError, у вас уже привязана почта. Для смены почты воспользуйтесь командой /email change <старая эл. почта> <новая эл. почта>'
-MAIL_ADD_INCORRECT_EN: '§cУказанная электорнная почта невалидна'
-MAIL_ADD_WRONG_EN: '§cError, указанные электронные электронные адреса не совпадают!'
-MAIL_ADD_CONFIRM_EN: '§6Auth §8| §fВладение электронной почтой успешно подтверждено!'
+MAIL_ADD_ALREADY_EN: '§cError, you already have got tethered email. To change email use /email change <old email> <new email>'
+MAIL_ADD_INCORRECT_EN: "§cThis email isn't valid"
+MAIL_ADD_WRONG_EN: "§cError, specified adresses aren't same!"
+MAIL_ADD_CONFIRM_EN: '§6Auth §8| §fEmail ownership confirmed!'
 AUTH_TIMEOUT_EN: '§cAuthorization timeout'
 AUTH_REGISTER_INFO_EN: '§7Register - §e/reg §f[§epassword§f] §f[§erepeat password §f]'
 AUTH_LOGIN_INFO_EN: '§7Log in - §e/login §f[§epassword§f]'
 AUTH_LOGOUT_EN: '§cYou signed out of your account'
 AUTH_LOGIN_CONFIRM_EN: '§fAuthorization is successful!'
-AUTH_LOGIN_WRONG_EN: '§cError, неверный пароль'
+AUTH_LOGIN_WRONG_EN: '§cError, uncorrect password'
 AUTH_LOGIN_WRONGS_EN: '§cA lot of a attempts incorrect\ninput a password. Your account\nis blocked for a few minutes'
 AUTH_EMAIL_INFO_EN: '§c⚠ Warning! §fYou did not bind §cemail §fto your account, do this right now - §e/email'
 AUTH_EMAIL_INFO_HOVER_EN: "§fClick here,\nto add mail"
@@ -3132,17 +3132,17 @@ AUTH_LOGIN_TITLE_EN: '§2§lFilk§3§lWorld.cf'
 AUTH_LOGIN_SUBTITLE_EN: '§7For continuation register'
 AUTH_REGISTER_TITLE_EN: '§2§lFilk§3§lWorld.cf'
 AUTH_REGISTER_SUBTITLE_EN: '§7For continuation log in'
-AUTH_NAME_SHORT_EN: '§cДлина ника должна быть не меньше 3 символов и не больше 16'
-AUTH_NAME_LIMIT_EN: '§cВы не можете использовать ник в котором больше 16-ти символов!'
-AUTH_NAME_INCORRECT_EN: "§cВ нике есть недопустимые символы \n\n§cРазрешено использовать только цифры и символы латинского алфавита"
-AUTH_BANNED_EN: "§cДанный IP был заблокирован на §e10 §cминут \n§cПодозрение на взлом :/"
+AUTH_NAME_SHORT_EN: '§cNickname lhas to be more than 3 and less than 16 characters'
+AUTH_NAME_LIMIT_EN: "§cYou can't use nickname with more than 16 characters!"
+AUTH_NAME_INCORRECT_EN: "§cThere are unacceptable characters in the nickname \n\n§cAllow to use only numbers and latin alphabet symbols"
+AUTH_BANNED_EN: "§cThis Ip was banned for §e10 §cminutes \n§cSuspicion of hacking :/"
 AUTH_LOAD_ERROR_EN: '§cError #2, contact vk.com/Ktem_Projects'
 AUTH_SERVERS_NOT_AVAILABLE_EN: '§cAuthorization servers is not availables, Contact vk.com/Ktem_Projects'
-AUTH_ACCOUNT_PROTECTED_EN: '§cДанный аккаунт вам не принадлежит'
+AUTH_ACCOUNT_PROTECTED_EN: "§cThis account isn't your"
 FORUM_INFO_EN: '§c⚠ Warning! §fYou already register §cin forum§f, do this right now - §e/forum'
 FORUM_INFO_HOVER_EN: "§fClick here,\nto registred from forum"
-TFA_INFO_EN: '§c⚠ Внимание! §fУ вас еще активирована §cдвухфакторная авторизация§f, сделайте это прямо сейчас - §e/api'
-TFA_INFO_HOVER_EN: "§fНажмите сюда,\nчтобы активировать двухфакторную авторизацию"
+TFA_INFO_EN: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §e/api"
+TFA_INFO_HOVER_EN: "§fClick here,\nto activate two-factor authentication"
 TFA_LOGIN_TITLE_EN: '§2§lFilk§3§lWorld.cf'
 TFA_LOGIN_SUBTITLE_EN: '§7For continuation identification'
 TFA_LOGIN_INFO_EN: '§7Log in - §e/tfa §f[§eapi-ключ§f]'
@@ -3156,7 +3156,7 @@ FORUM_ACCOUNT_REGISTRED_EN: |-
  §7• §fLogin: §a%s
  §7• §fPassword: §a%s
  
- §fАвторизироваться можно на: §6forum.filkworld.cf
+ §fLogin may on: §6forum.filkworld.cf
 FORUM_ACCOUNT_ALREADY_EN: '§cError, forum account already snap'
 
 #Guis ru
