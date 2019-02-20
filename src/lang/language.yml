@@ -3103,7 +3103,7 @@ AUTH_CHANGEPASSWORD_EN: '§eYou password was successfully changed'
 EMAIL_COMMAND_HELP_EN: |-
  §7/email add <your email> <again> §f- snap email to the your account
  §7/email change <old email> <new email> §f- Change email on your account
- §7/email recovery §f- Send on the email setting password
+ §7/email recovery <your email> §f- Send on the email setting password
 MAIL_CHANGE_FORMAT_EN: '/email change <old mail> <new mail>'
 MAIL_NO_EN: '§cError, you have not snap email'
 MAIL_CHANGE_WRONG_EN: '§cMail, the one you specified as a previously linked account, not correct'
@@ -5436,7 +5436,6 @@ GUI_GAMES_PARKOUR_RU: '§bParkour'
 GUI_GAMES_CREATIVE_RU: '§bCreative'
 GUI_GAMES_DONATE_RU: '§bПривилегии'
 GUI_GAMES_LOBBY_RU: '§bГлавное лобби'
-GUI_GAMES_NAME_RU: 'Выбор режима'
 GUI_GAMES_SKYWARS_EN: '§bSkyWars'
 GUI_GAMES_LUCKYWARS_EN: '§bLuckyWars'
 GUI_GAMES_BEDWARS_EN: '§bBedWars'
