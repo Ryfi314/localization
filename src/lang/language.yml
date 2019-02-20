@@ -561,7 +561,7 @@ NO_PERMISSION_ONLY_RU: '§cУ вас нет прав, данная функци�
 CREATIVE_COMMANDS_RU: '§eСоздайте свой плот §c/p auto§e, или телепортируйтесь домой §c/p home'
 CREATIVE_COMMANDS_EN: '§eСоздайте свой плот §c/p auto§e, или телепортируйтесь домой §c/p home'
 
-BOARD_NEWS_RU: 'Новости: §e'
+BOARD_NEWS_RU: 'Новости: §7'
 BOARD_PLAYERS_RU: 'Игроков'
 BOARD_TEAMS_RU: 'Команд'
 BOARD_FOR_START_RU: 'Для старта нужно'
@@ -605,7 +605,7 @@ BOARD_SHOP_RU: 'Магазин'
 BOARD_GROUP_RU: 'Группа проекта'
 BOARD_BREAK_RU: 'Сломано '
 
-BOARD_NEWS_EN: 'News: §e'
+BOARD_NEWS_EN: 'News: §7'
 BOARD_PLAYERS_EN: 'Players'
 BOARD_TEAMS_EN: 'Teams'
 BOARD_FOR_START_EN: 'Для старта нужно'
@@ -2967,25 +2967,31 @@ CHAT_YOUTUBE_RU: |-
  
 
 AUTH_COMMAND_HELP_RU: |-
- §7/auth reload §f- перезагрузить конфигурацию
- §7/auth register <ник> <пароль> §f- регистрация игрока
- §7/auth unregister <ник> §f- удаление аккаунта
- §7/auth changepassword <ник> <пароль> §f- изменение пароля игроку
- §7/auth changemail <ник> <email> §f- изменение почты игроку
- §7/auth lastlogin <ник> §f- время последнего захода игрока
-AUTH_RELOAD_RU: '§6Авторизация §8| §fКонфигурация перезагружена'
-AUTH_CHANGEMAIL_FORMAT_RU: '/auth changemail <ник> <пароль>'
+ §7/ktemauth register <ключ> <ник> <пароль> §f- регистрация игрока
+ §7/ktemauth unregister <ключ> <ник> §f- удаление аккаунта
+ §7/ktemauth changepassword <ключ> <ник> <пароль> §f- изменение пароля игроку
+ §7/ktemauth changemail <ключ> <ник> <email> §f- изменение почты игроку
+ §7/ktemauth info <ник> §f- время последнего захода игрока
+AUTH_CHANGEMAIL_FORMAT_RU: '/ktemauth changemail <ключ> <ник> <пароль>'
 AUTH_CHANGEMAIL_RU: '§6Авторизация §8| §fПочта игрока %s§f изменена на §a%s'
-AUTH_REGISTER_FORMAT_RU: '/auth register <ник> <пароль>'
+AUTH_REGISTER_FORMAT_RU: '/ktemauth register <ключ> <ник> <пароль>'
+AUTH_REGISTER_ERROR_RU: '§cОшибка, В аккаунте %s присудствуют запрещенные символы, разрешено использовать только цифры и символы латинского алфавита'
 AUTH_REGISTER_RU: '§6Авторизация §8| §fАккаунт %s зарегистрирован с паролем - §e%s'
-AUTH_UNREGISTER_FORMAT_RU: '/auth unregister <ник>'
+AUTH_UNREGISTER_FORMAT_RU: '/ktemauth unregister <ключ> <ник>'
 AUTH_NO_ACCESS_RU: '§сВы не можете управлять аккаунтом данного игрока'
 AUTH_UNREGISTRED_RU: '§6Авторизация §8| §fАккаунт %s §fудален'
 AUTH_ERROR_RU: '§cОшибка - %s'
-AUTH_CHANGEPASSWORD_FORMAT_RU: '/auth changepassword <ник> <пароль>'
+AUTH_CHANGEPASSWORD_FORMAT_RU: '/ktemauth changepassword <ключ> <ник> <пароль>'
 AUTH_PASSWORD_CHANGED_RU: '§6Авторизация §8| §fПароль игрока %s §fизменен на §a%s'
-AUTH_LASTLOGIN_FORMAT_RU: '/auth lastlogin <ник>'
-AUTH_LASTLOGIN_RU: '§6Авторизация §8| §fИгрок %s§f последний раз был авторизован %s§f назад'
+AUTH_INFO_FORMAT_RU: '/ktemauth info <ник>'
+AUTH_INFO_RU: |-
+ §6Авторизация §8| §fИнформация об игроке §e%s:
+ §f Почта: §a%s
+ §f Последний ип: §a%s
+ §f Ип при регистрации: §a%s
+ §f Последний сервер: §a%s
+AUTH_WRONGKEY_RU: '§cОшибка, не верный ключ'
+AUTH_REASON_WRONGKEY_RU: '§4Ошибка #14 §cВведен не верный ключ.'
 LOGIN_ALREADY_RU: '§cВы уже авторизованы'
 LOGIN_FORMAT_RU: '/login <ваш пароль>'
 REGISTER_FORMAT_RU: '/reg <пароль> <повтор пароля>'
@@ -3052,9 +3058,9 @@ TFA_CONFIRM_RU: '§fАутентификация успешна! Приятно�
 FORUM_NOT_MAIL_RU: '§cОшибка, к вашему аккаунту не привязана почта. Чтобы привязать почту к своему аккаунту, напишите /email add <почта> <повтор почты>'
 FORUM_ACCOUNT_REGISTRED_RU: |-
  §6Форум §8| §fВаш аккаунт был зарегистрирован на форуме!
- §7• §fНик: §a%s
- §7• §fЛогин: §a%s
- §7• §fПароль: §a%s
+ §7 • §fНик: §a%s
+ §7 • §fЛогин: §a%s
+ §7 • §fПароль: §a%s
  
  §fАвторизироваться можно на: §6forum.filkworld.cf
 FORUM_ACCOUNT_ALREADY_RU: '§cОшибка, форумный аккаунт уже привязан'
@@ -3067,24 +3073,24 @@ CHAT_YOUTUBE_EN: |-
  
 
 AUTH_COMMAND_HELP_EN: |-
- §7/auth reload §f- relaod configuration
- §7/auth register <player name> <password> §f- player register
- §7/auth unregister <player name> §f- delete account
- §7/auth changepassword <player name> <password> §f- change password for player
- §7/auth changemail <player name> <email> §f- change mail for player
- §7/auth lastlogin <player name> §f- last time login for player
+ §7/ktemauth reload §f- relaod configuration
+ §7/ktemauth register <player name> <password> §f- player register
+ §7/ktemauth unregister <player name> §f- delete account
+ §7/ktemauth changepassword <player name> <password> §f- change password for player
+ §7/ktemauth changemail <player name> <email> §f- change mail for player
+ §7/ktemauth lastlogin <player name> §f- last time login for player
 AUTH_RELOAD_EN: '§6Auth §8| §fConfiguration reloaded'
-AUTH_CHANGEMAIL_FORMAT_EN: '/auth changemail <player name> <password>'
+AUTH_CHANGEMAIL_FORMAT_EN: '/ktemauth changemail <player name> <password>'
 AUTH_CHANGEMAIL_EN: '§6Auth §8| §fPlayer mail %s§f changed to §a%s'
-AUTH_REGISTER_FORMAT_EN: '/auth register <player name> <password>'
+AUTH_REGISTER_FORMAT_EN: '/ktemauth register <player name> <password>'
 AUTH_REGISTER_EN: '§6Auth §8| §fAccount %s registred from password - §e%s'
-AUTH_UNREGISTER_FORMAT_EN: '/auth unregister <player name>'
+AUTH_UNREGISTER_FORMAT_EN: '/ktemauth unregister <player name>'
 AUTH_NO_ACCESS_EN: '§сВы не можете управлять аккаунтом данного игрока'
 AUTH_UNREGISTRED_EN: '§6Auth §8| §fAccount %s §fdeleted'
 AUTH_ERROR_EN: '§cError - %s'
-AUTH_CHANGEPASSWORD_FORMAT_EN: '/auth changepassword <player name> <password>'
+AUTH_CHANGEPASSWORD_FORMAT_EN: '/ktemauth changepassword <player name> <password>'
 AUTH_PASSWORD_CHANGED_EN: '§6Auth §8| §fPlayer password %s§f changed to §a%s'
-AUTH_LASTLOGIN_FORMAT_EN: '/auth lastlogin <player name>'
+AUTH_LASTLOGIN_FORMAT_EN: '/ktemauth lastlogin <player name>'
 AUTH_LASTLOGIN_EN: '§6Auth §8| §fPlayer %s§f last time was logged in %s§f ago'
 LOGIN_ALREADY_EN: '§cYou already authorized!'
 LOGIN_FORMAT_EN: '/login <password>'
@@ -6131,7 +6137,7 @@ NO_PERMISSION_ONLY_UA: '§cУ вас нет прав, данная функци�
 
 CREATIVE_COMMANDS_UA: '§eСоздайте свой плот §c/p auto§e, или телепортируйтесь домой §c/p home'
 
-BOARD_NEWS_UA: 'Новости: §e'
+BOARD_NEWS_UA: 'Новости: §7'
 BOARD_PLAYERS_UA: 'Игроков'
 BOARD_TEAMS_UA: 'Команд'
 BOARD_FOR_START_UA: 'Для старта нужно'
@@ -7290,24 +7296,24 @@ CHAT_YOUTUBE_UA: |-
   §cℹ Рекламировать каналы могут только игроки с привилегией §6§lYouTube
  
 AUTH_COMMAND_HELP_UA: |-
- §7/auth reload §f- перезагрузить конфигурацию
- §7/auth register <ник> <пароль> §f- регистрация игрока
- §7/auth unregister <ник> §f- удаление аккаунта
- §7/auth changepassword <ник> <пароль> §f- изменение пароля игроку
- §7/auth changemail <ник> <email> §f- изменение почты игроку
- §7/auth lastlogin <ник> §f- время последнего захода игрока
+ §7/ktemauth reload §f- перезагрузить конфигурацию
+ §7/ktemauth register <ник> <пароль> §f- регистрация игрока
+ §7/ktemauth unregister <ник> §f- удаление аккаунта
+ §7/ktemauth changepassword <ник> <пароль> §f- изменение пароля игроку
+ §7/ktemauth changemail <ник> <email> §f- изменение почты игроку
+ §7/ktemauth lastlogin <ник> §f- время последнего захода игрока
 AUTH_RELOAD_UA: '§6Авторизація §8| §fКонфигурация перезагружена'
-AUTH_CHANGEMAIL_FORMAT_UA: '/auth changemail <ник> <пароль>'
+AUTH_CHANGEMAIL_FORMAT_UA: '/ktemauth changemail <ник> <пароль>'
 AUTH_CHANGEMAIL_UA: '§6Авторизація §8| §fПочта игрока %s§f изменена на §a%s'
-AUTH_REGISTER_FORMAT_UA: '/auth register <ник> <пароль>'
+AUTH_REGISTER_FORMAT_UA: '/ktemauth register <ник> <пароль>'
 AUTH_REGISTER_UA: '§6Авторизація §8| §fАккаунт %s зарегистрирован с паролем - §e%s'
-AUTH_UNREGISTER_FORMAT_UA: '/auth unregister <ник>'
+AUTH_UNREGISTER_FORMAT_UA: '/ktemauth unregister <ник>'
 AUTH_NO_ACCESS_UA: '§сВы не можете управлять аккаунтом данного игрока'
 AUTH_UNREGISTRED_UA: '§6Авторизація §8| §fАккаунт %s §fудален'
 AUTH_ERROR_UA: '§cОшибка - %s'
-AUTH_CHANGEPASSWORD_FORMAT_UA: '/auth changepassword <ник> <пароль>'
+AUTH_CHANGEPASSWORD_FORMAT_UA: '/ktemauth changepassword <ник> <пароль>'
 AUTH_PASSWORD_CHANGED_UA: '§6Авторизація §8| §fПароль игрока %s §fизменен на §a%s'
-AUTH_LASTLOGIN_FORMAT_UA: '/auth lastlogin <ник>'
+AUTH_LASTLOGIN_FORMAT_UA: '/ktemauth lastlogin <ник>'
 AUTH_LASTLOGIN_UA: '§6Авторизация §8| §fИгрок %s§f последний раз был авторизован %s§f назад'
 LOGIN_ALREADY_UA: '§cВы уже авторизованы'
 LOGIN_FORMAT_UA: '/login <ваш пароль>'
