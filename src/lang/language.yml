@@ -1560,11 +1560,11 @@ GUILD_HOVER_YES_EN: 'Click, to accept invition'
 GUILD_HOVER_NO_EN: 'Click, to reject invition'
 
 
-GUILD_NO_EN: '§cВы не состоите в гильдии'
+GUILD_NO_EN: "§cYou aren't in the guild"
 
-GUILD_MUTE_EN: '§cВаш чат гильдии заблокирован игроком %s §cна %s по причине: §e%s'
-GUILD_CHAT_FORMAT_EN: '/gchat <сообщение>'
-GUILD_OFFLINE_EN: '§cВсе участники гильдии оффлайн'
+GUILD_MUTE_EN: '§cYou guild chat banned by %s §cfor %s for reason: §e%s'
+GUILD_CHAT_FORMAT_EN: '/gchat <message>'
+GUILD_OFFLINE_EN: '§cAll guild members are offline'
 GUILD_CHAT_EN: '§2Guild chat §8| %s §8» §7%s'
 
 GUILD_COMMAND_HELP_RU:
@@ -1774,211 +1774,211 @@ GUILD_DONATEINFO_RU: |-
   §c• §fВнес в гильдию: §a%s
   §c• §fПолучил из гильдии: §c%s
 GUILD_COMMAND_HELP_EN:
- - '§7/guild create <название> §f- создать гильдию'
- - '§7/guild top §f- просмотреть топ гильдий'
- - '§7/guild accept <ник игрока> §f- принять приглашение в гильдию'
- - '§7/guild reject <ник игрока> §f- отклонить приглашение в гильдию'
- - '§7/guild requests §f- список приглашений в гильдии'
- - '§7/guild all §f- открыть список всех гильдий'
+ - '§7/guild create <name> §f- create guilf'
+ - '§7/guild top §f- see guilds top'
+ - '§7/guild accept <player nickname> §f- accept guild invite'
+ - '§7/guild reject <player nickname> §f- reject guild invite'
+ - '§7/guild requests §f- guild invitions list'
+ - '§7/guild all §f- open all guilds list'
 GUILD_COMMAND_MEMBER_HELP_EN:
- - '§7/gchat <сообщение> §f- чат гильдии'
- - '§7/guild list §f- открыть список участников гильдии'
- - '§7/guild top §f- просмотреть топ гильдий'
- - '§7/guild leave §f- покинуть гильдию'
- - '§7/guild stats §f- информация о гильдии'
- - '§7/guild donaters §f- топ участников гильдии'
- - '§7/guild donate <кол -во монет> §f- пополнить баланс гильдии'
- - '§7/guild moders §f- открыть список модераторов гильдии'
- - '§7/guild deputys §f- открыть список заместителей гильдии'
+ - '§7/gchat <message> §f- guild chat'
+ - '§7/guild list §f- open guild members list'
+ - '§7/guild top §f- see guilds top'
+ - '§7/guild leave §f- leave guild'
+ - '§7/guild stats §f- guild information'
+ - '§7/guild donaters §f- guild members top'
+ - '§7/guild donate <кол -во монет> §f- invest to the guild balance'
+ - '§7/guild moders §f- open guild moderators list'
+ - '§7/guild deputys §f- open guild deputies list'
 GUILD_COMMAND_MODER_HELP_EN:
- - '§7/guild invite <ник игрока> §f- пригласить игрока в гильдию'
- - '§7/guild info <ник игрока> §f- информация об игроке'
- - '§7/guild mute §f- заблокировать чат игроку'
- - '§7/guild unmute §f- разблокировать чат игроку'
- - '§7/guild donateinfo <ник игрока> §f- информация о внесенных монетах игроком'
- - '§7/guild sethome §f- установить точку дома гильдии'
- - '§7/guild delhome §f- удалить точку дома гильдии'
+ - '§7/guild invite <nickname> §f- invite player to the guild'
+ - '§7/guild info <nickname> §f- information about the member'
+ - '§7/guild mute §f- mute player'
+ - '§7/guild unmute §f- unmute player'
+ - '§7/guild donateinfo <nickname> §f- information about payed coins by the player'
+ - '§7/guild sethome §f- set guild home'
+ - '§7/guild delhome §f- remove guild home'
 GUILD_COMMAND_DEPUTY_HELP_EN:
- - '§7/guild shop §f- открыть магазин гильдии'
- - '§7/guild tag <тег> §f- установить тег гильдии'
- - '§7/guild party §f- собрать группу гильдии'
- - '§7/guild motd <текст> §f- установить приветствие гильдии'
- - '§7/guild rank <ник игрока> <ранг> §f- установить ранг игроку'
- - '§7/guild deposit <ник игрока> <кол -во монет> §f- вывести деньги с баланса'
+ - '§7/guild shop §f- open guild shop'
+ - '§7/guild tag <тег> §f- set guild tag'
+ - '§7/guild party §f- put together the guild group'
+ - '§7/guild motd <text> §f- set guild welcome'
+ - '§7/guild rank <nickname> <rank> §f- set player rank'
+ - '§7/guild deposit <nickname> <amount of coins> §f- withdraw money from guild balance'
 GUILD_COMMAND_OWNER_HELP_EN:
- - '§7/guild kick <ник игрока> <причина> §f- удалить игрока из гильдии'
- - '§7/guild delete §f- распустить гильдию'
- - '§7/guild leader <ник игрока> §f- передать лидерство'
+ - '§7/guild kick <nickname> <reason> §f- kick player from group'
+ - '§7/guild delete §f- remove guild'
+ - '§7/guild leader <ник игрока> §f- transfer leadering'
 GUILD_COMMAND_TOP_HELP_EN:
- - '§7/guild top coins §f- топ гильдий по монетам'
- - '§7/guild top members §f- топ гильдий по участникам'
-GUILD_TOP_COINS_TITLE_EN: '§6Guild §8| §fТоп §a5§f гильдий:'
-GUILD_TOP_MEMBERS_TITLE_EN: '§6Guild §8| §fТоп §a5§f гильдий:'
-GUILD_TOP_DONATERS_TITLE_EN: '§6Guild §8| §fТоп §a5§f участников:'
-GUILD_TOP_COINS_FORMAT_EN: ' §6#%s §f- §e%s §fигрока %s§f, баланс - §a%s'
-GUILD_TOP_MEMBERS_FORMAT_EN: ' §6#%s §f- §e%s §fигрока %s§f, участников - §a%s'
-GUILD_TOP_DONATERS_FORMAT_EN: ' §6#%s §f- %s§f, %s в гильдию - §a%s§f монет'
-GUILD_TOP_GUILD_YOUR_EN: '§аВаша гильдия на §e#%s §fместе в топе'
-GUILD_TOP_YOUR_EN: '§аВы на §e#%s §fместе в топе'
+ - '§7/guild top coins §f- top coins guilds'
+ - '§7/guild top members §f- top members guilds'
+GUILD_TOP_COINS_TITLE_EN: '§6Guild §8| §fTop §a5§f guilds:'
+GUILD_TOP_MEMBERS_TITLE_EN: '§6Guild §8| §fTop §a5§f guilds:'
+GUILD_TOP_DONATERS_TITLE_EN: '§6Guild §8| §fTop §a5§f members:'
+GUILD_TOP_COINS_FORMAT_EN: ' §6#%s §f- §e%s §fplayer %s§f, balance - §a%s'
+GUILD_TOP_MEMBERS_FORMAT_EN: ' §6#%s §f- §e%s §fplayer %s§f, members - §a%s'
+GUILD_TOP_DONATERS_FORMAT_EN: ' §6#%s §f- %s§f, %s to the guild - §a%s§f coins'
+GUILD_TOP_GUILD_YOUR_EN: '§аYour guild is on §e#%s §fplace in the top'
+GUILD_TOP_YOUR_EN: '§аYou are on §e#%s §fplace in the top'
 
-GUILD_REQUESTS_NO_EN: '§cУ вас нет приглашений в гильдии'
-GUILD_ALREADY_EN: '§cВы уже состоите в гильдии'
-GUILD_PLAYER_ALREADY_EN: '§cИгрок %s уже состоит в гильдии'
-GUILD_PLAYER_NO_GUILD_EN: '§cИгрок %s не состоит в вашей гильдии'
-GUILD_PLAYER_NO_MEMBER_EN: '§cИгрок %s больше не состоит в гильдии в которую он ваш пригласил'
-GUILD_PLAYER_NO_REQUEST_EN: '§cИгрок %s не отправлял вам запросов в гильдию'
-GUILD_NAME_1_EN: 'вложила'
-GUILD_NAME_2_EN: 'вложил'
-GUILD_MONEY_INVALID_EN: '§cВведена неверная сумма'
-GUILD_LIMIT_EN: '§cДанная гильдия не может принять игроков, поскольку её лимит привышен'
-GUILD_LEADER_EN: '§cВы не лидерер гильдии'
-GUILD_MODER_EN: '§cВы не модератор гильдии'
+GUILD_REQUESTS_NO_EN: "§cYou haven't got guild invitions"
+GUILD_ALREADY_EN: '§cYou are already in the guild'
+GUILD_PLAYER_ALREADY_EN: '§cPlayer %s is already in the guild'
+GUILD_PLAYER_NO_GUILD_EN: "§cPlayer %s isn't in your guild"
+GUILD_PLAYER_NO_MEMBER_EN: '§cPlayer %s is no longer in the guild in which he(she) invited you'
+GUILD_PLAYER_NO_REQUEST_EN: "§cPlayer %s didn't send you guild invitions"
+GUILD_NAME_1_EN: 'invested'
+GUILD_NAME_2_EN: 'invested'
+GUILD_MONEY_INVALID_EN: '§cWritten wrong amount'
+GUILD_LIMIT_EN: "§cThis guild can't accept players, because its limit is exceeded"
+GUILD_LEADER_EN: "§cYou aren't guild leader"
+GUILD_MODER_EN: "§cYou aren't guild moderator"
 GUILD_NAME_MEMBER_EN: ''
-GUILD_NAME_MODER_EN: 'Модератор'
-GUILD_NAME_DEPUTY_EN: 'Заместитель'
-GUILD_NAME_OWNER_EN: 'Владелец'
-GUILD_COLOR_NAME_MEMBER_EN: '§7Игрок'
-GUILD_COLOR_NAME_MODER_EN: '§9Модератор'
-GUILD_COLOR_NAME_DEPUTY_EN: '§4Заместитель'
-GUILD_COLOR_NAME_OWNER_EN: '§cВладелец'
+GUILD_NAME_MODER_EN: 'Moderator'
+GUILD_NAME_DEPUTY_EN: 'Deputy'
+GUILD_NAME_OWNER_EN: 'Owner'
+GUILD_COLOR_NAME_MEMBER_EN: '§7Member'
+GUILD_COLOR_NAME_MODER_EN: '§9Moderator'
+GUILD_COLOR_NAME_DEPUTY_EN: '§4Deputy'
+GUILD_COLOR_NAME_OWNER_EN: '§cOwner'
 GUILD_CHAT_NAME_MEMBER_EN: ''
-GUILD_CHAT_NAME_MODER_EN: '§7(Модератор) '
-GUILD_CHAT_NAME_DEPUTY_EN: '§7(Заместитель) '
-GUILD_CHAT_NAME_OWNER_EN: '§7(Владелец) '
+GUILD_CHAT_NAME_MODER_EN: '§7(Moderator) '
+GUILD_CHAT_NAME_DEPUTY_EN: '§7(Deputy) '
+GUILD_CHAT_NAME_OWNER_EN: '§7(Owner) '
 
-GUILD_PARTY_EN: '§6Guild §8| §fВы пригласили всех онлайн участников в группу гильдий'
+GUILD_PARTY_EN: '§6Guild §8| §fYou invited all online members to the guild party'
 
 GUILD_CREATE_FORMAT_EN: '/guild create <name>'
-GUILD_CREATE_EN: '§6Guild §8| §fВы создали гильдию §a%s'
-GUILD_CREATE_NO_MONEY_EN: '§cВам нехватает %s монет для создания гильдии'
-GUILD_CREATE_ALREADY_EN: '§cГильдия с названием %s уже существует'
-GUILD_CREATE_NO_PERMISSION_EN: '§cСоздавать гильдии могут только игроки со статусом %s§c и выше'
+GUILD_CREATE_EN: '§6Guild §8| §fYou created guild §a%s'
+GUILD_CREATE_NO_MONEY_EN: '§cYou lack %s coins to create the guild'
+GUILD_CREATE_ALREADY_EN: '§cGuild with name %s is already exists'
+GUILD_CREATE_NO_PERMISSION_EN: '§cCreate guilds may only players with group %s§c and higher'
 
-GUILD_DELETE_EN: '§6Guild §8| §fВы распустили гильдию §a%s'
-GUILD_DELETE_ALERT_EN: '§2Гильдия §8| %s §fраспустил гильдию'
+GUILD_DELETE_EN: '§6Guild §8| §fYou removed guild §a%s'
+GUILD_DELETE_ALERT_EN: '§2Guild §8| %s §fremoved guild'
 
 GUILD_INVITE_FORMAT_EN: '/guild invite <player name>'
-GUILD_INVITE_EN: '§6Guild §8| §fИгроку %s §fбыло отправлено предложение на вступление в гильдию'
-GUILD_INVITE_ME_EN: '§cError, Вы не можете пригласить в гильдию самого себя'
-GUILD_INVITE_FRIEND_EN: '§cДанный игрок запретил отправлять ему приглашения в гильдии'
-GUILD_INVITE_ALREADY_EN: '§cИгрок %s уже имеет предложение на вступление в гильдию'
-GUILD_INVITE_LIMIT_EN: '§cЛимит гильдии превышен, лимит - %s'
+GUILD_INVITE_EN: '§6Guild §8| §fTo player %s §fwas sent invition to the guild'
+GUILD_INVITE_ME_EN: "§cError, You can't invite yourself"
+GUILD_INVITE_FRIEND_EN: '§cThe player forbad to send him(her) guild invitions'
+GUILD_INVITE_ALREADY_EN: '§cPlayer %s already has invition to the guild'
+GUILD_INVITE_LIMIT_EN: '§cGuild limit exceeded, limit - %s'
 
 GUILD_ACCEPT_FORMAT_EN: '/guild accept <player name>'
-GUILD_ACCEPT_ALERT_EN: '§2Гильдия §8| %s §fвступил в гильдию'
-GUILD_ACCEPT_EN: '§6Guild §8| §fВы приняли запрос в гильдию §a%s'
+GUILD_ACCEPT_ALERT_EN: '§2Guild §8| %s §fjoined the guild'
+GUILD_ACCEPT_EN: '§6Guild §8| §fYou accepted invition to the guild §a%s'
 
 GUILD_REJECT_FORMAT_EN: '/guild reject <player name>'
-GUILD_REJECT_ALERT_EN: '§2Гильдия §8| %s §7отклонил ваш запрос в гильдию'
-GUILD_REJECT_EN: '§6Guild §8| §fВы отклонили запрос в гильдию §a%s'
+GUILD_REJECT_ALERT_EN: '§2Guild §8| %s §7rejected your guild invition'
+GUILD_REJECT_EN: '§6Guild §8| §fYou rejected invition to the guild §a%s'
 
 GUILD_TAG_FORMAT_EN: '/guild tag <tag>'
-GUILD_TAG_LIMIT_EN: '§6Guild §8| §fТег гильдии не должен превышать §c15§f символов'
-GUILD_TAG_ALERT_EN: '§2Гильдия §8| %s §fустановил тег гильдии -> §e%s'
-GUILD_TAG_EN: '§6Guild §8| §fТег гильдии установлен на §a%s'
-GUILD_TAG_NO_MONEY_EN: '§cГильдии нехватает %s монет для изменения тега гильдии'
-GUILD_TAG_NO_BUY_EN: '§cУ вас еще не куплен тег гильдии, купите его в /guild shop'
+GUILD_TAG_LIMIT_EN: "§6Guild §8| §fGuild tag doesn't have to be more than §c15§f characters"
+GUILD_TAG_ALERT_EN: '§2Guild §8| %s §fset guild tag -> §e%s'
+GUILD_TAG_EN: '§6Guild §8| §fGuild tag set to §a%s'
+GUILD_TAG_NO_MONEY_EN: '§cGuild lacks %s coins to change tag'
+GUILD_TAG_NO_BUY_EN: "§cYou haven't got guild tag, buy it in /guild shop"
 
 GUILD_MOTD_FORMAT_EN: '/guild motd <text>'
-GUILD_MOTD_ALERT_EN: '§2Гильдия §8| §fИгрок %s §fобновил приветствие гильдии'
-GUILD_MOTD_EN: '§6Guild §8| §fПриветствие гильдии изменено на §a%s'
-GUILD_MOTD_NO_BUY_EN: '§cУ вас еще не куплено приветствие гильдии, купите его в /guild shop'
+GUILD_MOTD_ALERT_EN: '§2Guild §8| §fPlayer %s §fupdated the guild welcome
+GUILD_MOTD_EN: '§6Guild §8| §fGuild welcome changed to §a%s'
+GUILD_MOTD_NO_BUY_EN: "§cYou haven't got guild welcome, buy it in /guild shop"
 
 GUILD_LEADER_FORMAT_EN: '/guild leader <player name>'
-GUILD_LEADER_ME_EN: '§cВы не можете передать лидерство самому себе'
-GUILD_LEADER_ALERT_EN: '§2Гильдия §8| %s §fпередал лидерство гильдии игроку %s'
-GUILD_SETLEADER_EN: '§6Guild §8| §fВы передали лидерство гильдии игроку %s'
+GUILD_LEADER_ME_EN: "§cYou can't transfer leadering to yourself"
+GUILD_LEADER_ALERT_EN: '§2Guild §8| %s §ftransfered leadering to player %s'
+GUILD_SETLEADER_EN: '§6Guild §8| §fYou transfered leadering to player %s'
 
 GUILD_RANK_FORMAT_EN: '/guild rank <player name> <rank>'
-GUILD_RANK_ME_EN: '§cВы не можете изменить ранг самому себе'
-GUILD_RANK_ALERT_EN: '§2Гильдия §8| %s §7понизил %s §7до %s'
-GUILD_SETRANK_ALERT_EN: '§2Гильдия §8| %s §7установил ранг %s§7 игроку %s'
-GUILD_RANK_EN: '§6Guild §8| §fВы понизили %s §fдо §7%s'
-GUILD_SETRANK_EN: '§6Guild §8| §fВы назначили нового %s§f гильдии %s'
-GUILD_RANK_INVALID_EN: '§cВы указали неверный ранг Доступные ранги: §fDefault, Moderator, Deputy'
-GUILD_RANK_NO_ACCESS_EN: '§cВы не можете управлять рангами данного игрока'
+GUILD_RANK_ME_EN: "§cYou can't change rank yourself"
+GUILD_RANK_ALERT_EN: '§2Guild §8| %s §7'lowered %s §7to %s'
+GUILD_SETRANK_ALERT_EN: '§2Guild §8| %s §7set rank %s§7 to player %s'
+GUILD_RANK_EN: '§6Guild §8| §fYou lowered %s §fto §7%s'
+GUILD_SETRANK_EN: '§6Guild §8| §fYou assign new %s§f guild %s'
+GUILD_RANK_INVALID_EN: '§cYou specified wrong rank Available ranks: §fDefault, Moderator, Deputy'
+GUILD_RANK_NO_ACCESS_EN: "§cYou can't manage ranks this player"
 
-GUILD_DONATE_FORMAT_EN: '/guild donate <сумма>'
-GUILD_DONATE_ALERT_EN: '§2Гильдия §8| %s §fположил в банк гильдии §a%s §fмонет'
-GUILD_DONATE_EN: '§6Guild §8| §fВы внесли в казну гильдии §a%s §fмонет'
-GUILD_DONATE_DAILYLIMIT_EN: '§cСумма которую вы хотите внести, превышает дневной лимит гильдии, лимит - %s'
-GUILD_DONATE_LIMIT_EN: '§cДневной лимит гильдии превышен, лимит - %s'
-GUILD_DONATE_REMOVELIMIT_EN: '§cОбнуление лимита через: %s'
-GUILD_DONATE_NO_MONEY_EN: '§cСумма которую вы хотите внести, превышает ваш баланс'
-GUILD_DONATE_AVAILABLE_EN: '§cМожно еще внести %s'
+GUILD_DONATE_FORMAT_EN: '/guild donate <amount>'
+GUILD_DONATE_ALERT_EN: '§2Guild §8| %s §finvested to the guild bank §a%s §fcoins'
+GUILD_DONATE_EN: '§6Guild §8| §fYou invested to the guild bank §a%s §fcoins'
+GUILD_DONATE_DAILYLIMIT_EN: '§cThe amount you want to invest exceeds the guild daily limit, limit - %s'
+GUILD_DONATE_LIMIT_EN: '§cDaily guild limit exceeded, limit - %s'
+GUILD_DONATE_REMOVELIMIT_EN: '§cZeroing limit after: %s'
+GUILD_DONATE_NO_MONEY_EN: '§cThe amount you want to invest exceeds your balance'
+GUILD_DONATE_AVAILABLE_EN: '§cMay invest %s'
 
-GUILD_LEAVE_OWNER_EN: '§cВы лидер гильдии, для удаления гильдии используйте /guild delete, или передачи лидерства /g leader'
-GUILD_LEAVE_ALERT_EN: '§2Гильдия §8| %s §fпокинул гильдию'
-GUILD_LEAVE_EN: '§6Guild §8| §fВы покинули гильдию '
+GUILD_LEAVE_OWNER_EN: '§cYou are guild leader, to remove guild use /guild delete, or transfer leader /g leader'
+GUILD_LEAVE_ALERT_EN: '§2Guild §8| %s §fleft the guild'
+GUILD_LEAVE_EN: '§6Guild §8| §fYou left the guild '
 
-GUILD_DEPOSIT_FORMAT_EN: '/guild deposit <player name> <сумма>'
-GUILD_DEPOSIT_ALERT_EN: '§2Гильдия §8| %s §7вывел §a%s §7монет из банка гильдии игроку %s'
-GUILD_DEPOSIT_MSG_EN: '§6Guild §8| §fВаш баланс был пополнен из банка гильдии игроком %s §fна §a%s §fмонет'
-GUILD_DEPOSIT_EN: '§6Guild §8| §fВы вывели на баланс игрока %s §a%s §7монет'
-GUILD_DEPOSIT_NO_MONEU_EN: '§cСумма которую вы пытаетесь вывести, превышает баланс гильдии'
+GUILD_DEPOSIT_FORMAT_EN: '/guild deposit <player name> <amount>'
+GUILD_DEPOSIT_ALERT_EN: '§2Guild §8| %s §7withdrawed §a%s §7coins from guild bank to %s'
+GUILD_DEPOSIT_MSG_EN: '§6Guild §8| §fYour balance replenished from guild bank by %s §fon §a%s §fcoins'
+GUILD_DEPOSIT_EN: '§6Guild §8| §fYou withdrawed on player balance %s §a%s §7coins'
+GUILD_DEPOSIT_NO_MONEU_EN: '§cThe amount you want to withdraw, exceeds guild balance'
 
 GUILD_KICK_FORMAT_EN: '/guild kick <player name> <reason>'
-GUILD_KICK_ALERT_EN: '§2Гильдия §8| %s §fисключил из гильдии игрока %s §fпо причине: §e%s'
-GUILD_KICK_EN: '§6Guild §8| §fВы исключили из гильдии %s §fпо причине: §e%s'
-GUILD_KICK_EXEMPT_EN: '§cВы не можете исключить данного игрока'
+GUILD_KICK_ALERT_EN: '§2Guild §8| %s §fkicked the player %s §ffor reason: §e%s'
+GUILD_KICK_EN: '§6Guild §8| §fYou kicked the player %s §ffor reason: §e%s'
+GUILD_KICK_EXEMPT_EN: "§cYou can't kick this player"
 
 GUILD_MUTE_FORMAT_EN: '/guild mute <player name> <time> <reason>'
-GUILD_MUTE_ALERT_EN: '§2Гильдия §8| %s §fзаблокировал чат гильдии игроку %s §fна §a%s §fпо причине: §a%s'
-GUILD_NEWMUTE_EN: '§6Guild §8| §fВы заблокировали чат гильдии игрока %s §fна §a%s §fпо причине: §a%s'
-GUILD_MUTE_ME_EN: '§cВы не можете заблокировать чат гильдии себе'
-GUILD_MUTE_ALREADY_EN: '§cУ игрока %s уже заблокирован чат гильдии'
-GUILD_MUTE_MSG: '§c%s §cзаблокировал Вам чат гильдии по причине %s на %s'
+GUILD_MUTE_ALERT_EN: '§2Guild §8| %s §fmuted guild chat for the player %s §fon §a%s §ffor reason: §a%s'
+GUILD_NEWMUTE_EN: '§6Guild §8| §fYou muted guild chat for the player %s §fon §a%s §ffor reason: §a%s'
+GUILD_MUTE_ME_EN: "§cYou can't mute yourself"
+GUILD_MUTE_ALREADY_EN: '§cPlayer %s has got already muted guild chat'
+GUILD_MUTE_MSG: '§c%s §cmuted chat guild for You %s on %s'
 
 GUILD_UNMUTE_FORMAT_EN: '/guild unmute <ник игрока>'
-GUILD_UNMUTE_ALREADY_EN: '§cУ игрока %s не заблокирован чат гильдии'
-GUILD_UNMUTE_ALERT_EN: '§2Гильдия §8| %s §fразблокировал чат игрока %s'
-GUILD_UNMUTE_MSG_EN: '§aВам был разблокирован доступ к чату гильдии'
-GUILD_UNMUTE_EN: '§6Guild §8| §fВы разблокировали чат гильдии игроку %s'
+GUILD_UNMUTE_ALREADY_EN: "§cPlayer %s hasn't got guild chat mute"
+GUILD_UNMUTE_ALERT_EN: '§2Guild §8| %s §funmuted guild chat for the player %s'
+GUILD_UNMUTE_MSG_EN: '§aYour guild chat has been unmuted'
+GUILD_UNMUTE_EN: '§6Guild §8| §fYou unmuted guild chat for the player %s'
 
-GUILD_STATS_MOTD_BUY_EN: '§aКуплено'
-GUILD_STATS_MOTD_NO_BUY_EN: '§cНе куплено'
-GUILD_STATS_TAG_BUY_EN: '§aКуплен'
-GUILD_STATS_TAG_NO_BUY_EN: '§cНе куплен'
-GUILD_STATS_LIMITED_EN: ' §c• §fОбнуление лимита через: §e%s'
+GUILD_STATS_MOTD_BUY_EN: '§aBought'
+GUILD_STATS_MOTD_NO_BUY_EN: '§cDidn't buy'
+GUILD_STATS_TAG_BUY_EN: '§aBought'
+GUILD_STATS_TAG_NO_BUY_EN: '§cDidn't buy'
+GUILD_STATS_LIMITED_EN: ' §c• §fZeroing limit after: §e%s'
 GUILD_STATS_EN: |-
- §6Гильдии §8| §fСтатистика гильдии §a%s §8| §e%s§f:
-  §c• §fБаланс гильдии: §a%s
-  §c• §fЗаработано за день: §a%s
-  §c• §fДневной лимит: §c%s
-  §c• §fПриветствие гильдии: %s
-  §c• §fТег гильдии: %s
-  §c• §fДата основания: §a%s
-  §c• §fВладелец: §a%s
-  §c• §fОснователь: §a%s
-  §c• §fУчастников: §a%s§7/§c%s
-  §c• §fМодераторов: §a%s§7/§c∞
-  §c• §fЗаместителей: §a%s§7/§c∞
+ §6Гильдии §8| §fGuild stats §a%s §8| §e%s§f:
+  §c• §fGuild balance: §a%s
+  §c• §fEarned in a day: §a%s
+  §c• §fDaily limit: §c%s
+  §c• §fGuild welcome: %s
+  §c• §fGuild tag: %s
+  §c• §fFounding date: §a%s
+  §c• §fOwner: §a%s
+  §c• §fFounder: §a%s
+  §c• §fMembers: §a%s§7/§c%s
+  §c• §fModerators: §a%s§7/§c∞
+  §c• §fDeputies: §a%s§7/§c∞
 
-GUILD_HOME_NO_EN: '§cУ гильдии еще нет дома гильдии'
-GUILD_HOME_EN: '§6Guild §8| §fВы были телепортированы в дом гильдии'
+GUILD_HOME_NO_EN: "§cYou haven't got guild home"
+GUILD_HOME_EN: '§6Guild §8| §fYou were teleported to the guild home'
 GUILD_HOME_DELAY_EN: '§cТелепортироватся в дом гильдии можно 1 раз в 5 минут, осталось %s'
-GUILD_HOME_CANCEL_EN: '§cВы сдвинулись, телепортация отменена'
-GUILD_HOME_START_EN: 'Процесс телепортации запущен, вы будите телепортированы через §a5§f секунд'
-GUILD_HOME_ALREADY_EN: '§cПроцесс телепортации уже запущен'
+GUILD_HOME_CANCEL_EN: '§cYou moved, teleportation canceled'
+GUILD_HOME_START_EN: 'Teleportation started, you will be teleported in §a5§f seconds'
+GUILD_HOME_ALREADY_EN: '§cTeleportation is already running'
 
-GUILD_DELHOME_EN: '§6Guild §8| §fТочка дома гильдии была удалена'
-GUILD_DELHOME_ALREADY_EN: '§cУ гильдии еще нет дома гильдии, создайте его /g sethome'
+GUILD_DELHOME_EN: '§6Guild §8| §fGuild home removed'
+GUILD_DELHOME_ALREADY_EN: "§cGuild hasn't got guild home, сreate it /g sethome"
 GUILD_DELHOME_ALERT_EN: ''
 
-GUILD_SETHOME_EN: '§6Guild §8| §fТочка дома гильдии была установлена'
-GUILD_SETHOME_ALERT_EN: '§2Гильдия §8| %s §fустановил точку кланового дома'
-GUILD_SETHOME_INVALID_EN: '§cУстанавливать дом гильдии можно только на режимах: Anarchy, Creative, SkyBlock'
+GUILD_SETHOME_EN: '§6Guild §8| §fGuild home set'
+GUILD_SETHOME_ALERT_EN: '§2Гильдия §8| %s §fset guild home'
+GUILD_SETHOME_INVALID_EN: '§cSet guild home may on thr servers: Anarchy, Creative, SkyBlock'
 
 GUILD_INFO_FORMAT_EN: '/guild info <player name>'
 GUILD_INFO_EN: |-
- §6Гильдии §8| §fСтатистика игрока %s
-  §c• §fРанг игрока: §a%s
-  §c• §fВ гильдии с: §a%s
+ §6Guild §8| §fPlayer stats %s
+  §c• §fRank: §a%s
+  §c• §fIn guild from: §a%s
 GUILD_DONATEINFO_FORMAT_EN: '/guild donateinfo <player name>'
 GUILD_DONATEINFO_EN: |-
- §6Гильдии §8| §fИнформация внесенных монетах игроком %s
-  §c• §fВнес в гильдию: §a%s
-  §c• §fПолучил из гильдии: §c%s
+ §6Guild §8| §fInformation about donated coins from player %s
+  §c• §fDonated: §a%s
+  §c• §fGot from guild: §c%s
 PERSONALUP_DISABLE_RU: '§cДля вас недоступно повышение.'
 PERSONALUP_KEY_NOT_ACTIVE_RU: '§cОшибка, ключ не действителен.'
 PERSONALUP_KEY_REASON_RU: '§4Ошибка #23 §cВведен не действительный ключ.'
