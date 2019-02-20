@@ -2035,7 +2035,7 @@ MUTE_REASON_RU: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 BAN_ALREADY_RU: '§cИгрок %s уже заблокирован'
 BANIP_ALREADY_RU: '§cАдрес %s уже заблокирован'
 MUTE_ALREADY_RU: '§cУ игрока %s уже заблокирован чат'
-BANIP_NOT_FOUND_RU: '§cИгрок %s не найден, или адрес указан неверно'
+BANIP_INCORRECT_RU: '§cИгрок %s не найден, или адрес указан неверно'
 SETTINGS_DONATECHAT_DISABLE_RU: '§cВы отключили чат донатеров. Чтобы написать туда, включите его в личных настройках'
 UNBANIP_NO_RU: '§cАдрес %s, не заблокирован'
 UNBAN_NO_RU: '§cИгрок %s, не заблокирован'
@@ -2301,8 +2301,8 @@ MUTE_REASON_EN: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 BAN_ALREADY_EN: '§cPlayer %s already blocked'
 BANIP_ALREADY_EN: '§cAddres %s already blocked'
 MUTE_ALREADY_EN: '§cFrom player %s already blocked chat'
-BANIP_NOT_FOUND_EN: '§cPlayer %s not found, or указан invalid address'
-REPORT_ALREADY_SENT_EN: '§cВы уже отправляли жалобу на данного игрока'
+BANIP_INCORRECT_EN: '§cPlayer %s not found, or specified invalid address'
+REPORT_ALREADY_SENT_EN: '§cYou already sent from this player'
 REPORT_ME_EN: '§cВы не можете пожаловатся на самого себя'
 REPORT_FOR_PERSONAL_EN:
  - '§cВы не можете пожаловатся на персонал сервера'
@@ -2959,7 +2959,7 @@ REJOIN_NOT_FOUND_EN: "§cError, You didn't played anywhere or server was restart
 REJOIN_INFO_En: '§fIf you were §ckicked§f, write §7/rejoin§f for second join to the games'
 REJOIN_EN: '§aYou join second to the game %s'
 
-CHAT_DOUBLE_RU: ' §cℹ Пожалуйста, не повторяйте сообщения'
+CHAT_DOUBLE_RU: ' §cℹ Пожалуйста, не повторяйте одинаковые сообщения'
 CHAT_SPAM_RU: ' §cℹ Не флудите.'
 CHAT_YOUTUBE_RU: |-
  
@@ -3055,10 +3055,10 @@ FORUM_ACCOUNT_REGISTRED_RU: |-
  §7• §fЛогин: §a%s
  §7• §fПароль: §a%s
  
- §fАвторизироваться можно на форуме: §6forum.filkworld.cf
+ §fАвторизироваться можно на: §6forum.filkworld.cf
 FORUM_ACCOUNT_ALREADY_RU: '§cОшибка, форумный аккаунт уже привязан'
 
-CHAT_DOUBLE_EN: ' §cℹ Пожалуйста, не повторяйте сообщения'
+CHAT_DOUBLE_EN: ' §cℹ Please, не повторяйте одинаковые сообщения'
 CHAT_SPAM_EN: ' §cℹ Не флудите.'
 CHAT_YOUTUBE_EN: |-
  
@@ -3123,9 +3123,9 @@ AUTH_LOGIN_CONFIRM_EN: '§fAuthorization is successful!'
 AUTH_LOGIN_WRONG_EN: '§cError, неверный пароль'
 AUTH_LOGIN_WRONGS_EN: '§cA lot of a attempts incorrect\ninput a password. Your account\nis blocked for a few minutes'
 AUTH_EMAIL_INFO_EN: '§c⚠ Warning! §fYou did not bind §cemail §fto your account, do this right now - §e/email'
-AUTH_EMAIL_INFO_HOVER_EN: '§fClick here,\nto add mail'
+AUTH_EMAIL_INFO_HOVER_EN: "§fClick here,\nto add mail"
 AUTH_REGISTER_CONFIRM_INFO_EN: '§6You successfully registered! §fYour current password §7(hover here)'
-AUTH_REGISTER_CONFIRM_INFO_HOVER_EN: '§fPassword - §a%s\n\n§fRemember it or made\nscreenshot, to not forget - §ckey F2'
+AUTH_REGISTER_CONFIRM_INFO_HOVER_EN: "§fPassword - §a%s\n\n§fRemember it or made\nscreenshot, to not forget - §ckey F2"
 AUTH_LOGIN_TITLE_EN: '§2§lFilk§3§lWorld.cf'
 AUTH_LOGIN_SUBTITLE_EN: '§7For continuation register'
 AUTH_REGISTER_TITLE_EN: '§2§lFilk§3§lWorld.cf'
@@ -3184,7 +3184,7 @@ GUI_STATS_RU: '§bСтатистика'
 GUI_DONATEMENU_RU: '§bДонат меню'
 GUI_EFFECTSHOP_RU: '§bКосметика'
 GUI_PERSONALUP_RU: '§bПовышение'
-GUI_YOUTUBE_RU: '§bYouTube меню'
+GUI_YOUTUBEMENU_RU: '§bYouTube меню'
 GUI_NULL_RU: '§c???'
 GUI_DONATE_RU: '§bПривилегии'
 GUI_INFO_RU: '§bИнформация'
@@ -4461,9 +4461,9 @@ GUI_LEVEL_EN: '§bLeveling'
 GUI_STATS_EN: '§bStats'
 GUI_DONATEMENU_EN: '§bMenu donate'
 GUI_EFFECTSHOP_EN: '§bCosmetics'
-GUI_PERSONALUP_EN: '§bBoost'
-GUI_YOUTUBE_EN: '§bMenu YouTube'
 GUI_NULL_EN: '§c???'
+GUI_PERSONALUP_EN: '§bBoost'
+GUI_YOUTUBEMENU_EN: '§bMenu YouTube'
 GUI_DONATE_EN: '§bDonate'
 GUI_INFO_EN: '§bHelp'
 GUI_LANGUAGE_EN: '§bSwitch language'
@@ -4478,7 +4478,6 @@ GUI_PROFILE_LORE_EN:
 - '§7To next level: §a%s XP'
 - '§7Keys: §b%s'
 - '§7Friends: §e%s§7/§a%s'
-
 GUI_SETTING_LORE_EN:
 - '§7Personal settings'
 - ' §8▪ §7Blood: %s'
@@ -4495,7 +4494,6 @@ GUI_SETTING_LORE_EN:
 - ' §8▪ §7Donaters chat: %s'
 - ''
 - '§e▸ Open the settings menu'
-
 GUI_LEVEL_LORE_EN:
 - '§7Playing on the server, you get'
 - '§7gaming experience that is necassary'
@@ -4507,10 +4505,8 @@ GUI_LEVEL_LORE_EN:
 - '§7To the next level: §a%s XP'
 - ''
 - '%s'
-
 LEVEL_OPEN_EN: '§e▸ Open leveling rewards menu'
 LEVEL_NO_EN: '§c▸ Rewards can get only from level 5'
-
 GUI_STATS_LORE_EN:
 - '§7Game statistics'
 - '§7from all mini games'
@@ -4520,7 +4516,6 @@ GUI_STATS_LORE_EN:
 - '§7stats by typing - §f/stats <name>'
 - ''
 - '§e▸ Open the statistics menu'
-
 GUI_DONATEMENU_LORE_EN:
 - '§7Player customization on game'
 - '§7areas. You will be able to choose prefix color,'
@@ -4528,7 +4523,6 @@ GUI_DONATEMENU_LORE_EN:
 - '§7and other.'
 - ''
 - '§e▸ Open donate menu'
-
 GUI_EFFECTSHOP_LORE_EN:
 - '§7Allows to buy and activate'
 - '§7different cosmetic improvements'
@@ -4539,34 +4533,28 @@ GUI_EFFECTSHOP_LORE_EN:
 - '§cwork on all areas and games!'
 - ''
 - '§e▸ Open cosmetics'
-
 GUI_PERSONALUP_LORE_EN:
 - '§7Detail information about'
 - '§7opportunities of promotion'
 - ''
 - '%s'
-
 PERSONALUP_OPEN_EN: '§e▸ Open the boost menu'
 PERSONALUP_NO_EN: '§c▸ No promotion available for you'
-
 GUI_YOUTUBE_LORE_EN:
 - '§7Special menu with extra opportunities,'
 - '§7for youtubers'
 - ''
 - '§e▸ Open youtube menu'
-
 GUI_DONATE_LORE_EN:
 - '§7Detalied information about the features'
 - '§7privileges and their purchase'
 - ''
 - '§e▸ Open the privileges menu'
-
 GUI_INFO_LORE_EN:
 - '§7Useful information for'
 - '§7games on the server'
 - ''
 - '§e▸ Open the information menu'
-
 GUI_LANGUAGE_LORE_EN:
 - '§7Change default server language'
 - '§7Translation and languages will be added!'
@@ -4579,7 +4567,6 @@ GUI_LANGUAGE_LORE2_EN:
 - '§cerrors on link goo-gl.ru/4Rqm'
 - ''
 - '§e▸ Open the language menu'
-
 GUI_ITEMS_LORE_EN:
 - '§7Your item, got for participation'
 - '§7in games/contests/voting for server'
@@ -4587,14 +4574,12 @@ GUI_ITEMS_LORE_EN:
 - '§7Total items: §e%s'
 - ''
 - '§e▸ Open the items menu'
-
 GUI_SHOP_LORE_EN:
 - '§7Shop, where you can'
 - '§7diffent things, items'
 - '§7for gold, and ktems'
 - ''
 - '§e▸ Open shop'
-
 GUI_PROFILE_NAME_EN: 'Profile'
 GUI_DONATE_NAME_EN: 'Privileges'
 GUI_DONATE_TITLE_EN: 'Capabilities %s'
@@ -4607,7 +4592,6 @@ GUI_DONATE_PARKOUR_EN: '§bParkour'
 GUI_DONATE_LUCKYWARS_EN: '§bLuckyWars'
 GUI_DONATE_PAYMENT_EN: '§bPlayment options'
 GUI_DONATE_INFO_EN: '§bAdditional Information'
-
 GUI_PREMIUM_ALL_LORE_EN:
 - ''
 - ' §8▪ §7Prefix §6§lPREMIUM'
@@ -4649,7 +4633,6 @@ GUI_PREMIUM_LUCKYWARS_LORE_EN:
 - ''
 - ' §4✕ §7No features available'
 - ''
-
 GUI_GOLD_ALL_LORE_EN:
 - ''
 - ' §8▪ §7Prefix §e§lGOLD'
@@ -4699,7 +4682,6 @@ GUI_GOLD_LUCKYWARS_LORE_EN:
 - ''
 - ' §4✕ §7No features available'
 - ''
-
 GUI_LEGEND_ALL_LORE_EN:
 - ''
 - ' §8▪ §7Prefix §3§lLEGEND'
@@ -4755,7 +4737,6 @@ GUI_LEGEND_LUCKYWARS_LORE_EN:
 - ''
 - ' §4✕ §7No features available'
 - ''
-
 GUI_EMERALD_ALL_LORE_EN:
 - ''
 - ' §8▪ §7Prefix §a§lEMERALD'
@@ -4819,7 +4800,6 @@ GUI_EMERALD_LUCKYWARS_LORE_EN:
 - ''
 - ' §4✕ §7No features available'
 - ''
-
 GUI_GOLEM_ALL_LORE_EN:
 - ''
 - ' §8▪ §7Prefix §7§lGOLEM'
@@ -4885,7 +4865,6 @@ GUI_GOLEM_LUCKYWARS_LORE_EN:
 - ''
 - ' §4✕ §7No features available'
 - ''
-
 GUI_DIAMOND_ALL_LORE_EN:
 - ''
 - ' §8▪ §7Prefix §b§lDIAMOND'
@@ -4953,7 +4932,6 @@ GUI_DIAMOND_LUCKYWARS_LORE_EN:
 - ''
 - ' §4✕ §7No features available'
 - ''
-
 GUI_ENDERMAN_ALL_LORE_EN:
 - ''
 - ' §8▪ §7Prefix §5§lENDERMAN'
@@ -5024,7 +5002,6 @@ GUI_ENDERMAN_LUCKYWARS_LORE_EN:
 - ''
 - ' §4✕ §7No features available'
 - ''
-
 GUI_DONATE_PAYMENT_LORE_EN:
 - '§7Purchase of status can be made through:'
 - ' §8▪ §fWebMoney, Qiwi, PayPal, Yandex money'
@@ -5034,7 +5011,6 @@ GUI_DONATE_PAYMENT_LORE_EN:
 - ''
 - '§7Choose the status that interests you'
 - '§7and pay it in a way convenient for you'
-
 GUI_DONATE_INFO_LORE_EN:
 - '§7If it so happened that you want'
 - '§7buy a status status higher,'
@@ -5048,14 +5024,11 @@ GUI_DONATE_INFO_LORE_EN:
 - '§7For example, if you want to buy a status'
 - '§a§lEMERALD§7, and you already have §e§lGOLD§7,'
 - '§7then you have to pay §c72 rubbles§7.'
-
 GUI_DONATE_ITEM_LORE_EN:
 - ''
 - '§7Cost: §6%s Rubles'
 - ''
 - '§e▸ Open the options menu'
-
-
 GUI_INFO_HELP_LORE_EN:
 - '§7Useful commands for playing on the server:'
 - ''
@@ -5064,7 +5037,6 @@ GUI_INFO_HELP_LORE_EN:
 - '§e/find <Nickname> §7- Find player'
 - '§e/staff §7- Server staff online'
 - '§e/convert §7- Conversation currencies'
-
 GUI_INFO_DONATE_LORE_EN:
 - '§7List of paid statuses:'
 - ' §8▪ §6§lPREMIUM §7- §f15 Rubbles'
@@ -5080,7 +5052,6 @@ GUI_INFO_DONATE_LORE_EN:
 - ''
 - '§7You can buy status'
 - '§7Online §dwww.filkworld.cf'
-
 GUI_INFO_FRIEND_LORE_EN:
 - '§7For a comfortable game with friends'
 - '§7use the commands below'
@@ -5101,7 +5072,6 @@ GUI_INFO_FRIEND_LORE_EN:
 - '§7can be found, by writing §e/friends §7or §e/party'
 - ''
 - '§7A regular player have a maximum of §c20§7 friends!'
-
 GUI_INFO_SECURITY_LORE_EN:
 - '§7After registration, we recommend'
 - '§7link your email to your account:'
@@ -5113,7 +5083,6 @@ GUI_INFO_SECURITY_LORE_EN:
 - '§7If you lose your password, write the command:'
 - '§e/email recovery <Email>'
 - '§7A new password will be sent to your mail'
-
 GUI_INFO_SKIN_LORE_EN:
 - '§7On our server there is a system of skins,'
 - '§7that allows you to install yourself'
@@ -5126,7 +5095,6 @@ GUI_INFO_SKIN_LORE_EN:
 - '§7need to relog'
 - ''
 - '§7Available for §3§lLEGEND §7and higher'
-
 GUI_INFO_MESSAGES_LORE_EN:
 - '§7If you want to write a specific'
 - '§7message to a specific player, then'
@@ -5143,7 +5111,6 @@ GUI_INFO_MESSAGES_LORE_EN:
 - ''
 - '§e/ignorelist §7- List of all'
 - '§7blocked players'
-
 GUI_INFO_LINKS_LORE_EN:
 - '§7Server Address: §eplay.filkworld.cf'
 - ''
@@ -5153,7 +5120,6 @@ GUI_INFO_LINKS_LORE_EN:
 - '§7Forum: §fforum.filkworld.cf'
 - ''
 - '§7E-mail: §dhappy_mc@list.ru'
-
 GUI_INFO_REWARD_LORE_EN:
 - '§7Playing on server modes,'
 - '§7you can get coins and experience,'
@@ -5162,7 +5128,6 @@ GUI_INFO_REWARD_LORE_EN:
 - '§7opening of cases and other sweets'
 - ''
 - '§e▸ View detailed information'
-
 GUI_INFO_PARTY_LORE_EN:
 - '§7If you want to play with friends,'
 - '§7this option (§cparty§7) special for you.'
@@ -5180,7 +5145,6 @@ GUI_INFO_PARTY_LORE_EN:
 - ''
 - '§cATTENTION! Maximum amount party'
 - '§cmembers no more 10 people!'
-
 GUI_INFO_GUILD_LORE_EN:
 - '§7Unite in group with other'
 - '§7players and play together.'
@@ -5195,7 +5159,6 @@ GUI_INFO_GUILD_LORE_EN:
 - '§cATTENTION! Guild creation cost'
 - '§c20.000 coins and available only for §b§lDIAMOND'
 - '§cFor entry donate dont need.'
-
 GUI_INFO_HELP_EN: '§bNavigation'
 GUI_INFO_DONATE_EN: '§bPrivileges'
 GUI_INFO_FRIEND_EN: '§bPlaying with friends'
@@ -5207,19 +5170,16 @@ GUI_INFO_REWARD_EN: '§bAwards for victory'
 GUI_INFO_PARTY_EN: '§bCollective game'
 GUI_INFO_GUILD_EN: '§bGuilds'
 GUI_INFO_NAME_EN: 'Information'
-
 GUI_IGNORE_ITEM_EN:
 - ''
 - ' §e▸ Click here to remove'
 - ' §eplayer from your ignore list'
-
 GUI_IGNORE_TOTAL_LORE_EN:
 - ''
 - '§7Total players ignored:'
 - '§a%s'
 GUI_IGNORE_TOTAL_EN: '§eIgnore list'
 GUI_IGNORE_NAME_EN: 'Ignore list'
-
 GUI_SERVERS_ONLINE_LORE_EN:
 - ''
 - '§7Статус: %s'
@@ -5288,12 +5248,10 @@ GUI_SERVERS_TOTAL_LORE_EN:
 - '§7Total online servers: §a%s'
 GUI_SERVERS_TOTAL_EN: '§eServers list'
 GUI_SERVERS_NAME_EN: 'Servers list'
-
-GUI_GAMES_DEVELOPMENT_EN: '§c▸ In development'
 GUI_GAMES_NAME_EN: 'Game selection'
+GUI_GAMES_DEVELOPMENT_EN: '§c▸ In development'
 GUI_GAMES_OFFLINE_EN: ' §cServer restarting..'
 GUI_GAMES_CONNECT_EN: '§e▸ Click to connect'
-
 GUI_GAMES_SKYWARS_LORE_RU:
 - '§8Битвы на островах'
 - ''
@@ -5477,7 +5435,6 @@ GUI_GAMES_CREATIVE_RU: '§bCreative'
 GUI_GAMES_DONATE_RU: '§bПривилегии'
 GUI_GAMES_LOBBY_RU: '§bГлавное лобби'
 GUI_GAMES_NAME_RU: 'Выбор режима'
-
 GUI_GAMES_SKYWARS_EN: '§bSkyWars'
 GUI_GAMES_LUCKYWARS_EN: '§bLuckyWars'
 GUI_GAMES_BEDWARS_EN: '§bBedWars'
@@ -5486,8 +5443,6 @@ GUI_GAMES_PARKOUR_EN: '§bParkour'
 GUI_GAMES_CREATIVE_EN: '§bCreative'
 GUI_GAMES_DONATE_EN: '§bPrivileges'
 GUI_GAMES_LOBBY_EN: '§bMain lobby'
-GUI_GAMES_NAME_EN: 'Game selection'
-
 GUI_YOUTUBERS_NAME_EN: 'Youtubers list'
 GUI_BUILDERS_NAME_EN: 'Builders list'
 GUI_STAFF_NAME_EN: 'Staff list (%s)'
@@ -5546,23 +5501,19 @@ GUI_STAFF_NO_FOUND_EN:
 - '§e%s ago'
 - ''
 - ' §c✗ Player is offline '
-
 GUI_STAFFLIST_LORE_EN:
 - '%s'
 - ''
 - ' §e▶ Click here to open'
 - ' §estaff list'
-
 GUI_STAFFLIST_ONLINE_LORE_EN:
 - ''
 - '§7Online %s: §a%s'
-
 GUI_STAFFLIST_ITEM_EN: '§e%s §7(§a%s§7)'
 GUI_STAFF_JUNIORS_EN: 'Juniors'
 GUI_STAFF_HELPERS_EN: 'Helpers'
 GUI_STAFF_MODERATORS_EN: 'Moderators'
 GUI_STAFF_ADMINS_EN: 'Admins'
-
 GUI_SETTING_FLY_LORE_EN:
 - '§7Allows to enable or disable'
 - '§7flying in the main lobby and lobby'
@@ -5619,7 +5570,6 @@ GUI_SETTING_UNAVAILABLE_LORE_EN:
 - ''
 - '§cNo available!'
 - '§7Available for %s§7 or higher'
-
 GUI_SETTING_FLY_EN: 'Fly'
 GUI_SETTING_BLOOD_EN: 'Blood'
 GUI_SETTING_HIDE_EN: 'Hide player'
@@ -5639,12 +5589,10 @@ GUI_SETTING_ENABLE_LORE_EN:
 - '§7Click to enable'
 GUI_SETTING_DISABLE_EN: '§cDisable'
 GUI_SETTING_ENABLE_EN: '§aEnable'
-
 GUI_REWARDS_SKYWARS_LORE_EN:
 - '§fSolo mode:'
 - ' §8▪ §7Kill - §61 coins§7, §a+10 XP'
 - ' §8▪ §7Victory - §620 coins§7, §a+70 XP'
-
 - '§fTeam mode:'
 - ' §8▪ §7Kill - §61 coin§7, §a+10 XP'
 - ' §8▪ §7Victory - §630 coins§7, §a+50 XP'
@@ -5653,17 +5601,14 @@ GUI_REWARDS_BEDWARS_LORE_EN:
 - ' §8▪ §7Final kill - §62 coin§7, §a+10 XP'
 - ' §8▪ §7Destory the bed - §64 coin§7, §a+25 XP'
 - ' §8▪ §7Victory - §610 coins§7, §a+80 XP§7, §d+1 key'
-
 - '§fDuo mode:'
 - ' §8▪ §7Final kill - §62 coin§7, §a+10 XP'
 - ' §8▪ §7Destory the bed - §64 coin§7, §a+35 XP'
 - ' §8▪ §7Winning your team - §615 coins§7, §a+60 XP, §d+1 key'
-
 - '§fTeam mode:'
 - ' §8▪ §7Final kill - §62 coin§7, §a+10 XP'
 - ' §8▪ §7Destory the bed - §64 coin§7, §a+35 XP'
 - ' §8▪ §7Winning your team - §625 coins§7, §a+50 XP, §d+1 key'
-
 - '§fRush mode:'
 - ' §8▪ §7Final kill - §61 coin§7, §a+10 XP'
 - ' §8▪ §7Destory the bed - §69 coin§7, §a+20 XP, §d+1 key'
@@ -5673,7 +5618,6 @@ GUI_REWARDS_LUCKYWARS_LORE_EN:
 - ' §8▪ §7Kill - §61 coin§7, §a+10 XP'
 - ' §8▪ §7Every §c5-s §7LuckyBlock - §61 coin'
 - ' §8▪ §7Victory - §620 coins§7, §a+70 XP, §d+2 keyа'
-
 - '§fTeam mode:'
 - ' §8▪ §7Kill - §61 coin§7, §a+10 XP'
 - ' §8▪ §7Every §c5-s §7LuckyBlock - §61 coin'
@@ -5695,14 +5639,12 @@ GUI_REWARDS_INFO_LORE_EN:
 - ''
 - '§7You can buy status'
 - '§7Online §dwww.filkworld.cf'
-
 GUI_REWARDS_NAME_EN: 'Awards (detailed information)'
 GUI_REWARDS_SKYWARS_EN: '§bSkyWars'
 GUI_REWARDS_BEDWARS_EN: '§bBedWars'
 GUI_REWARDS_LUCKYWARS_EN: '§bLuckyWars'
 GUI_REWARDS_PARKOUR_EN: '§bParkour'
 GUI_REWARDS_INFO_EN: '§bAdditional Information'
-
 GUI_DONATEMENU_FASTMESSAGES_LORE_EN:
 - '§7Show everyone what you are today,'
 - '§7using these fast messages.'
@@ -5735,14 +5677,12 @@ GUI_DONATEMENU_FASTMESSAGES_EN: '§bFast message'
 GUI_DONATEMENU_PREFIX_EN: '§bChange the prefix'
 GUI_DONATEMENU_SMILES_EN: '§bSmiles'
 GUI_DONATEMENU_NAME_EN: 'Donate menu'
-
 GUI_SMILES_NAME_EN: 'Donate menu ▸ Smiles'
 GUI_SMILES_ITEM_LORE_EN:
 - '§7Smile §a%s'
 - ''
 GUI_SMILES_AVAILABLE_LORE_EN:
 - '§e▸ Click to sent smile'
-
 GUI_FRIENDS_NAME_EN: 'Friend list'
 GUI_FRIENDS_ITEM_EN: '§eFriend list'
 GUI_FRIENDS_ITEM_LORE_EN:
@@ -5764,13 +5704,11 @@ GUI_FRIENDS_OFFLINE_LORE_EN:
 - '§e%s ago'
 - ''
 - ' &c✗ Player is offline '
-
 GUI_EFFECTS_KILLED_EN: '§aПредсмертные хрипы'
 GUI_EFFECTS_ARROWS_EN: '§aЭффекты стрел'
 GUI_EFFECTS_KILLS_EN: '§aЭффекты убийств'
 GUI_EFFECTS_WINS_EN: '§aЭффекты победы'
 GUI_EFFECTS_NAME_EN: 'Profile ▸ Cosmetics'
-
 SOUND_NA_EN: '§cNo select'
 SOUND_CREEPER_EN: 'Смерть крипера'
 SOUND_BLAZE_EN: 'Смерть ифрита'
@@ -5781,7 +5719,6 @@ SOUND_MULE_EN: 'Смерть осла'
 SOUND_ZOMBIEHORSE_EN: 'Смерть лошади-зомби'
 SOUND_ZOMBIE_EN: 'Смерть зомби'
 SOUND_WITHER_EN: 'Смерть визера'
-
 EFFECT_NA_EN: '§cNo select'
 EFFECT_SOUND_EN: 'Звуковой путь'
 EFFECT_SMOKE_EN: 'Дымовая шашка'
@@ -5790,19 +5727,16 @@ EFFECT_LOVE_EN: 'Любимчик удачи'
 EFFECT_RAIN_EN: 'Дождь радости'
 EFFECT_NEWYEAR_EN: 'Новогоднее веселье'
 EFFECT_TREE_EN: 'Елочная гирлянда'
-
 KILL_NA_EN: '§cNo select'
 KILL_FIREWORK_EN: 'Прощальный фейверк'
 KILL_LIGHTNING_EN: 'Повелитель молний'
 KILL_ROMEO_EN: 'Ромео'
 KILL_SYMPHONY_EN: 'Убийственная симфония'
-
 WIN_NA_EN: '§cNo select'
 WIN_GOLDENKING_EN: 'Золотой царь'
 WIN_DIAMONDMAGNATE_EN: 'Алмазный магнат'
 WIN_LOVER_EN: 'Любовник'
 WIN_BASTARD_EN: 'Ублюдок'
-
 GUI_EFFECTS_KILLED_LORE_EN:
 - '§7Покупка и активация звуков'
 - '§7при вашей смерти, которые'
@@ -5843,7 +5777,6 @@ GUI_EFFECTS_WINS_LORE_EN:
 - '§a%s'
 - ''
 - '§e▸ Open shop'
-
 GUI_CHANGELANGUAGE_NAME_EN: 'Profile ▸ Switch language'
 GUI_CHANGELANGUAGE_LORE_EN:
 - '§7Change language to %s'
@@ -5853,7 +5786,6 @@ GUI_CHANGELANGUAGE_ALREADY_LORE_EN:
 - '§aSelected'
 GUI_CHANGELANGUAGE_SELECT_LORE_EN:
 - '§e▸ Click to change language'
-
 GUI_FRIEND_REQUESTS_NAME_EN: 'Requests'
 GUI_FRIEND_REQUESTS_ITEM_EN: '§eRequests'
 GUI_FRIEND_REQUESTS_LORE_EN:
@@ -5864,13 +5796,11 @@ GUI_FRIEND_REQUESTS_ITEM_LORE_EN:
 - ''
 - '§7Total requests:'
 - '§a%s'
-
 GUI_FASTMESSAGES_NAME_EN: 'Быстрые сообщения'
 GUI_FASTMESSAGES_ITEM_LORE_EN:
 - '§7Message: §a%s'
 - ''
 - '§e▸ Click, to sent this message'
-
 GUI_GUILD_MODERS_OFFLINE_LORE_EN:
 - ''
 - '§7На посту с: §e%s'
@@ -5909,7 +5839,6 @@ GUI_GUILD_DEPUTYS_ITEM_LORE_EN:
 - '§7Total online deputys: §a%s'
 GUI_GUILD_DEPUTYS_NAME_EN: 'Guild deputys'
 GUI_GUILD_DEPUTYS_ITEM_EN: '§eGuild deputys'
-
 GUI_GUILD_REQUESTS_LORE_EN:
 - ''
 - '§7Приглашает вас в гильдию: §a%s'
@@ -5921,7 +5850,6 @@ GUI_GUILD_REQUESTS_ITEM_LORE_EN:
 - '§7Total guild Invitations: §e%s'
 GUI_GUILD_REQUESTS_ITEM_EN: '§eInvitation list'
 GUI_GUILD_REQUESTS_NAME_EN: 'Invitation list'
-
 GUI_YOUTUBEMENU_NAME_EN: 'YouTube menu'
 GUI_YOUTUBEMENU_ITEM_LORE_EN:
 - '§7Позволяет включить или отключить'
@@ -6937,7 +6865,7 @@ MUTE_REASON_UA: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 BAN_ALREADY_UA: '§cИгрок %s уже заблокирован'
 BANIP_ALREADY_UA: '§cАдрес %s уже заблокирован'
 MUTE_ALREADY_UA: '§cУ игрока %s уже заблокирован чат'
-BANIP_NOT_FOUND_UA: '§cИгрок %s не найден, или адрес указан неверно'
+BANIP_INCORRECT_UA: '§cИгрок %s не найден, или адрес указан неверно'
 UNMUTE_NO_UA: '§cЧат игрока %s, не заблокирован'
 UNBANIP_NO_UA: '§cАдрес %s, не заблокирован'
 UNBAN_NO_UA: '§cИгрок %s, не заблокирован'
@@ -7354,7 +7282,7 @@ JOIN_TO_LOBBY_UA: ' §a▸ %s §6%s на сервер'
 VERIFY_CONFIRM_UA: '§6Verify §8| §fДанные совпадают, сессия восстановлена'
 VERIFY_NOT_DONE_UA: '§6Verify §8| §cДанные не совпали, сессия не восстановлена'
 VERIFY_LASTTIMED_UA: '§6Verify §8| §cСессия истекла'
-CHAT_DOUBLE_UA: ' §cℹ Пожалуйста, не повторяйте сообщения'
+CHAT_DOUBLE_UA: ' §cℹ Пожалуйста, не повторяйте одинаковые сообщения'
 CHAT_SPAM_UA: ' §cℹ Не флудите.'
 CHAT_YOUTUBE_UA: |-
  
@@ -7418,9 +7346,9 @@ AUTH_LOGIN_CONFIRM_UA: '§fАвторизация успешна!'
 AUTH_LOGIN_WRONG_UA: '§cОшибка, неверный пароль'
 AUTH_LOGIN_WRONGS_UA: '§cСлишком много попыток неудачной авторизации'
 AUTH_EMAIL_INFO_UA: '§c⚠ Внимание! §fВы не привязали §cэл. почту§f к своему аккаунту, сделайте это прямо сейчас - §e/email'
-AUTH_EMAIL_INFO_HOVER_UA: '§fНажмите сюда,\nчтобы добавить почту'
+AUTH_EMAIL_INFO_HOVER_UA: §fНажмите сюда,\nчтобы добавить почту"
 AUTH_REGISTER_CONFIRM_INFO_UA: '§6Вы успешно зарегистрировались! §fВаш текущий пароль §7(наведите сюда)'
-AUTH_REGISTER_CONFIRM__INFO_HOVER_UA: '§fПароль - §a%s\n\n§fЗапомните его или сделайте\nскриншот, чтобы не забыть - §cклавиша F2'
+AUTH_REGISTER_CONFIRM_INFO_HOVER_UA: "§fПароль - §a%s\n\n§fЗапомните его или сделайте\nскриншот, чтобы не забыть - §cклавиша F2"
 AUTH_LOGIN_TITLE_UA: '§2§lFilk§3§lWorld.cf'
 AUTH_LOGIN_SUBTITLE_UA: '§7Для продолжения зарегистрируйтесь'
 AUTH_REGISTER_TITLE_UA: '§2§lFilk§3§lWorld.cf'
@@ -7449,7 +7377,7 @@ FORUM_ACCOUNT_REGISTRED_UA: |-
  §7• §fЛогин: §a%s
  §7• §fПароль: §a%s
  
- §fАвторизироваться можно на форуме: §6forum.filkworld.cf
+ §fАвторизироваться можно на: §6forum.filkworld.cf
 FORUM_ACCOUNT_ALREADY_UA: '§cОшибка, форумный аккаунт уже привязан'
 GUI_BACK_NAME_UA: '§cНазад'
 GUI_BACK_LORE_UA:
@@ -7475,7 +7403,7 @@ GUI_STATS_UA: '§bСтатистика'
 GUI_DONATEMENU_UA: '§bДонат меню'
 GUI_EFFECTSHOP_UA: '§bКосметика'
 GUI_PERSONALUP_UA: '§bПовышение'
-GUI_YOUTUBE_UA: '§bYouTube меню'
+GUI_YOUTUBEMENU_UA: '§bYouTube меню'
 GUI_NULL_UA: '§c???'
 GUI_DONATE_UA: '§bПривилегии'
 GUI_INFO_UA: '§bИнформация'
