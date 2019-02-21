@@ -542,7 +542,7 @@ TRAINING_STAGE_6_TITLE_RU: '§fА на этом наше §6обучение§f 
 TRAINING_STAGE_6_SUBTITLE_RU: '§fЕсли вы хотите узнать все доступные команды, используйте §5/+TAB'
 
 
-COMMAND_LOBBY_RU: '§eЧтобы выйти в лобби воспользуйтесь §c/lobby'
+COMMAND_LOBBY_RU: '§6Сервер §8| §fИзвините, но вы не можете писать в §aчат§f. Вернуться в главное лобби §7/hub§f или §7/lobby'
 ERROR_COMMAND_RU: '§cОшибка, пишите %s'
 
 VERIFY_ALERT_RU: '§cПодтвердите свой аккаунт -> /ktemverify <код>'
@@ -631,7 +631,7 @@ BOARD_MONEY_EN: 'Coins'
 BOARD_KTEMS_EN: 'Ktems'
 BOARD_BALANCE_EN: 'Balance'
 BOARD_LEVEL_EN: 'Level'
-BOARD_BLOCK_BREAK_EN: 'Blocks destroyed'
+BOARD_BLOCK_BREAK_EN: 'Blocks removed'
 BOARD_BLOCK_PLACE_EN: 'Blocks created'
 BOARD_GOLD_EN: 'Golds'
 BOARD_GLOBAL_ONLINE_EN: 'Total online'
@@ -804,8 +804,8 @@ SPYCMD_OFF_EN: '§6SpyCmd §8| §fYou are no longer spying for commands'
 SPYCMD_ALREADY_EN: '§cSpying is already enabled'
 SPYCMD_FORMAT_EN: '§6Cmd §8| %s §8» §b%s'
 
-SPYCHAT_ON_RU: '§6Chat §8| §fВы больше не следите за чатом'
-SPYCHAT_OFF_RU: '§6Chat §8| §fТеперь вы следите за чатом'
+SPYCHAT_OFF_RU: '§6Chat §8| §fВы больше не следите за чатом'
+SPYCHAT_ON_RU: '§6Chat §8| §fТеперь вы следите за чатом'
 
 SPYCHAT_ON_EN: '§6Chat §8| §fNow you are spying for chat'
 SPYCHAT_OFF_EN: '§6Chat §8| §fYou are no longer spying for chat'
@@ -1774,7 +1774,7 @@ GUILD_DONATEINFO_RU: |-
   §c• §fВнес в гильдию: §a%s
   §c• §fПолучил из гильдии: §c%s
 GUILD_COMMAND_HELP_EN:
- - '§7/guild create <name> §f- create guilf'
+ - '§7/guild create <name> §f- create guild'
  - '§7/guild top §f- see guilds top'
  - '§7/guild accept <player nickname> §f- accept guild invite'
  - '§7/guild reject <player nickname> §f- reject guild invite'
@@ -1880,7 +1880,7 @@ GUILD_TAG_NO_MONEY_EN: '§cGuild lacks %s coins to change tag'
 GUILD_TAG_NO_BUY_EN: "§cYou haven't got guild tag, buy it in /guild shop"
 
 GUILD_MOTD_FORMAT_EN: '/guild motd <text>'
-GUILD_MOTD_ALERT_EN: '§2Guild §8| §fPlayer %s §fupdated the guild welcome
+GUILD_MOTD_ALERT_EN: '§2Guild §8| §fPlayer %s §fupdated the guild welcome'
 GUILD_MOTD_EN: '§6Guild §8| §fGuild welcome changed to §a%s'
 GUILD_MOTD_NO_BUY_EN: "§cYou haven't got guild welcome, buy it in /guild shop"
 
@@ -1891,7 +1891,7 @@ GUILD_SETLEADER_EN: '§6Guild §8| §fYou transfered leadering to player %s'
 
 GUILD_RANK_FORMAT_EN: '/guild rank <player name> <rank>'
 GUILD_RANK_ME_EN: "§cYou can't change rank yourself"
-GUILD_RANK_ALERT_EN: '§2Guild §8| %s §7'lowered %s §7to %s'
+GUILD_RANK_ALERT_EN: '§2Guild §8| %s §7lowered %s §7to %s'
 GUILD_SETRANK_ALERT_EN: '§2Guild §8| %s §7set rank %s§7 to player %s'
 GUILD_RANK_EN: '§6Guild §8| §fYou lowered %s §fto §7%s'
 GUILD_SETRANK_EN: '§6Guild §8| §fYou assign new %s§f guild %s'
@@ -1936,9 +1936,9 @@ GUILD_UNMUTE_MSG_EN: '§aYour guild chat has been unmuted'
 GUILD_UNMUTE_EN: '§6Guild §8| §fYou unmuted guild chat for the player %s'
 
 GUILD_STATS_MOTD_BUY_EN: '§aBought'
-GUILD_STATS_MOTD_NO_BUY_EN: '§cDidn't buy'
+GUILD_STATS_MOTD_NO_BUY_EN: "§cDidn't buy"
 GUILD_STATS_TAG_BUY_EN: '§aBought'
-GUILD_STATS_TAG_NO_BUY_EN: '§cDidn't buy'
+GUILD_STATS_TAG_NO_BUY_EN: "§cDidn't buy"
 GUILD_STATS_LIMITED_EN: ' §c• §fZeroing limit after: §e%s'
 GUILD_STATS_EN: |-
  §6Гильдии §8| §fGuild stats §a%s §8| §e%s§f:
@@ -2120,6 +2120,7 @@ MAIL_HOVER_SEND_RU: '§fНажмите, чтобы получить команд
 MAIL_HOVER_LIST_RU: '§fНажмите, чтобы открыть список писем'
 MAIL_SEND_ME_RU: '§cНельзя писать самому себе письма'
 MAIL_SEND_DELAY_RU: '§6Mail §8| §fПодождите еще §a%s §fдля отправки нового письма'
+MAIL_INCORRECT_RU: '§cОшибка, ваше сообщение %s содержит запрещенные символы, разрешено использовать только цифры и символы латинского алфавита'
 MAIL_SEND_RU: '§6Mail §8| §fИгроку %s §fбыло отправлено сообщение ▬ §e%s'
 MAIL_MSG_FRIENDS_RU: '§cОшибка, данный игрок принимает mail сообщения только от своих друзей'
 MAIL_EMPTY_RU: '§cУ вас нет писем'
@@ -2382,8 +2383,9 @@ MAIL_HOVER_SEND_EN: '§fНажмите, чтобы получить команд
 MAIL_HOVER_LIST_EN: '§fНажмите, чтобы открыть список писем'
 MAIL_SEND_ME_EN: '§cНельзя писать самому себе письма'
 MAIL_SEND_DELAY_EN: '§6Mail §8| §fПодождите еще §a%s §fдля отправки нового письма'
+MAIL_INCORRECT_EN: '§cОшибка, ваше сообщение %s содержит запрещенные символы, разрешено использовать только цифры и символы латинского алфавита'
 MAIL_SEND_EN: '§6Mail §8| §fИгроку %s §fбыло отправлено сообщение ▬ §e%s'
-MAIL_MSG_FRIENDS_RU: '§cОшибка, данный игрок принимает mail сообщения только от своих друзей'
+MAIL_MSG_FRIENDS_EN: '§cОшибка, данный игрок принимает mail сообщения только от своих друзей'
 MAIL_EMPTY_EN: '§cУ вас нет писем'
 MAIL_MSG_EN: |-
  §6Mail §8| §fВам поступило новое сообщение от %s
@@ -2550,7 +2552,10 @@ REPLY_EMPTY_RU: '§cВам никто не писал'
 
 SEND_FORMAT_RU: '/send <сервер|player|all> <сервер2>'
 SEND_NOT_FOUND_RU: '§cОшибка, указанный сервер не существует'
-SEND_RU: '§6Сервер §8| §fВы телепортировали игроков'
+SEND_PLAYER_RU: '§6Сервер §8| §fИгрок %s §fуспешно телепортирован на сервер §c%s'
+SEND_SERVER_PLAYERS_RU: '§6Сервер §8| §fВы телепортировали всех игроков с сервера §a%s§f на сервер §c%s'
+SEND_SERVER_CURRENT_RU: '§6Сервер §8| §fВы телепортировали всех игроков с текущего сервера на сервер §c%s'
+SEND_ALL_RU: '§6Сервер §8| §fВсе игроки сервера были телепортированы на §c%s'
 SEND_ALERT_RU: '§6Сервер §8| %s §fтелепортировал вас на сервер §c%s'
 
 
@@ -2586,7 +2591,10 @@ REPLY_EMPTY_EN: '§cNo one wrote to you'
 
 SEND_FORMAT_EN: '/send <server|player|all> <server2>'
 SEND_NOT_FOUND_EN: '§cError, current server not found'
-SEND_EN: '§6Server §8| §fYou teleported players'
+SEND_PLAYER_EN: '§6Server §8| §fИгрок %s §fуспешно телепортирован на сервер §c%s'
+SEND_SERVER_PLAYERS_EN: '§6Server §8| §fВы телепортировали всех игроков с сервера §a%s§f на сервер §c%s'
+SEND_SERVER_CURRENT_EN: '§6Server §8| §fВы телепортировали всех игроков с текущего сервера на сервер §c%s'
+SEND_ALL_RU: '§6Сервер §8| §fВсе игроки сервера были телепортированы на §c%s'
 SEND_ALERT_EN: '§6Server §8| %s §fteleported you to server §c%s'
 
 PING_RU: '§6Сервер §8| §fВаш пинг §a%s §fms'
@@ -2877,8 +2885,8 @@ PARKOUR_MODULE_RU: '§6Parkour §8| §fМодуль §e%s§7/§a%s§f дости
 PARKOUR_MODULE_ALREADY_RU: '§6Parkour §8| §cВы уже прошли этот модуль'
 PARKOUR_MODULE_NO_RU: '§6Parkour §8| §cВы не прошли через модуль'
 
-PARKOUR_ERROR_LOCATION_RU: '§cError, location not found'
-PARKOUR_NO_FOUND_RU: '§cError, map not found'
+PARKOUR_ERROR_LOCATION_EN: '§cError, location not found'
+PARKOUR_NO_FOUND_EN: '§cError, map not found'
 
 PARKOUR_START_EN: "§6Parkour §8| §fYou started to pass parkour on the map '§a%s§f' §7(§a%s§7)"
 PARKOUR_FLY_EN: |-
@@ -3073,25 +3081,31 @@ CHAT_YOUTUBE_EN: |-
  
 
 AUTH_COMMAND_HELP_EN: |-
- §7/ktemauth reload §f- relaod configuration
- §7/ktemauth register <player name> <password> §f- player register
- §7/ktemauth unregister <player name> §f- delete account
- §7/ktemauth changepassword <player name> <password> §f- change password for player
- §7/ktemauth changemail <player name> <email> §f- change mail for player
- §7/ktemauth lastlogin <player name> §f- last time login for player
+ §7/ktemauth register <key> <player name> <password> §f- player register
+ §7/ktemauth unregister <key> <player name> §f- delete account
+ §7/ktemauth changepassword <key> <player name> <password> §f- change password for player
+ §7/ktemauth changemail <key> <player name> <email> §f- change mail for player
+ §7/ktemauth lastlogin <key> <player name> §f- last time login for player
 AUTH_RELOAD_EN: '§6Auth §8| §fConfiguration reloaded'
-AUTH_CHANGEMAIL_FORMAT_EN: '/ktemauth changemail <player name> <password>'
+AUTH_CHANGEMAIL_FORMAT_EN: '/ktemauth changemail <key> <player name> <password>'
 AUTH_CHANGEMAIL_EN: '§6Auth §8| §fPlayer mail %s§f changed to §a%s'
-AUTH_REGISTER_FORMAT_EN: '/ktemauth register <player name> <password>'
+AUTH_REGISTER_FORMAT_EN: '/ktemauth register <key> <player name> <password>'
 AUTH_REGISTER_EN: '§6Auth §8| §fAccount %s registred from password - §e%s'
-AUTH_UNREGISTER_FORMAT_EN: '/ktemauth unregister <player name>'
+AUTH_UNREGISTER_FORMAT_EN: '/ktemauth unregister <key> <player name>'
 AUTH_NO_ACCESS_EN: '§сВы не можете управлять аккаунтом данного игрока'
 AUTH_UNREGISTRED_EN: '§6Auth §8| §fAccount %s §fdeleted'
 AUTH_ERROR_EN: '§cError - %s'
-AUTH_CHANGEPASSWORD_FORMAT_EN: '/ktemauth changepassword <player name> <password>'
+AUTH_CHANGEPASSWORD_FORMAT_EN: '/ktemauth changepassword <key> <player name> <password>'
 AUTH_PASSWORD_CHANGED_EN: '§6Auth §8| §fPlayer password %s§f changed to §a%s'
-AUTH_LASTLOGIN_FORMAT_EN: '/ktemauth lastlogin <player name>'
-AUTH_LASTLOGIN_EN: '§6Auth §8| §fPlayer %s§f last time was logged in %s§f ago'
+AUTH_INFO_FORMAT_EN: '/ktemauth info <ник>'
+AUTH_INFO_EN: |-
+ §6Авторизация §8| §fИнформация об игроке §e%s:
+ §f Почта: §a%s
+ §f Последний ип: §a%s
+ §f Ип при регистрации: §a%s
+ §f Последний сервер: §a%s
+AUTH_WRONGKEY_EN: '§cОшибка, не верный ключ'
+AUTH_REASON_WRONGKEY_EN: '§4Ошибка #14 §cВведен не верный ключ.'
 LOGIN_ALREADY_EN: '§cYou already authorized!'
 LOGIN_FORMAT_EN: '/login <password>'
 REGISTER_FORMAT_EN: '/reg <password> <repeat password>'
@@ -6240,8 +6254,8 @@ SPYCMD_ON_UA: '§6SpyCmd §8| §fТеперь вы следите за кома�
 SPYCMD_OFF_UA: '§6SpyCmd §8| §fВы больше не следите за командами'
 SPYCMD_ALREADY_UA: '§cУ вас уже включена слежка'
 SPYCMD_FORMAT_UA: '§6Cmd §8| %s §8» §b%s'
-SPYCHAT_ON_UA: '§6Chat §8| §fВы больше не следите за чатом'
-SPYCHAT_OFF_UA: '§6Chat §8| §fТеперь вы следите за чатом'
+SPYCHAT_OFF_UA: '§6Chat §8| §fВы больше не следите за чатом'
+SPYCHAT_ON_UA: '§6Chat §8| §fТеперь вы следите за чатом'
 GROUP_HELP_UA:
  - '§6Привилегии §8| §fСписок команд:'
  - '§7/ktemgroup clear <ник> §f- снятие привилегии'
@@ -6960,6 +6974,7 @@ MAIL_HOVER_SEND_UA: '§fНажмите, чтобы получить команд
 MAIL_HOVER_LIST_UA: '§fНажмите, чтобы открыть список писем'
 MAIL_SEND_ME_UA: '§cНельзя писать самому себе письма'
 MAIL_SEND_DELAY_UA: '§6Mail §8| §fПодождите еще §a%s §fдля отправки нового письма'
+MAIL_INCORRECT_UA: '§cОшибка, ваше сообщение %s содержит запрещенные символы, разрешено использовать только цифры и символы латинского алфавита'
 MAIL_SEND_UA: '§6Mail §8| §fИгроку %s §fбыло отправлено сообщение ▬ §e%s'
 MAIL_MSG_FRIENDS_UA: '§cОшибка, данный игрок принимает mail сообщения только от своих друзей'
 MAIL_EMPTY_UA: '§cУ вас нет писем'
@@ -7120,7 +7135,10 @@ REPLY_EMPTY_UA: '§cВам никто не писал'
 
 SEND_FORMAT_UA: '/send <сервер|player|all> <сервер2>'
 SEND_NOT_FOUND_UA: '§cОшибка, указанный сервер не существует'
-SEND_UA: '§6Сервер §8| §fВы телепортировали игроков'
+SEND_PLAYER_UA: '§6Сервер §8| §fИгрок %s §fуспешно телепортирован на сервер §c%s'
+SEND_SERVER_PLAYERS_UA: '§6Сервер §8| §fВы телепортировали всех игроков с сервера §a%s§f на сервер §c%s'
+SEND_SERVER_CURRENT_UA: '§6Сервер §8| §fВы телепортировали всех игроков с текущего сервера на сервер §c%s'
+SEND_ALL_RU: '§6Сервер §8| §fВсе игроки сервера были телепортированы на §c%s'
 SEND_ALERT_UA: '§6Сервер §8| %s §fтелепортировал вас на сервер §c%s'
 PING_UA: '§6Сервер §8| §fВаш пинг §a%s §fms'
 PING_CORE_UA: '§6Сервер §8| §fПинг до Core §a%s §fms'
@@ -7297,24 +7315,31 @@ CHAT_YOUTUBE_UA: |-
  
 AUTH_COMMAND_HELP_UA: |-
  §7/ktemauth reload §f- перезагрузить конфигурацию
- §7/ktemauth register <ник> <пароль> §f- регистрация игрока
- §7/ktemauth unregister <ник> §f- удаление аккаунта
- §7/ktemauth changepassword <ник> <пароль> §f- изменение пароля игроку
- §7/ktemauth changemail <ник> <email> §f- изменение почты игроку
- §7/ktemauth lastlogin <ник> §f- время последнего захода игрока
+ §7/ktemauth register <ключ> <ник> <пароль> §f- регистрация игрока
+ §7/ktemauth unregister <ключ> <ник> §f- удаление аккаунта
+ §7/ktemauth changepassword <ключ> <ник> <пароль> §f- изменение пароля игроку
+ §7/ktemauth changemail <ключ> <ник> <email> §f- изменение почты игроку
+ §7/ktemauth lastlogin <ключ> <ник> §f- время последнего захода игрока
 AUTH_RELOAD_UA: '§6Авторизація §8| §fКонфигурация перезагружена'
-AUTH_CHANGEMAIL_FORMAT_UA: '/ktemauth changemail <ник> <пароль>'
+AUTH_CHANGEMAIL_FORMAT_UA: '/ktemauth changemail <ключ> <ник> <пароль>'
 AUTH_CHANGEMAIL_UA: '§6Авторизація §8| §fПочта игрока %s§f изменена на §a%s'
-AUTH_REGISTER_FORMAT_UA: '/ktemauth register <ник> <пароль>'
+AUTH_REGISTER_FORMAT_UA: '/ktemauth register <ключ> <ник> <пароль>'
 AUTH_REGISTER_UA: '§6Авторизація §8| §fАккаунт %s зарегистрирован с паролем - §e%s'
-AUTH_UNREGISTER_FORMAT_UA: '/ktemauth unregister <ник>'
+AUTH_UNREGISTER_FORMAT_UA: '/ktemauth unregister <ключ> <ник>'
 AUTH_NO_ACCESS_UA: '§сВы не можете управлять аккаунтом данного игрока'
 AUTH_UNREGISTRED_UA: '§6Авторизація §8| §fАккаунт %s §fудален'
 AUTH_ERROR_UA: '§cОшибка - %s'
-AUTH_CHANGEPASSWORD_FORMAT_UA: '/ktemauth changepassword <ник> <пароль>'
+AUTH_CHANGEPASSWORD_FORMAT_UA: '/ktemauth changepassword <ключ> <ник> <пароль>'
 AUTH_PASSWORD_CHANGED_UA: '§6Авторизація §8| §fПароль игрока %s §fизменен на §a%s'
-AUTH_LASTLOGIN_FORMAT_UA: '/ktemauth lastlogin <ник>'
-AUTH_LASTLOGIN_UA: '§6Авторизация §8| §fИгрок %s§f последний раз был авторизован %s§f назад'
+AUTH_INFO_FORMAT_UA: '/ktemauth info <ник>'
+AUTH_INFO_UA: |-
+ §6Авторизация §8| §fИнформация об игроке §e%s:
+ §f Почта: §a%s
+ §f Последний ип: §a%s
+ §f Ип при регистрации: §a%s
+ §f Последний сервер: §a%s
+AUTH_WRONGKEY_UA: '§cОшибка, не верный ключ'
+AUTH_REASON_WRONGKEY_UA: '§4Ошибка #14 §cВведен не верный ключ.'
 LOGIN_ALREADY_UA: '§cВы уже авторизованы'
 LOGIN_FORMAT_UA: '/login <ваш пароль>'
 REGISTER_FORMAT_UA: '/reg <пароль> <повтор пароля>'
