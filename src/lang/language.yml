@@ -2698,9 +2698,9 @@ REPAIR_ERROR_EN: "§cThis item doesn't belong to repair"
 BACK_DELAY_EN: '§cBack to death point may once per 8 minutes, time left %s'
 BACK_EN: 'You were teleported to death point'
 BACK_ERROR_EN: '§cYour past past location not found'
-BACK_START_RU: 'Teleportortation started, you will be teleported in §a5 §fseconds'
-BACK_ALREADY_RU: '§cTeleportation is already running'
-BACK_CANCEL_RU: '§cYou moved, teleportation canceled'
+BACK_START_EN: 'Teleportortation started, you will be teleported in §a5 §fseconds'
+BACK_ALREADY_EN: '§cTeleportation is already running'
+BACK_CANCEL_EN: '§cYou moved, teleportation canceled'
 
 FLY_EN: 'Set fly mode - %s'
 FLY_TO_EN: 'For player %s §fset fly mode - %s'
@@ -3037,7 +3037,7 @@ AUTH_LOGIN_INFO_RU: '§7Авторизуйтесь - §e/login §f[§eпарол
 AUTH_LOGOUT_RU: '§cВы вышли из своего аккаунта'
 AUTH_LOGIN_CONFIRM_RU: '§fАвторизация успешна!'
 AUTH_LOGIN_WRONG_RU: '§cОшибка, неверный пароль'
-AUTH_LOGIN_WRONGS_RU: '§cСлишком много попыток неправильного\nввода пароля. Ваш аккаунт\nзаблокирован на несколько минут'
+AUTH_LOGIN_WRONGS_RU: "§cСлишком много попыток неправильного\nввода пароля. Ваш аккаунт\nзаблокирован на несколько минут"
 AUTH_EMAIL_INFO_RU: '§c⚠ Внимание! §fВы не привязали §cэл. почту§f к своему аккаунту, сделайте это прямо сейчас - §e/email'
 AUTH_EMAIL_INFO_HOVER_RU: "§fНажмите сюда,\nчтобы добавить почту"
 AUTH_REGISTER_CONFIRM_INFO_RU: '§6Вы успешно зарегистрировались! §fВаш текущий пароль §7(наведите сюда)'
@@ -3143,7 +3143,7 @@ AUTH_LOGIN_INFO_EN: '§7Log in - §e/login §f[§epassword§f]'
 AUTH_LOGOUT_EN: '§cYou signed out of your account'
 AUTH_LOGIN_CONFIRM_EN: '§fAuthorization is successful!'
 AUTH_LOGIN_WRONG_EN: '§cError, uncorrect password'
-AUTH_LOGIN_WRONGS_EN: '§cA lot of a attempts incorrect\ninput a password. Your account\nis blocked for a few minutes'
+AUTH_LOGIN_WRONGS_EN: "§cA lot of a attempts incorrect\ninput a password. Your account\nis blocked for a few minutes"
 AUTH_EMAIL_INFO_EN: '§c⚠ Warning! §fYou did not bind §cemail §fto your account, do this right now - §e/email'
 AUTH_EMAIL_INFO_HOVER_EN: "§fClick here,\nto add mail"
 AUTH_REGISTER_CONFIRM_INFO_EN: '§6You successfully registered! §fYour current password §7(hover here)'
@@ -3360,6 +3360,7 @@ GUI_PREMIUM_ALL_LORE_RU:
 - ' §8▪ §7Множитель монет §fx1.5'
 - ' §8▪ §7Можно иметь до §c25§7 друзей'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
+- ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ''
 GUI_PREMIUM_BEDWARS_LORE_RU:
 - ''
@@ -3402,6 +3403,7 @@ GUI_GOLD_ALL_LORE_RU:
 - ' §8▪ §7Возможность писать заглавными буквами'
 - ' §8▪ §7Множитель монет §fx1.5'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
+- ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ' §8▪ §7Можно иметь до §c30§7 друзей'
 - ''
 GUI_GOLD_BEDWARS_LORE_RU:
@@ -3454,6 +3456,7 @@ GUI_LEGEND_ALL_LORE_RU:
 - ' §8▪ §7Доступен предмет отключения задержки в меню'
 - ' §8▪ §7Множитель монет §fx1.75'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
+- ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ' §8▪ §7Можно иметь до §c40§7 друзей'
 - ''
 GUI_LEGEND_BEDWARS_LORE_RU:
@@ -3514,6 +3517,7 @@ GUI_EMERALD_ALL_LORE_RU:
 - ' §8▪ §7Доступна возможность смены скина - §f/skin <ник>'
 - ' §8▪ §7Есть доступ к донат меню - §f/dm'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
+- ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ' §8▪ §7Можно иметь до §c50§7 друзей'
 - ''
 GUI_EMERALD_BEDWARS_LORE_RU:
@@ -3580,6 +3584,7 @@ GUI_GOLEM_ALL_LORE_RU:
 - ' §8▪ §7Есть доступ к донат меню - §f/dm'
 - ' §8▪ §7Возможность смотреть чужую статистику - §f/stats <ник>'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
+- ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ' §8▪ §7Можно иметь до §c54§7 друзей'
 - ''
 GUI_GOLEM_BEDWARS_LORE_RU:
@@ -3647,6 +3652,7 @@ GUI_DIAMOND_ALL_LORE_RU:
 - ' §8▪ §7Есть доступ к донат меню - §f/dm'
 - ' §8▪ §7Возможность смотреть чужую статистику - §f/stats <ник>'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
+- ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ' §8▪ §7Можно иметь до §c60§7 друзей'
 - ''
 GUI_DIAMOND_BEDWARS_LORE_RU:
@@ -3718,6 +3724,7 @@ GUI_ENDERMAN_ALL_LORE_RU:
 - ' §8▪ §7Есть доступ к донат меню - §f/dm'
 - ' §8▪ §7Возможность смотреть чужую статистику - §f/stats <ник>'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
+- ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ' §8▪ §7Можно иметь до §c69§7 друзей'
 - ''
 GUI_ENDERMAN_BEDWARS_LORE_RU:
@@ -3806,6 +3813,8 @@ GUI_INFO_HELP_LORE_RU:
 - '§e/online §7- Общий онлайн сервера'
 - '§e/find <Ник> §7- Найти игрока'
 - '§e/staff §7- Персонал сервера в режиме онлайн'
+- '§e/ask <ваш вопрос> §7- Задать вопрос'
+- '§e/report <ник нарушителя> <причина> §7- Пожаловатся на игрока'
 - '§e/convert §7- Конвертация валют'
 
 GUI_INFO_DONATE_LORE_RU:
@@ -5058,6 +5067,8 @@ GUI_INFO_HELP_LORE_EN:
 - '§e/online §7- Online from all servers'
 - '§e/find <Nickname> §7- Find player'
 - '§e/staff §7- Server staff online'
+- '§e/ask <your question> §7- Create question'
+- '§e/report <player name> <reason> §7- Report for player'
 - '§e/convert §7- Conversation currencies'
 GUI_INFO_DONATE_LORE_EN:
 - '§7List of paid statuses:'
@@ -7377,7 +7388,7 @@ AUTH_LOGIN_INFO_UA: '§7Авторизуйтесь - §e/login §f[§eпарол
 AUTH_LOGOUT_UA: '§cВы вышли из своего аккаунта'
 AUTH_LOGIN_CONFIRM_UA: '§fАвторизация успешна!'
 AUTH_LOGIN_WRONG_UA: '§cОшибка, неверный пароль'
-AUTH_LOGIN_WRONGS_UA: '§cСлишком много попыток неудачной авторизации'
+AUTH_LOGIN_WRONGS_UA: "§cСлишком много попыток неправильного\nввода пароля. Ваш аккаунт\nзаблокирован на несколько минут"
 AUTH_EMAIL_INFO_UA: '§c⚠ Внимание! §fВы не привязали §cэл. почту§f к своему аккаунту, сделайте это прямо сейчас - §e/email'
 AUTH_EMAIL_INFO_HOVER_UA: §fНажмите сюда,\nчтобы добавить почту"
 AUTH_REGISTER_CONFIRM_INFO_UA: '§6Вы успешно зарегистрировались! §fВаш текущий пароль §7(наведите сюда)'
@@ -8036,6 +8047,8 @@ GUI_INFO_HELP_LORE_UA:
 - '§e/online §7- Общий онлайн сервера'
 - '§e/find <Ник> §7- Найти игрока'
 - '§e/staff §7- Персонал сервера в режиме онлайн'
+- '§e/ask <ваш вопрос> §7- Задать вопрос'
+- '§e/report <ник нарушителя> <причина> §7- Пожаловатся на игрока'
 - '§e/convert §7- Конвертация валют'
 
 GUI_INFO_DONATE_LORE_UA:
